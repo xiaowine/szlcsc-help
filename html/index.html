@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <title>立创商城优惠券辅助</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+<h1>立创商城优惠券辅助</h1>
+<h2 id="count">统计</h2>
+<main id="content"></main>
+<script>
+    fetch('coupon_details.json')
+        .then(response => response.json())
+        .then(data => {
+            const classification = {};
+            let boardCount = 0;
+            let categoryCount = 0;
+
+            // Classify the data
+            data.forEach(function (board) {
+                boardCount++;
+                board.board_items.forEach(function (item) {
+                    if (!classification[item]) {
+                        classification[item] = [];
+                        categoryCount++;
+                    }
+                    classification[item].push({
+                        name: board.board_name,
+                        url: board.board_url,
+                        details: board.details
+                    });
+                });
+            });
+
+            // Display the statistics
+            const stats = document.getElementById('count');
+            stats.textContent = `厂商数：${boardCount}, 元件分类数: ${categoryCount}`;
+
+            // Generate the HTML
+            const content = document.getElementById('content');
+            for (const item in classification) {
+                const section = document.createElement('div');
+                const title = document.createElement('h2');
+                title.textContent = item;
+                section.appendChild(title);
+                const list = document.createElement('ul');
+                classification[item].forEach(function (board) {
+                    const listItem = document.createElement('li');
+                    list.appendChild(listItem);
+                    const a = document.createElement('a');
+                    a.href = board.url;
+                    a.target = '_blank';
+                    a.textContent = board.name + "(" + board.details + ")";
+                    listItem.appendChild(a);
+                });
+                section.appendChild(list);
+
+                content.appendChild(section);
+            }
+        })
+        .catch(error => console.error('Error:', error));
+</script>
+</body>
+</html>
