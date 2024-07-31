@@ -48,9 +48,17 @@
     如果有侵权，请联系我删除<br>
     数据来源：立创商城领券中心<br>
 </div>
+<h3 id="run_time">更新时间</h3>
 <h2 id="count">统计</h2>
 <main id="content"></main>
 <script>
+    fetch('run_time.txt')
+        .then(response => response.text())
+        .then(content => {
+            const stats = document.getElementById('run_time');
+            stats.textContent = `更新时间：${content}`;
+        })
+        .catch(error => console.error('Error:', error));
     fetch('coupon_details.json')
         .then(response => response.json())
         .then(data => {
@@ -92,7 +100,7 @@
                     const a = document.createElement('a');
                     a.href = board.url;
                     a.target = '_blank';
-                    a.textContent = board.name + "(" + board.details + ")";
+                    a.textContent = `${board.name} (${board.details})`;
                     listItem.appendChild(a);
                 });
                 section.appendChild(list);

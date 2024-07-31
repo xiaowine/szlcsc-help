@@ -1,4 +1,5 @@
 from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime
 from decimal import Decimal
 from functools import lru_cache
 from json import dump
@@ -86,3 +87,5 @@ if __name__ == '__main__':
         coupon_details_list = [item for item in coupon_details_list if item is not None]
         with open('html/coupon_details.json', 'w', encoding='utf-8') as f:
             dump(coupon_details_list, f, ensure_ascii=False, indent=2)
+        with open("html/run_time.txt", "w") as f:
+            f.write(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
