@@ -1,11 +1,39 @@
 [
   {
-    "board_name": "华瓷",
-    "details": "15元华瓷品牌优惠 满16可用 优惠15 差价1",
+    "board_name": "顺翔诺",
+    "details": "16-15元顺翔诺品牌优惠券 满16可用 优惠15 差价1",
+    "board_items": [
+      "功率电感",
+      "色环/插件电感",
+      "共模滤波器",
+      "网口变压器",
+      "小家电",
+      "台灯"
+    ],
+    "board_url": "https://list.szlcsc.com/brand/11353.html"
+  },
+  {
+    "board_name": "芯声",
+    "details": "16-15元芯声品牌优惠券 满16可用 优惠15 差价1",
     "board_items": [
       "贴片电容(MLCC)"
     ],
-    "board_url": "https://list.szlcsc.com/brand/12099.html"
+    "board_url": "https://list.szlcsc.com/brand/13390.html"
+  },
+  {
+    "board_name": "瑞士盛思锐",
+    "details": "15元瑞士盛思锐品牌优惠 满30可用 优惠15 差价15",
+    "board_items": [
+      "流量传感器",
+      "温湿度传感器",
+      "压力传感器",
+      "传感器模块",
+      "开发板",
+      "温度传感器",
+      "气体传感器",
+      "连接器附件"
+    ],
+    "board_url": "https://list.szlcsc.com/brand/506.html?from=yhq"
   },
   {
     "board_name": "地博电气",
@@ -177,8 +205,8 @@
       "AC电源连接器",
       "旋转开关",
       "直键开关",
-      "行程开关",
       "DC电源连接器",
+      "行程开关",
       "轻触开关",
       "按键开关"
     ],
@@ -368,10 +396,12 @@
     "board_items": [
       "线对板针座",
       "FFC/FPC连接器",
+      "轻触开关",
       "胶壳(线对板/线对线)",
+      "USB连接器",
       "排母",
-      "排针",
-      "胶壳端子"
+      "SIM卡连接器",
+      "排针"
     ],
     "board_url": "https://list.szlcsc.com/brand/16108.html"
   },
@@ -580,6 +610,16 @@
       "电池管理"
     ],
     "board_url": "https://list.szlcsc.com/brand/11727.html"
+  },
+  {
+    "board_name": "钍地半导体",
+    "details": "15元钍地半导体品牌优惠 满30可用 优惠15 差价15",
+    "board_items": [
+      "EEPROM",
+      "CAN收发器",
+      "模拟开关/多路复用器"
+    ],
+    "board_url": "https://list.szlcsc.com/brand/16038.html"
   },
   {
     "board_name": "维尔乐思",
@@ -993,21 +1033,6 @@
     "board_url": "https://list.szlcsc.com/brand/12574.html"
   },
   {
-    "board_name": "信昌电陶",
-    "details": "15元信昌电陶品牌优惠 满16可用 优惠15 差价1",
-    "board_items": [
-      "贴片电容(MLCC)",
-      "电流采样电阻/分流器",
-      "贴片电感",
-      "功率电感",
-      "贴片电阻",
-      "安规电容",
-      "NTC热敏电阻",
-      "温湿度传感器"
-    ],
-    "board_url": "https://list.szlcsc.com/brand/1167.html"
-  },
-  {
     "board_name": "鑫扬泽",
     "details": "15元鑫扬泽品牌优惠 满16可用 优惠15 差价1",
     "board_items": [
@@ -1057,8 +1082,8 @@
     "board_items": [
       "静电和浪涌保护(TVS/ESD)",
       "稳压二极管",
-      "场效应管(MOSFET)",
       "线性稳压器(LDO)",
+      "场效应管(MOSFET)",
       "三极管(BJT)",
       "肖特基二极管",
       "通用二极管",
@@ -1106,7 +1131,7 @@
       "脉冲变压器",
       "连接器外壳",
       "色环/插件电感",
-      "金手指连接器"
+      "电源变压器"
     ],
     "board_url": "https://list.szlcsc.com/brand/12021.html"
   },
@@ -1507,6 +1532,72 @@
     "board_url": "https://list.szlcsc.com/brand/11941.html"
   },
   {
+    "board_name": "台冠电子",
+    "details": "15元台冠电子品牌优惠 满16可用 优惠15 差价1",
+    "board_items": [
+      "肖特基二极管",
+      "快恢复/高效率二极管",
+      "通用二极管",
+      "整流桥"
+    ],
+    "board_url": "https://list.szlcsc.com/brand/13178.html"
+  },
+  {
+    "board_name": "灵星芯微",
+    "details": "15元灵星芯微品牌优惠 满16可用 优惠15 差价1",
+    "board_items": [
+      "逻辑门",
+      "缓冲器/驱动器/收发器",
+      "计数器/分频器",
+      "触发器",
+      "反相器",
+      "信号开关/编解码器/多路复用器",
+      "移位寄存器",
+      "AC-DC控制器和稳压器"
+    ],
+    "board_url": "https://list.szlcsc.com/brand/15920.html"
+  },
+  {
+    "board_name": "怡德",
+    "details": "15元怡德品牌优惠 满16可用 优惠15 差价1",
+    "board_items": [
+      "贴片型铝电解电容",
+      "牛角型电解电容",
+      "直插铝电解电容",
+      "贴片电容(MLCC)",
+      "直插独石电容(MLCC)",
+      "固态电容"
+    ],
+    "board_url": "https://list.szlcsc.com/brand/12479.html"
+  },
+  {
+    "board_name": "富港",
+    "details": "15元富港品牌优惠 满16可用 优惠15 差价1",
+    "board_items": [
+      "线对板针座",
+      "轻触开关",
+      "以太网连接器(RJ45 RJ11)",
+      "排针",
+      "排母",
+      "胶壳(线对板/线对线)",
+      "USB连接器",
+      "插拔式接线端子"
+    ],
+    "board_url": "https://list.szlcsc.com/brand/12635.html"
+  },
+  {
+    "board_name": "美铼",
+    "details": "15元美铼品牌优惠 满16可用 优惠15 差价1",
+    "board_items": [
+      "功率电感",
+      "贴片电感",
+      "磁珠",
+      "色环/插件电感",
+      "共模滤波器"
+    ],
+    "board_url": "https://list.szlcsc.com/brand/365.html"
+  },
+  {
     "board_name": "新天源",
     "details": "15元新天源品牌优惠 满16可用 优惠15 差价1",
     "board_items": [
@@ -1545,8 +1636,8 @@
     "details": "15元旭茂微品牌优惠 满16可用 优惠15 差价1",
     "board_items": [
       "肖特基二极管",
-      "整流桥",
       "快恢复/高效率二极管",
+      "整流桥",
       "通用二极管",
       "开关二极管"
     ],
