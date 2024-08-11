@@ -1,41 +1,5 @@
 [
   {
-    "board_name": "顺翔诺",
-    "details": "16-15元顺翔诺品牌优惠券 满16可用 优惠15 差价1",
-    "board_items": [
-      "功率电感",
-      "色环/插件电感",
-      "共模滤波器",
-      "网口变压器",
-      "小家电",
-      "台灯"
-    ],
-    "board_url": "https://list.szlcsc.com/brand/11353.html"
-  },
-  {
-    "board_name": "芯声",
-    "details": "16-15元芯声品牌优惠券 满16可用 优惠15 差价1",
-    "board_items": [
-      "贴片电容(MLCC)"
-    ],
-    "board_url": "https://list.szlcsc.com/brand/13390.html"
-  },
-  {
-    "board_name": "瑞士盛思锐",
-    "details": "15元瑞士盛思锐品牌优惠 满30可用 优惠15 差价15",
-    "board_items": [
-      "流量传感器",
-      "温湿度传感器",
-      "压力传感器",
-      "传感器模块",
-      "开发板",
-      "温度传感器",
-      "气体传感器",
-      "连接器附件"
-    ],
-    "board_url": "https://list.szlcsc.com/brand/506.html?from=yhq"
-  },
-  {
     "board_name": "地博电气",
     "details": "15元地博电气品牌优惠 满16可用 优惠15 差价1",
     "board_items": [
@@ -861,9 +825,9 @@
       "肖特基二极管",
       "快恢复/高效率二极管",
       "达林顿管",
+      "晶闸管(可控硅)/模块",
       "三极管(BJT)",
-      "线性稳压器(LDO)",
-      "晶闸管(可控硅)/模块"
+      "线性稳压器(LDO)"
     ],
     "board_url": "https://list.szlcsc.com/brand/15188.html"
   },
@@ -1278,7 +1242,7 @@
     "board_items": [
       "模拟开关/多路复用器",
       "线性稳压器(LDO)",
-      "DC-DC电源芯片",
+      "电荷泵",
       "RS-485/RS-422芯片"
     ],
     "board_url": "https://list.szlcsc.com/brand/15732.html"
@@ -1459,12 +1423,12 @@
     "board_items": [
       "线对板针座",
       "轻触开关",
-      "排针",
       "PCB焊接端子",
+      "排针",
       "USB连接器",
-      "滑动开关",
-      "行程开关",
-      "刀片/弹片接触电池连接器"
+      "屏蔽夹",
+      "刀片/弹片接触电池连接器",
+      "行程开关"
     ],
     "board_url": "https://list.szlcsc.com/brand/16226.html"
   },
