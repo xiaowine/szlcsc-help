@@ -35,10 +35,10 @@
       "轻触开关",
       "FFC/FPC连接器",
       "USB连接器",
+      "排针",
       "胶壳(线对板/线对线)",
-      "FFC连接线(柔性扁平线缆)",
-      "拨码开关",
-      "SIM卡连接器"
+      "排母",
+      "FFC连接线(柔性扁平线缆)"
     ],
     "board_url": "https://list.szlcsc.com/brand/11687.html"
   },
@@ -77,6 +77,7 @@
       "CAN总线模块",
       "AC-DC电源模块",
       "隔离式RS-232收发器",
+      "RS232总线模块",
       "浪涌保护器"
     ],
     "board_url": "https://list.szlcsc.com/brand/11566.html"
@@ -156,9 +157,9 @@
       "FFC连接线(柔性扁平线缆)",
       "轻触开关",
       "排母",
+      "排针",
       "FFC/FPC连接器",
-      "杜邦线/端子排线/电子线",
-      "排针"
+      "杜邦线/端子排线/电子线"
     ],
     "board_url": "https://list.szlcsc.com/brand/15538.html"
   },
@@ -214,6 +215,7 @@
       "CAN总线模块",
       "AC-DC电源模块",
       "隔离式RS-232收发器",
+      "RS232总线模块",
       "浪涌保护器"
     ],
     "board_url": "https://list.szlcsc.com/brand/11566.html"
@@ -363,10 +365,10 @@
       "FFC/FPC连接器",
       "轻触开关",
       "胶壳(线对板/线对线)",
+      "插拔式接线端子",
       "USB连接器",
       "排母",
-      "SIM卡连接器",
-      "排针"
+      "SIM卡连接器"
     ],
     "board_url": "https://list.szlcsc.com/brand/16108.html"
   },
@@ -467,8 +469,8 @@
       "线对板针座",
       "轻触开关",
       "USB连接器",
-      "FFC连接线(柔性扁平线缆)",
       "胶壳(线对板/线对线)",
+      "FFC连接线(柔性扁平线缆)",
       "贴片电感",
       "FFC/FPC连接器",
       "功率电感"
@@ -1508,13 +1510,13 @@
     "details": "15元三佐品牌优惠 满16可用 优惠15 差价1",
     "board_items": [
       "线对板针座",
+      "排母",
       "轻触开关",
-      "PCB焊接端子",
       "排针",
+      "Pogo Pin弹簧探针连接器",
+      "PCB焊接端子",
       "USB连接器",
-      "屏蔽夹",
-      "刀片/弹片接触电池连接器",
-      "行程开关"
+      "屏蔽夹"
     ],
     "board_url": "https://list.szlcsc.com/brand/16226.html"
   },
@@ -1538,17 +1540,6 @@
       "AC-DC电源模块"
     ],
     "board_url": "https://list.szlcsc.com/brand/1033.html"
-  },
-  {
-    "board_name": "拓展光电",
-    "details": "15元拓展光电品牌优惠 满16可用 优惠15 差价1",
-    "board_items": [
-      "发光二极管/LED",
-      "紫外线LED(UVLED)",
-      "RGB LED",
-      "RGB LED(内置IC)"
-    ],
-    "board_url": "https://list.szlcsc.com/brand/12297.html"
   },
   {
     "board_name": "仁懋",
