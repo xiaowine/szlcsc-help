@@ -64,18 +64,20 @@ def process_coupon_item(item: Tag) -> dict:
     name, tips, money = extract_coupon_details(item)
     if process_coupon_name(name):
         difference = extract_number_from_string(tips) - Decimal(money)
+        if difference > 50:
+            return
         url = item.div.get('data-url')
         if "品牌" in name:
             board_items = get_board_items(url)
             board_name = get_board_name(name)
-            if difference <= 50:
-                print(f"{board_name} {name} {tips} 优惠{money} 差价{difference}", board_items)
-                return {
-                    "board_name": board_name,
-                    "details": f"{name} {tips} 优惠{money} 差价{difference}",
-                    "board_items": board_items,
-                    "board_url": url
-                }
+
+            print(f"{board_name} {name} {tips} 优惠{money} 差价{difference}", board_items)
+            return {
+                "board_name": board_name,
+                "details": f"{name} {tips} 优惠{money} 差价{difference}",
+                "board_items": board_items,
+                "board_url": url
+            }
 
 
 if __name__ == '__main__':
