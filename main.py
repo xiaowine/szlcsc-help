@@ -1,97 +1,105 @@
-from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
-from decimal import Decimal
-from functools import lru_cache
-from json import dump
-from re import search
-from bs4 import BeautifulSoup, Tag
-from requests import Session, RequestException
+
+import requests
+import json
+from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor, as_completed, TimeoutError
+
 from pytz import timezone
 
-headers = {
-    'User-Agent': f'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 '
-                  f'Safari/537.36 Edg/127.0.0.0'
-}
-session = Session()
-session.headers.update(headers)
 
-
-@lru_cache
-def fetch_and_parse(url: str) -> BeautifulSoup | None:
+def get_coupons(url: str) -> dict | None:
+    headers = {
+        'User-Agent': ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
+                       'AppleWebKit/537.36 (KHTML, like Gecko) '
+                       'Chrome/127.0.0.0 Safari/538.36 Edg/128.0.0.0')
+    }
     try:
-        response = session.get(url, headers=headers)
-        response.raise_for_status()
-    except RequestException as e:
-        print(f"提取时出错：{e}")
+        with requests.Session() as session:
+            session.headers.update(headers)
+            response = session.get(url)
+            response.raise_for_status()
+            return response.json()
+    except requests.RequestException as e:
+        print(f"请求错误: {e}")
         return None
-    if "aliyunwaf" in response.text:
-        print("被阿里云WAF拦截")
-        exit()
-    return BeautifulSoup(response.text, 'html.parser')
+    except KeyboardInterrupt:
+        print("用户中断")
+        return None
 
 
-def extract_number_from_string(s: str) -> Decimal:
-    match = search(r'\d+(\.\d+)?', s)
-    return Decimal(match.group()) if match else None
-
-
-def extract_coupon_details(coupon_item: Tag) -> (str, str, str):
-    coupon_details = coupon_item.find(class_="coupon-item-con")
-    tips = coupon_details.find(class_="condition-brought").div.text
-    money = coupon_details.find(class_="coupon-item-top-title").div.find(class_="money").text
-    name = coupon_details.find(class_="coupon-item-name").h3.text.replace(" ", "").replace("\n", "")
-    return name, tips, money
-
-
-def process_coupon_name(name: str) -> bool:
-    return "新人专享" not in name
-
-
-def get_board_items(url: str) -> list:
-    parsed_board_html = fetch_and_parse(url)
-    if parsed_board_html:
-        return [i.get('title') for i in
-                parsed_board_html.find(id="CategoryList").find_all(class_="span-first")]
+def fetch_brand_info(brand_id: str) -> list[str]:
+    brand_url = f"https://list.szlcsc.com/phone/p/brand/{brand_id}?pageSize=1&pageNumber=1"
+    try:
+        brand_info = get_coupons(brand_url)
+        if brand_info:
+            return [i["label"] for i in brand_info.get("result", {}).get("searchResult", {}).get("catalogGroup", [])]
+    except Exception as e:
+        print(f"获取品牌信息失败: {e}")
     return []
 
 
-def get_board_name(coupon_string):
-    match = search(r'元(.+?)品牌优惠', coupon_string)
-    return match.group(1) if match else None
+def get_coupon_details(coupon: dict) -> dict:
+    catalog_groups = fetch_brand_info(coupon['brandIds'])
+    return {
+        "优惠券名称": coupon['couponName'],
+        "品牌名称": coupon['brandNames'],
+        "品牌ID": coupon['brandIds'],
+        "活动名称": coupon['couponActivityName'],
+        "最低消费金额": coupon['minOrderMoney'],
+        "优惠券金额": coupon['couponAmount'],
+        "优惠后差价": coupon['minOrderMoney'] - coupon['couponAmount'],
+        "catalog_groups": catalog_groups
+    }
 
 
-def process_coupon_item(item: Tag) -> dict:
-    name, tips, money = extract_coupon_details(item)
-    if process_coupon_name(name):
-        difference = extract_number_from_string(tips) - Decimal(money)
-        if difference > 50:
-            return
-        url = item.div.get('data-url')
-        if "品牌" in name:
-            board_items = get_board_items(url)
-            board_name = get_board_name(name)
+def filter_and_classify_coupons(coupons: dict) -> dict:
+    coupon_map = coupons.get("result", {}).get("CouponModelVOListMap", {})
+    classified_coupons = defaultdict(list)
 
-            print(f"{board_name} {name} {tips} 优惠{money} 差价{difference}", board_items)
-            return {
-                "board_name": board_name,
-                "details": f"{name} {tips} 优惠{money} 差价{difference}",
-                "board_items": board_items,
-                "board_url": url
-            }
+    valid_coupons = []
+    for category, coupons_list in coupon_map.items():
+        if category != "plus":
+            for coupon in coupons_list:
+                if "<新人专享>" not in coupon["couponName"] and "品牌" in coupon["couponName"]:
+                    discount_diff = coupon['minOrderMoney'] - coupon['couponAmount']
+                    if discount_diff <= 15:
+                        valid_coupons.append(coupon)
+
+    valid_coupons_count = len(valid_coupons)
+    print(f"总共需要处理 {valid_coupons_count} 个有效优惠券")
+
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        futures = {executor.submit(get_coupon_details, coupon): coupon for coupon in valid_coupons}
+        completed = 0
+
+        for future in as_completed(futures, timeout=600):  # 设置超时时间
+            try:
+                details = future.result()
+                for group in details["catalog_groups"]:
+                    classified_coupons[group].append(details)
+                completed += 1
+                print(f"已完成 {completed}/{valid_coupons_count} 个优惠券处理任务")
+            except TimeoutError:
+                print(f"处理超时: {futures[future]}")
+            except Exception as e:
+                print(f"处理错误: {e}")
+
+    return classified_coupons
 
 
 if __name__ == '__main__':
-    url = "https://www.szlcsc.com/huodong.html"
-    parsed_html = fetch_and_parse(url)
-    if parsed_html:
-        coupon_items = parsed_html.select("div[class=coupon-item]")
-        with ThreadPoolExecutor() as executor:
-            coupon_details_list = list(executor.map(process_coupon_item, coupon_items))
-        coupon_details_list = [item for item in coupon_details_list if item is not None]
-        with open('html/coupon_details.json', 'w', encoding='utf-8') as f:
-            dump(coupon_details_list, f, ensure_ascii=False, indent=2)
+    url = "https://activity.szlcsc.com/phone/activity/coupon"
+    coupons = get_coupons(url)
+    if coupons:
+        classified_coupons = filter_and_classify_coupons(coupons)
+        with open("html/coupon_details.json", "w", encoding="utf-8") as f:
+            json.dump(classified_coupons, f, ensure_ascii=False, indent=4)
+        print("优惠券信息已保存到 html/coupon_details.json 文件中")
         with open("html/run_time.txt", "w") as f:
             china_tz = timezone('Asia/Shanghai')
             current_time = datetime.now(china_tz)
             formatted_time = current_time.strftime("%Y-%m-%d %H:%M:%S")
             f.write(formatted_time)
+    else:
+        print("没有找到优惠券信息")
