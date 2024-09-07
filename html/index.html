@@ -139,7 +139,7 @@
                     brandCount++;
                     classification[category].push({
                         name: coupon["品牌名称"],
-                        url: `https://list.szlcsc.com/phone/p/brand/${coupon["品牌ID"]}`,
+                        url: `https://list.szlcsc.com/brand/${coupon["品牌ID"]}.html`,
                         details: coupon
                     });
                 });
@@ -177,7 +177,7 @@
                     const a = document.createElement('a');
                     a.href = coupon.url;
                     a.target = '_blank';
-                    a.textContent = `${coupon.details["优惠券名称"]} (${coupon.details["优惠后差价"]}元)`;
+                    a.textContent = `${coupon.details["优惠券名称"]} (优惠后最低消费${coupon.details["优惠后差价"]}元)`;
 
                     listItem.appendChild(a);
                     list.appendChild(listItem);

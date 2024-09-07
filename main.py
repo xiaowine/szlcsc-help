@@ -48,7 +48,7 @@ def get_coupon_details(coupon: dict) -> dict:
         "活动名称": coupon['couponActivityName'],
         "最低消费金额": coupon['minOrderMoney'],
         "优惠券金额": coupon['couponAmount'],
-        "优惠后差价": coupon['minOrderMoney'] - coupon['couponAmount'],
+        "优惠后最低消费": coupon['minOrderMoney'] - coupon['couponAmount'],
         "catalog_groups": catalog_groups
     }
 
