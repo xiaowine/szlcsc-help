@@ -42,13 +42,13 @@ def fetch_brand_info(brand_id: str) -> list[str]:
 def get_coupon_details(coupon: dict) -> dict:
     catalog_groups = fetch_brand_info(coupon['brandIds'])
     return {
-        "优惠券名称": coupon['couponName'],
-        "品牌名称": coupon['brandNames'],
-        "品牌ID": coupon['brandIds'],
-        "活动名称": coupon['couponActivityName'],
-        "最低消费金额": coupon['minOrderMoney'],
-        "优惠券金额": coupon['couponAmount'],
-        "优惠后最低消费": coupon['minOrderMoney'] - coupon['couponAmount'],
+        "coupon_name": coupon['couponName'],
+        "brand_name": coupon['brandNames'],
+        "brand_id": coupon['brandIds'],
+        "activity_name": coupon['couponActivityName'],
+        "min_order_amount": coupon['minOrderMoney'],
+        "coupon_amount": coupon['couponAmount'],
+        "min_order_after_discount": coupon['minOrderMoney'] - coupon['couponAmount'],
         "catalog_groups": catalog_groups
     }
 
