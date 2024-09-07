@@ -11,8 +11,14 @@
             background-color: #f0f0f0;
         }
 
-        h2 {
+        h1, h2, h3 {
             color: #333;
+        }
+
+        h2 {
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+            margin-top: 20px;
         }
 
         ul {
@@ -31,6 +37,47 @@
 
         a:hover {
             text-decoration: underline;
+        }
+
+        .classification-list {
+            margin-bottom: 20px;
+        }
+
+        .classification-list a {
+            color: #333;
+            font-weight: bold;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .classification-list a:hover {
+            background-color: #ccc;
+        }
+
+        .coupon-section {
+            margin-bottom: 30px;
+        }
+
+        .coupon-item {
+            margin-bottom: 10px;
+        }
+
+        .coupon-item a {
+            color: #009688;
+        }
+
+        .coupon-item a:hover {
+            color: #004d40;
+        }
+
+        .divider {
+            border-top: 1px dashed #ccc;
+            margin: 20px 0;
         }
 
     </style>
@@ -59,8 +106,15 @@
         本站访客数<span id="busuanzi_value_site_uv"></span>人次
     </div>
 </div>
+
 <h2 id="count">统计</h2>
+
+<div class="classification-list" id="classification-list">
+    <!-- Classification links will be generated here -->
+</div>
+
 <main id="content"></main>
+
 <script>
     fetch('run_time.txt')
         .then(response => response.text())
@@ -69,53 +123,73 @@
             stats.textContent = `更新时间：${content}`;
         })
         .catch(error => console.error('Error:', error));
+
     fetch('coupon_details.json')
         .then(response => response.json())
         .then(data => {
             const classification = {};
-            let boardCount = 0;
+            let brandCount = 0;
             let categoryCount = 0;
 
             // Classify the data
-            data.forEach(function (board) {
-                boardCount++;
-                board.board_items.forEach(function (item) {
-                    if (!classification[item]) {
-                        classification[item] = [];
-                        categoryCount++;
-                    }
-                    classification[item].push({
-                        name: board.board_name,
-                        url: board.board_url,
-                        details: board.details
+            for (const [category, items] of Object.entries(data)) {
+                categoryCount++;
+                classification[category] = [];
+                items.forEach(function (coupon) {
+                    brandCount++;
+                    classification[category].push({
+                        name: coupon["品牌名称"],
+                        url: `https://list.szlcsc.com/phone/p/brand/${coupon["品牌ID"]}`,
+                        details: coupon
                     });
                 });
-            });
+            }
 
             // Display the statistics
             const stats = document.getElementById('count');
-            stats.textContent = `厂商数：${boardCount}, 元件分类数: ${categoryCount}`;
+            stats.textContent = `厂商数：${brandCount}, 元件分类数: ${categoryCount}`;
 
-            // Generate the HTML
+            // Generate classification links
+            const classificationList = document.getElementById('classification-list');
+            for (const category in classification) {
+                const link = document.createElement('a');
+                link.href = `#${category}`;
+                link.textContent = category;
+                classificationList.appendChild(link);
+            }
+
+            // Generate the HTML content
             const content = document.getElementById('content');
-            for (const item in classification) {
+            for (const category in classification) {
                 const section = document.createElement('div');
-                const title = document.createElement('h2');
-                title.textContent = item;
-                section.appendChild(title);
-                const list = document.createElement('ul');
-                classification[item].forEach(function (board) {
-                    const listItem = document.createElement('li');
-                    list.appendChild(listItem);
-                    const a = document.createElement('a');
-                    a.href = board.url;
-                    a.target = '_blank';
-                    a.textContent = `${board.name} (${board.details})`;
-                    listItem.appendChild(a);
-                });
-                section.appendChild(list);
+                section.className = "coupon-section";
+                section.id = category;
 
+                const title = document.createElement('h2');
+                title.textContent = category;
+                section.appendChild(title);
+
+                const list = document.createElement('ul');
+                classification[category].forEach(function (coupon) {
+                    const listItem = document.createElement('li');
+                    listItem.className = "coupon-item";
+
+                    const a = document.createElement('a');
+                    a.href = coupon.url;
+                    a.target = '_blank';
+                    a.textContent = `${coupon.details["优惠券名称"]} (${coupon.details["优惠后差价"]}元)`;
+
+                    listItem.appendChild(a);
+                    list.appendChild(listItem);
+                });
+
+                section.appendChild(list);
                 content.appendChild(section);
+
+                // Add a divider between sections
+                const divider = document.createElement('div');
+                divider.className = "divider";
+                content.appendChild(divider);
             }
         })
         .catch(error => console.error('Error:', error));
