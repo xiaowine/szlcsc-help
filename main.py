@@ -29,7 +29,7 @@ def get_coupons(url: str) -> dict | None:
 
 
 def fetch_brand_info(brand_id: str) -> list[str]:
-    brand_url = f"https://list.szlcsc.com/phone/p/brand/{brand_id}?pageSize=1&pageNumber=1"
+    brand_url = f"https://list.szlcsc.com/phone/p/brand/{brand_id}?showOutSockProduct=0&pageSize=1&pageNumber=1"
     try:
         brand_info = get_coupons(brand_url)
         if brand_info:
