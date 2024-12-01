@@ -37,6 +37,26 @@
             ]
         },
         {
+            "coupon_name": "15元虹成电子品牌优惠",
+            "brand_name": "HC(虹成电子)",
+            "brand_id": "15376",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "线对板针座",
+                "排母",
+                "排针",
+                "USB连接器",
+                "FFC/FPC连接器",
+                "RF射频同轴连接器",
+                "以太网连接器(RJ45 RJ11)",
+                "音频连接器(耳机)",
+                "HDMI连接器"
+            ]
+        },
+        {
             "coupon_name": "15元瀚源品牌优惠",
             "brand_name": "HanElectricity(瀚源)",
             "brand_id": "15277",
@@ -68,26 +88,6 @@
                 "RF射频同轴连接器",
                 "机械键盘轴",
                 "旋转编码器"
-            ]
-        },
-        {
-            "coupon_name": "15元虹成电子品牌优惠",
-            "brand_name": "HC(虹成电子)",
-            "brand_id": "15376",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "线对板针座",
-                "排母",
-                "排针",
-                "USB连接器",
-                "FFC/FPC连接器",
-                "RF射频同轴连接器",
-                "以太网连接器(RJ45 RJ11)",
-                "音频连接器(耳机)",
-                "HDMI连接器"
             ]
         },
         {
@@ -222,6 +222,26 @@
             ]
         },
         {
+            "coupon_name": "15元虹成电子品牌优惠",
+            "brand_name": "HC(虹成电子)",
+            "brand_id": "15376",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "线对板针座",
+                "排母",
+                "排针",
+                "USB连接器",
+                "FFC/FPC连接器",
+                "RF射频同轴连接器",
+                "以太网连接器(RJ45 RJ11)",
+                "音频连接器(耳机)",
+                "HDMI连接器"
+            ]
+        },
+        {
             "coupon_name": "15元瀚源品牌优惠",
             "brand_name": "HanElectricity(瀚源)",
             "brand_id": "15277",
@@ -253,26 +273,6 @@
                 "RF射频同轴连接器",
                 "机械键盘轴",
                 "旋转编码器"
-            ]
-        },
-        {
-            "coupon_name": "15元虹成电子品牌优惠",
-            "brand_name": "HC(虹成电子)",
-            "brand_id": "15376",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "线对板针座",
-                "排母",
-                "排针",
-                "USB连接器",
-                "FFC/FPC连接器",
-                "RF射频同轴连接器",
-                "以太网连接器(RJ45 RJ11)",
-                "音频连接器(耳机)",
-                "HDMI连接器"
             ]
         }
     ],
@@ -339,6 +339,26 @@
             ]
         },
         {
+            "coupon_name": "15元虹成电子品牌优惠",
+            "brand_name": "HC(虹成电子)",
+            "brand_id": "15376",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "线对板针座",
+                "排母",
+                "排针",
+                "USB连接器",
+                "FFC/FPC连接器",
+                "RF射频同轴连接器",
+                "以太网连接器(RJ45 RJ11)",
+                "音频连接器(耳机)",
+                "HDMI连接器"
+            ]
+        },
+        {
             "coupon_name": "15元瀚源品牌优惠",
             "brand_name": "HanElectricity(瀚源)",
             "brand_id": "15277",
@@ -370,26 +390,6 @@
                 "RF射频同轴连接器",
                 "机械键盘轴",
                 "旋转编码器"
-            ]
-        },
-        {
-            "coupon_name": "15元虹成电子品牌优惠",
-            "brand_name": "HC(虹成电子)",
-            "brand_id": "15376",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "线对板针座",
-                "排母",
-                "排针",
-                "USB连接器",
-                "FFC/FPC连接器",
-                "RF射频同轴连接器",
-                "以太网连接器(RJ45 RJ11)",
-                "音频连接器(耳机)",
-                "HDMI连接器"
             ]
         },
         {
@@ -469,6 +469,26 @@
             ]
         },
         {
+            "coupon_name": "15元虹成电子品牌优惠",
+            "brand_name": "HC(虹成电子)",
+            "brand_id": "15376",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "线对板针座",
+                "排母",
+                "排针",
+                "USB连接器",
+                "FFC/FPC连接器",
+                "RF射频同轴连接器",
+                "以太网连接器(RJ45 RJ11)",
+                "音频连接器(耳机)",
+                "HDMI连接器"
+            ]
+        },
+        {
             "coupon_name": "15元瀚源品牌优惠",
             "brand_name": "HanElectricity(瀚源)",
             "brand_id": "15277",
@@ -500,26 +520,6 @@
                 "RF射频同轴连接器",
                 "机械键盘轴",
                 "旋转编码器"
-            ]
-        },
-        {
-            "coupon_name": "15元虹成电子品牌优惠",
-            "brand_name": "HC(虹成电子)",
-            "brand_id": "15376",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "线对板针座",
-                "排母",
-                "排针",
-                "USB连接器",
-                "FFC/FPC连接器",
-                "RF射频同轴连接器",
-                "以太网连接器(RJ45 RJ11)",
-                "音频连接器(耳机)",
-                "HDMI连接器"
             ]
         },
         {
@@ -693,19 +693,6 @@
             ]
         },
         {
-            "coupon_name": "15元温达电子品牌优惠",
-            "brand_name": "ZGWD(温达电子)",
-            "brand_id": "16617",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "线对板针座",
-                "FFC/FPC连接器"
-            ]
-        },
-        {
             "coupon_name": "15元宇熙精密品牌优惠",
             "brand_name": "Yxcon(宇熙精密)",
             "brand_id": "15465",
@@ -723,6 +710,56 @@
                 "HDMI连接器",
                 "汽车连接器",
                 "D-Sub/VGA连接器"
+            ]
+        },
+        {
+            "coupon_name": "15元温达电子品牌优惠",
+            "brand_name": "ZGWD(温达电子)",
+            "brand_id": "16617",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "线对板针座",
+                "FFC/FPC连接器"
+            ]
+        },
+        {
+            "coupon_name": "15元虹成电子品牌优惠",
+            "brand_name": "HC(虹成电子)",
+            "brand_id": "15376",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "线对板针座",
+                "排母",
+                "排针",
+                "USB连接器",
+                "FFC/FPC连接器",
+                "RF射频同轴连接器",
+                "以太网连接器(RJ45 RJ11)",
+                "音频连接器(耳机)",
+                "HDMI连接器"
+            ]
+        },
+        {
+            "coupon_name": "15元迈旭品牌优惠",
+            "brand_name": "MAX(迈旭)",
+            "brand_id": "15187",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "插拔式接线端子",
+                "螺钉式接线端子",
+                "线对板针座",
+                "弹簧式接线端子",
+                "栅栏式接线端子",
+                "FFC/FPC连接器"
             ]
         },
         {
@@ -777,43 +814,6 @@
                 "RF射频同轴连接器",
                 "机械键盘轴",
                 "旋转编码器"
-            ]
-        },
-        {
-            "coupon_name": "15元虹成电子品牌优惠",
-            "brand_name": "HC(虹成电子)",
-            "brand_id": "15376",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "线对板针座",
-                "排母",
-                "排针",
-                "USB连接器",
-                "FFC/FPC连接器",
-                "RF射频同轴连接器",
-                "以太网连接器(RJ45 RJ11)",
-                "音频连接器(耳机)",
-                "HDMI连接器"
-            ]
-        },
-        {
-            "coupon_name": "15元迈旭品牌优惠",
-            "brand_name": "MAX(迈旭)",
-            "brand_id": "15187",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "插拔式接线端子",
-                "螺钉式接线端子",
-                "线对板针座",
-                "弹簧式接线端子",
-                "栅栏式接线端子",
-                "FFC/FPC连接器"
             ]
         },
         {
@@ -908,1042 +908,6 @@
             ]
         }
     ],
-    "船型开关": [
-        {
-            "coupon_name": "20元六钧品牌优惠",
-            "brand_name": "Legion(六钧)",
-            "brand_id": "11729",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 30.0,
-            "coupon_amount": 20.0,
-            "min_order_after_discount": 10.0,
-            "catalog_groups": [
-                "船型开关",
-                "AC电源连接器",
-                "旋转开关",
-                "DC电源连接器",
-                "直键开关",
-                "行程开关",
-                "轻触开关",
-                "按键开关",
-                "滑动开关",
-                "圆形DIN连接器",
-                "音频连接器(耳机)",
-                "XLR(卡侬)连接器",
-                "按钮开关",
-                "USB连接器",
-                "钮子开关",
-                "指示灯",
-                "以太网连接器(RJ45 RJ11)",
-                "旋转编码器"
-            ]
-        }
-    ],
-    "AC电源连接器": [
-        {
-            "coupon_name": "20元六钧品牌优惠",
-            "brand_name": "Legion(六钧)",
-            "brand_id": "11729",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 30.0,
-            "coupon_amount": 20.0,
-            "min_order_after_discount": 10.0,
-            "catalog_groups": [
-                "船型开关",
-                "AC电源连接器",
-                "旋转开关",
-                "DC电源连接器",
-                "直键开关",
-                "行程开关",
-                "轻触开关",
-                "按键开关",
-                "滑动开关",
-                "圆形DIN连接器",
-                "音频连接器(耳机)",
-                "XLR(卡侬)连接器",
-                "按钮开关",
-                "USB连接器",
-                "钮子开关",
-                "指示灯",
-                "以太网连接器(RJ45 RJ11)",
-                "旋转编码器"
-            ]
-        }
-    ],
-    "旋转开关": [
-        {
-            "coupon_name": "20元六钧品牌优惠",
-            "brand_name": "Legion(六钧)",
-            "brand_id": "11729",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 30.0,
-            "coupon_amount": 20.0,
-            "min_order_after_discount": 10.0,
-            "catalog_groups": [
-                "船型开关",
-                "AC电源连接器",
-                "旋转开关",
-                "DC电源连接器",
-                "直键开关",
-                "行程开关",
-                "轻触开关",
-                "按键开关",
-                "滑动开关",
-                "圆形DIN连接器",
-                "音频连接器(耳机)",
-                "XLR(卡侬)连接器",
-                "按钮开关",
-                "USB连接器",
-                "钮子开关",
-                "指示灯",
-                "以太网连接器(RJ45 RJ11)",
-                "旋转编码器"
-            ]
-        }
-    ],
-    "DC电源连接器": [
-        {
-            "coupon_name": "20元六钧品牌优惠",
-            "brand_name": "Legion(六钧)",
-            "brand_id": "11729",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 30.0,
-            "coupon_amount": 20.0,
-            "min_order_after_discount": 10.0,
-            "catalog_groups": [
-                "船型开关",
-                "AC电源连接器",
-                "旋转开关",
-                "DC电源连接器",
-                "直键开关",
-                "行程开关",
-                "轻触开关",
-                "按键开关",
-                "滑动开关",
-                "圆形DIN连接器",
-                "音频连接器(耳机)",
-                "XLR(卡侬)连接器",
-                "按钮开关",
-                "USB连接器",
-                "钮子开关",
-                "指示灯",
-                "以太网连接器(RJ45 RJ11)",
-                "旋转编码器"
-            ]
-        },
-        {
-            "coupon_name": "15元瀚源品牌优惠",
-            "brand_name": "HanElectricity(瀚源)",
-            "brand_id": "15277",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "线对板针座",
-                "轻触开关",
-                "排针",
-                "USB连接器",
-                "FFC/FPC连接器",
-                "排母",
-                "胶壳(线对板/线对线)",
-                "滑动开关",
-                "拨码开关",
-                "IDC刺破式连接器(牛角/简牛)",
-                "DC电源连接器",
-                "按键开关",
-                "SIM卡连接器",
-                "行程开关",
-                "SD卡/存储卡连接器",
-                "IC/晶体管插座",
-                "音频连接器(耳机)",
-                "胶壳端子",
-                "短路帽/跳线帽",
-                "HDMI连接器",
-                "RF射频同轴连接器",
-                "机械键盘轴",
-                "旋转编码器"
-            ]
-        }
-    ],
-    "直键开关": [
-        {
-            "coupon_name": "20元六钧品牌优惠",
-            "brand_name": "Legion(六钧)",
-            "brand_id": "11729",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 30.0,
-            "coupon_amount": 20.0,
-            "min_order_after_discount": 10.0,
-            "catalog_groups": [
-                "船型开关",
-                "AC电源连接器",
-                "旋转开关",
-                "DC电源连接器",
-                "直键开关",
-                "行程开关",
-                "轻触开关",
-                "按键开关",
-                "滑动开关",
-                "圆形DIN连接器",
-                "音频连接器(耳机)",
-                "XLR(卡侬)连接器",
-                "按钮开关",
-                "USB连接器",
-                "钮子开关",
-                "指示灯",
-                "以太网连接器(RJ45 RJ11)",
-                "旋转编码器"
-            ]
-        }
-    ],
-    "行程开关": [
-        {
-            "coupon_name": "20元六钧品牌优惠",
-            "brand_name": "Legion(六钧)",
-            "brand_id": "11729",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 30.0,
-            "coupon_amount": 20.0,
-            "min_order_after_discount": 10.0,
-            "catalog_groups": [
-                "船型开关",
-                "AC电源连接器",
-                "旋转开关",
-                "DC电源连接器",
-                "直键开关",
-                "行程开关",
-                "轻触开关",
-                "按键开关",
-                "滑动开关",
-                "圆形DIN连接器",
-                "音频连接器(耳机)",
-                "XLR(卡侬)连接器",
-                "按钮开关",
-                "USB连接器",
-                "钮子开关",
-                "指示灯",
-                "以太网连接器(RJ45 RJ11)",
-                "旋转编码器"
-            ]
-        },
-        {
-            "coupon_name": "15元台普品牌优惠",
-            "brand_name": "ROCPU Switches(台普)",
-            "brand_id": "12574",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 20.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 5.0,
-            "catalog_groups": [
-                "按钮开关",
-                "轻触开关",
-                "滑动开关",
-                "拨码开关",
-                "行程开关",
-                "按键开关",
-                "指示灯",
-                "振动传感器",
-                "轻触开关/按键开关",
-                "多功能开关",
-                "微动开关",
-                "旋转编码器"
-            ]
-        },
-        {
-            "coupon_name": "15元瀚源品牌优惠",
-            "brand_name": "HanElectricity(瀚源)",
-            "brand_id": "15277",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "线对板针座",
-                "轻触开关",
-                "排针",
-                "USB连接器",
-                "FFC/FPC连接器",
-                "排母",
-                "胶壳(线对板/线对线)",
-                "滑动开关",
-                "拨码开关",
-                "IDC刺破式连接器(牛角/简牛)",
-                "DC电源连接器",
-                "按键开关",
-                "SIM卡连接器",
-                "行程开关",
-                "SD卡/存储卡连接器",
-                "IC/晶体管插座",
-                "音频连接器(耳机)",
-                "胶壳端子",
-                "短路帽/跳线帽",
-                "HDMI连接器",
-                "RF射频同轴连接器",
-                "机械键盘轴",
-                "旋转编码器"
-            ]
-        }
-    ],
-    "轻触开关": [
-        {
-            "coupon_name": "20元六钧品牌优惠",
-            "brand_name": "Legion(六钧)",
-            "brand_id": "11729",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 30.0,
-            "coupon_amount": 20.0,
-            "min_order_after_discount": 10.0,
-            "catalog_groups": [
-                "船型开关",
-                "AC电源连接器",
-                "旋转开关",
-                "DC电源连接器",
-                "直键开关",
-                "行程开关",
-                "轻触开关",
-                "按键开关",
-                "滑动开关",
-                "圆形DIN连接器",
-                "音频连接器(耳机)",
-                "XLR(卡侬)连接器",
-                "按钮开关",
-                "USB连接器",
-                "钮子开关",
-                "指示灯",
-                "以太网连接器(RJ45 RJ11)",
-                "旋转编码器"
-            ]
-        },
-        {
-            "coupon_name": "15元台普品牌优惠",
-            "brand_name": "ROCPU Switches(台普)",
-            "brand_id": "12574",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 20.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 5.0,
-            "catalog_groups": [
-                "按钮开关",
-                "轻触开关",
-                "滑动开关",
-                "拨码开关",
-                "行程开关",
-                "按键开关",
-                "指示灯",
-                "振动传感器",
-                "轻触开关/按键开关",
-                "多功能开关",
-                "微动开关",
-                "旋转编码器"
-            ]
-        },
-        {
-            "coupon_name": "15元鸿源精密品牌优惠",
-            "brand_name": "HYP(鸿源精密)",
-            "brand_id": "11586",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 30.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 15.0,
-            "catalog_groups": [
-                "轻触开关",
-                "锅仔片",
-                "USB连接器",
-                "RF射频同轴连接器"
-            ]
-        },
-        {
-            "coupon_name": "15元瀚源品牌优惠",
-            "brand_name": "HanElectricity(瀚源)",
-            "brand_id": "15277",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "线对板针座",
-                "轻触开关",
-                "排针",
-                "USB连接器",
-                "FFC/FPC连接器",
-                "排母",
-                "胶壳(线对板/线对线)",
-                "滑动开关",
-                "拨码开关",
-                "IDC刺破式连接器(牛角/简牛)",
-                "DC电源连接器",
-                "按键开关",
-                "SIM卡连接器",
-                "行程开关",
-                "SD卡/存储卡连接器",
-                "IC/晶体管插座",
-                "音频连接器(耳机)",
-                "胶壳端子",
-                "短路帽/跳线帽",
-                "HDMI连接器",
-                "RF射频同轴连接器",
-                "机械键盘轴",
-                "旋转编码器"
-            ]
-        },
-        {
-            "coupon_name": "15元博众电气品牌优惠",
-            "brand_name": "BZCN(博众电气)",
-            "brand_id": "12737",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "轻触开关",
-                "线对板针座",
-                "FFC连接线(柔性扁平线缆)"
-            ]
-        }
-    ],
-    "按键开关": [
-        {
-            "coupon_name": "20元六钧品牌优惠",
-            "brand_name": "Legion(六钧)",
-            "brand_id": "11729",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 30.0,
-            "coupon_amount": 20.0,
-            "min_order_after_discount": 10.0,
-            "catalog_groups": [
-                "船型开关",
-                "AC电源连接器",
-                "旋转开关",
-                "DC电源连接器",
-                "直键开关",
-                "行程开关",
-                "轻触开关",
-                "按键开关",
-                "滑动开关",
-                "圆形DIN连接器",
-                "音频连接器(耳机)",
-                "XLR(卡侬)连接器",
-                "按钮开关",
-                "USB连接器",
-                "钮子开关",
-                "指示灯",
-                "以太网连接器(RJ45 RJ11)",
-                "旋转编码器"
-            ]
-        },
-        {
-            "coupon_name": "15元台普品牌优惠",
-            "brand_name": "ROCPU Switches(台普)",
-            "brand_id": "12574",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 20.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 5.0,
-            "catalog_groups": [
-                "按钮开关",
-                "轻触开关",
-                "滑动开关",
-                "拨码开关",
-                "行程开关",
-                "按键开关",
-                "指示灯",
-                "振动传感器",
-                "轻触开关/按键开关",
-                "多功能开关",
-                "微动开关",
-                "旋转编码器"
-            ]
-        },
-        {
-            "coupon_name": "15元瀚源品牌优惠",
-            "brand_name": "HanElectricity(瀚源)",
-            "brand_id": "15277",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "线对板针座",
-                "轻触开关",
-                "排针",
-                "USB连接器",
-                "FFC/FPC连接器",
-                "排母",
-                "胶壳(线对板/线对线)",
-                "滑动开关",
-                "拨码开关",
-                "IDC刺破式连接器(牛角/简牛)",
-                "DC电源连接器",
-                "按键开关",
-                "SIM卡连接器",
-                "行程开关",
-                "SD卡/存储卡连接器",
-                "IC/晶体管插座",
-                "音频连接器(耳机)",
-                "胶壳端子",
-                "短路帽/跳线帽",
-                "HDMI连接器",
-                "RF射频同轴连接器",
-                "机械键盘轴",
-                "旋转编码器"
-            ]
-        }
-    ],
-    "滑动开关": [
-        {
-            "coupon_name": "20元六钧品牌优惠",
-            "brand_name": "Legion(六钧)",
-            "brand_id": "11729",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 30.0,
-            "coupon_amount": 20.0,
-            "min_order_after_discount": 10.0,
-            "catalog_groups": [
-                "船型开关",
-                "AC电源连接器",
-                "旋转开关",
-                "DC电源连接器",
-                "直键开关",
-                "行程开关",
-                "轻触开关",
-                "按键开关",
-                "滑动开关",
-                "圆形DIN连接器",
-                "音频连接器(耳机)",
-                "XLR(卡侬)连接器",
-                "按钮开关",
-                "USB连接器",
-                "钮子开关",
-                "指示灯",
-                "以太网连接器(RJ45 RJ11)",
-                "旋转编码器"
-            ]
-        },
-        {
-            "coupon_name": "15元台普品牌优惠",
-            "brand_name": "ROCPU Switches(台普)",
-            "brand_id": "12574",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 20.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 5.0,
-            "catalog_groups": [
-                "按钮开关",
-                "轻触开关",
-                "滑动开关",
-                "拨码开关",
-                "行程开关",
-                "按键开关",
-                "指示灯",
-                "振动传感器",
-                "轻触开关/按键开关",
-                "多功能开关",
-                "微动开关",
-                "旋转编码器"
-            ]
-        },
-        {
-            "coupon_name": "15元瀚源品牌优惠",
-            "brand_name": "HanElectricity(瀚源)",
-            "brand_id": "15277",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "线对板针座",
-                "轻触开关",
-                "排针",
-                "USB连接器",
-                "FFC/FPC连接器",
-                "排母",
-                "胶壳(线对板/线对线)",
-                "滑动开关",
-                "拨码开关",
-                "IDC刺破式连接器(牛角/简牛)",
-                "DC电源连接器",
-                "按键开关",
-                "SIM卡连接器",
-                "行程开关",
-                "SD卡/存储卡连接器",
-                "IC/晶体管插座",
-                "音频连接器(耳机)",
-                "胶壳端子",
-                "短路帽/跳线帽",
-                "HDMI连接器",
-                "RF射频同轴连接器",
-                "机械键盘轴",
-                "旋转编码器"
-            ]
-        }
-    ],
-    "圆形DIN连接器": [
-        {
-            "coupon_name": "20元六钧品牌优惠",
-            "brand_name": "Legion(六钧)",
-            "brand_id": "11729",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 30.0,
-            "coupon_amount": 20.0,
-            "min_order_after_discount": 10.0,
-            "catalog_groups": [
-                "船型开关",
-                "AC电源连接器",
-                "旋转开关",
-                "DC电源连接器",
-                "直键开关",
-                "行程开关",
-                "轻触开关",
-                "按键开关",
-                "滑动开关",
-                "圆形DIN连接器",
-                "音频连接器(耳机)",
-                "XLR(卡侬)连接器",
-                "按钮开关",
-                "USB连接器",
-                "钮子开关",
-                "指示灯",
-                "以太网连接器(RJ45 RJ11)",
-                "旋转编码器"
-            ]
-        }
-    ],
-    "音频连接器(耳机)": [
-        {
-            "coupon_name": "20元六钧品牌优惠",
-            "brand_name": "Legion(六钧)",
-            "brand_id": "11729",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 30.0,
-            "coupon_amount": 20.0,
-            "min_order_after_discount": 10.0,
-            "catalog_groups": [
-                "船型开关",
-                "AC电源连接器",
-                "旋转开关",
-                "DC电源连接器",
-                "直键开关",
-                "行程开关",
-                "轻触开关",
-                "按键开关",
-                "滑动开关",
-                "圆形DIN连接器",
-                "音频连接器(耳机)",
-                "XLR(卡侬)连接器",
-                "按钮开关",
-                "USB连接器",
-                "钮子开关",
-                "指示灯",
-                "以太网连接器(RJ45 RJ11)",
-                "旋转编码器"
-            ]
-        },
-        {
-            "coupon_name": "15元瀚源品牌优惠",
-            "brand_name": "HanElectricity(瀚源)",
-            "brand_id": "15277",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "线对板针座",
-                "轻触开关",
-                "排针",
-                "USB连接器",
-                "FFC/FPC连接器",
-                "排母",
-                "胶壳(线对板/线对线)",
-                "滑动开关",
-                "拨码开关",
-                "IDC刺破式连接器(牛角/简牛)",
-                "DC电源连接器",
-                "按键开关",
-                "SIM卡连接器",
-                "行程开关",
-                "SD卡/存储卡连接器",
-                "IC/晶体管插座",
-                "音频连接器(耳机)",
-                "胶壳端子",
-                "短路帽/跳线帽",
-                "HDMI连接器",
-                "RF射频同轴连接器",
-                "机械键盘轴",
-                "旋转编码器"
-            ]
-        },
-        {
-            "coupon_name": "15元虹成电子品牌优惠",
-            "brand_name": "HC(虹成电子)",
-            "brand_id": "15376",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "线对板针座",
-                "排母",
-                "排针",
-                "USB连接器",
-                "FFC/FPC连接器",
-                "RF射频同轴连接器",
-                "以太网连接器(RJ45 RJ11)",
-                "音频连接器(耳机)",
-                "HDMI连接器"
-            ]
-        }
-    ],
-    "XLR(卡侬)连接器": [
-        {
-            "coupon_name": "20元六钧品牌优惠",
-            "brand_name": "Legion(六钧)",
-            "brand_id": "11729",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 30.0,
-            "coupon_amount": 20.0,
-            "min_order_after_discount": 10.0,
-            "catalog_groups": [
-                "船型开关",
-                "AC电源连接器",
-                "旋转开关",
-                "DC电源连接器",
-                "直键开关",
-                "行程开关",
-                "轻触开关",
-                "按键开关",
-                "滑动开关",
-                "圆形DIN连接器",
-                "音频连接器(耳机)",
-                "XLR(卡侬)连接器",
-                "按钮开关",
-                "USB连接器",
-                "钮子开关",
-                "指示灯",
-                "以太网连接器(RJ45 RJ11)",
-                "旋转编码器"
-            ]
-        }
-    ],
-    "按钮开关": [
-        {
-            "coupon_name": "20元六钧品牌优惠",
-            "brand_name": "Legion(六钧)",
-            "brand_id": "11729",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 30.0,
-            "coupon_amount": 20.0,
-            "min_order_after_discount": 10.0,
-            "catalog_groups": [
-                "船型开关",
-                "AC电源连接器",
-                "旋转开关",
-                "DC电源连接器",
-                "直键开关",
-                "行程开关",
-                "轻触开关",
-                "按键开关",
-                "滑动开关",
-                "圆形DIN连接器",
-                "音频连接器(耳机)",
-                "XLR(卡侬)连接器",
-                "按钮开关",
-                "USB连接器",
-                "钮子开关",
-                "指示灯",
-                "以太网连接器(RJ45 RJ11)",
-                "旋转编码器"
-            ]
-        },
-        {
-            "coupon_name": "15元台普品牌优惠",
-            "brand_name": "ROCPU Switches(台普)",
-            "brand_id": "12574",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 20.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 5.0,
-            "catalog_groups": [
-                "按钮开关",
-                "轻触开关",
-                "滑动开关",
-                "拨码开关",
-                "行程开关",
-                "按键开关",
-                "指示灯",
-                "振动传感器",
-                "轻触开关/按键开关",
-                "多功能开关",
-                "微动开关",
-                "旋转编码器"
-            ]
-        }
-    ],
-    "钮子开关": [
-        {
-            "coupon_name": "20元六钧品牌优惠",
-            "brand_name": "Legion(六钧)",
-            "brand_id": "11729",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 30.0,
-            "coupon_amount": 20.0,
-            "min_order_after_discount": 10.0,
-            "catalog_groups": [
-                "船型开关",
-                "AC电源连接器",
-                "旋转开关",
-                "DC电源连接器",
-                "直键开关",
-                "行程开关",
-                "轻触开关",
-                "按键开关",
-                "滑动开关",
-                "圆形DIN连接器",
-                "音频连接器(耳机)",
-                "XLR(卡侬)连接器",
-                "按钮开关",
-                "USB连接器",
-                "钮子开关",
-                "指示灯",
-                "以太网连接器(RJ45 RJ11)",
-                "旋转编码器"
-            ]
-        }
-    ],
-    "指示灯": [
-        {
-            "coupon_name": "20元六钧品牌优惠",
-            "brand_name": "Legion(六钧)",
-            "brand_id": "11729",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 30.0,
-            "coupon_amount": 20.0,
-            "min_order_after_discount": 10.0,
-            "catalog_groups": [
-                "船型开关",
-                "AC电源连接器",
-                "旋转开关",
-                "DC电源连接器",
-                "直键开关",
-                "行程开关",
-                "轻触开关",
-                "按键开关",
-                "滑动开关",
-                "圆形DIN连接器",
-                "音频连接器(耳机)",
-                "XLR(卡侬)连接器",
-                "按钮开关",
-                "USB连接器",
-                "钮子开关",
-                "指示灯",
-                "以太网连接器(RJ45 RJ11)",
-                "旋转编码器"
-            ]
-        },
-        {
-            "coupon_name": "15元台普品牌优惠",
-            "brand_name": "ROCPU Switches(台普)",
-            "brand_id": "12574",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 20.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 5.0,
-            "catalog_groups": [
-                "按钮开关",
-                "轻触开关",
-                "滑动开关",
-                "拨码开关",
-                "行程开关",
-                "按键开关",
-                "指示灯",
-                "振动传感器",
-                "轻触开关/按键开关",
-                "多功能开关",
-                "微动开关",
-                "旋转编码器"
-            ]
-        }
-    ],
-    "以太网连接器(RJ45 RJ11)": [
-        {
-            "coupon_name": "20元六钧品牌优惠",
-            "brand_name": "Legion(六钧)",
-            "brand_id": "11729",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 30.0,
-            "coupon_amount": 20.0,
-            "min_order_after_discount": 10.0,
-            "catalog_groups": [
-                "船型开关",
-                "AC电源连接器",
-                "旋转开关",
-                "DC电源连接器",
-                "直键开关",
-                "行程开关",
-                "轻触开关",
-                "按键开关",
-                "滑动开关",
-                "圆形DIN连接器",
-                "音频连接器(耳机)",
-                "XLR(卡侬)连接器",
-                "按钮开关",
-                "USB连接器",
-                "钮子开关",
-                "指示灯",
-                "以太网连接器(RJ45 RJ11)",
-                "旋转编码器"
-            ]
-        },
-        {
-            "coupon_name": "15元宇熙精密品牌优惠",
-            "brand_name": "Yxcon(宇熙精密)",
-            "brand_id": "15465",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "排针",
-                "排母",
-                "线对板针座",
-                "插拔式接线端子",
-                "IDC刺破式连接器(牛角/简牛)",
-                "以太网连接器(RJ45 RJ11)",
-                "HDMI连接器",
-                "汽车连接器",
-                "D-Sub/VGA连接器"
-            ]
-        },
-        {
-            "coupon_name": "15元虹成电子品牌优惠",
-            "brand_name": "HC(虹成电子)",
-            "brand_id": "15376",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "线对板针座",
-                "排母",
-                "排针",
-                "USB连接器",
-                "FFC/FPC连接器",
-                "RF射频同轴连接器",
-                "以太网连接器(RJ45 RJ11)",
-                "音频连接器(耳机)",
-                "HDMI连接器"
-            ]
-        },
-        {
-            "coupon_name": "15元磁联达品牌优惠",
-            "brand_name": "CND-tek(磁联达)",
-            "brand_id": "12021",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "网口变压器",
-                "共模滤波器",
-                "以太网连接器(RJ45 RJ11)",
-                "无线充电线圈",
-                "脉冲变压器",
-                "色环/插件电感",
-                "电源变压器",
-                "连接器外壳",
-                "光模块连接器",
-                "功率电感"
-            ]
-        }
-    ],
-    "旋转编码器": [
-        {
-            "coupon_name": "20元六钧品牌优惠",
-            "brand_name": "Legion(六钧)",
-            "brand_id": "11729",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 30.0,
-            "coupon_amount": 20.0,
-            "min_order_after_discount": 10.0,
-            "catalog_groups": [
-                "船型开关",
-                "AC电源连接器",
-                "旋转开关",
-                "DC电源连接器",
-                "直键开关",
-                "行程开关",
-                "轻触开关",
-                "按键开关",
-                "滑动开关",
-                "圆形DIN连接器",
-                "音频连接器(耳机)",
-                "XLR(卡侬)连接器",
-                "按钮开关",
-                "USB连接器",
-                "钮子开关",
-                "指示灯",
-                "以太网连接器(RJ45 RJ11)",
-                "旋转编码器"
-            ]
-        },
-        {
-            "coupon_name": "15元台普品牌优惠",
-            "brand_name": "ROCPU Switches(台普)",
-            "brand_id": "12574",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 20.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 5.0,
-            "catalog_groups": [
-                "按钮开关",
-                "轻触开关",
-                "滑动开关",
-                "拨码开关",
-                "行程开关",
-                "按键开关",
-                "指示灯",
-                "振动传感器",
-                "轻触开关/按键开关",
-                "多功能开关",
-                "微动开关",
-                "旋转编码器"
-            ]
-        },
-        {
-            "coupon_name": "15元瀚源品牌优惠",
-            "brand_name": "HanElectricity(瀚源)",
-            "brand_id": "15277",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "线对板针座",
-                "轻触开关",
-                "排针",
-                "USB连接器",
-                "FFC/FPC连接器",
-                "排母",
-                "胶壳(线对板/线对线)",
-                "滑动开关",
-                "拨码开关",
-                "IDC刺破式连接器(牛角/简牛)",
-                "DC电源连接器",
-                "按键开关",
-                "SIM卡连接器",
-                "行程开关",
-                "SD卡/存储卡连接器",
-                "IC/晶体管插座",
-                "音频连接器(耳机)",
-                "胶壳端子",
-                "短路帽/跳线帽",
-                "HDMI连接器",
-                "RF射频同轴连接器",
-                "机械键盘轴",
-                "旋转编码器"
-            ]
-        }
-    ],
     "射频模块": [
         {
             "coupon_name": "25元技象科技品牌优惠",
@@ -1955,791 +919,6 @@
             "min_order_after_discount": 1.0,
             "catalog_groups": [
                 "射频模块"
-            ]
-        }
-    ],
-    "汽车连接器": [
-        {
-            "coupon_name": "15元德利品牌优惠",
-            "brand_name": "DLL(德利)",
-            "brand_id": "15765",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 20.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 5.0,
-            "catalog_groups": [
-                "线对板针座",
-                "胶壳(线对板/线对线)",
-                "汽车连接器",
-                "连接器附件",
-                "胶壳端子",
-                "插拔式接线端子"
-            ]
-        },
-        {
-            "coupon_name": "15元宇熙精密品牌优惠",
-            "brand_name": "Yxcon(宇熙精密)",
-            "brand_id": "15465",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "排针",
-                "排母",
-                "线对板针座",
-                "插拔式接线端子",
-                "IDC刺破式连接器(牛角/简牛)",
-                "以太网连接器(RJ45 RJ11)",
-                "HDMI连接器",
-                "汽车连接器",
-                "D-Sub/VGA连接器"
-            ]
-        }
-    ],
-    "连接器附件": [
-        {
-            "coupon_name": "15元德利品牌优惠",
-            "brand_name": "DLL(德利)",
-            "brand_id": "15765",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 20.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 5.0,
-            "catalog_groups": [
-                "线对板针座",
-                "胶壳(线对板/线对线)",
-                "汽车连接器",
-                "连接器附件",
-                "胶壳端子",
-                "插拔式接线端子"
-            ]
-        },
-        {
-            "coupon_name": "15元威克德诺品牌优惠",
-            "brand_name": "WECO(威克德诺)",
-            "brand_id": "13205",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 20.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 5.0,
-            "catalog_groups": [
-                "插拔式接线端子",
-                "栅栏式接线端子",
-                "螺钉式接线端子",
-                "PCB焊接端子",
-                "排针",
-                "弹簧式接线端子",
-                "连接器附件",
-                "连接器外壳",
-                "冷压端子"
-            ]
-        }
-    ],
-    "胶壳端子": [
-        {
-            "coupon_name": "15元德利品牌优惠",
-            "brand_name": "DLL(德利)",
-            "brand_id": "15765",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 20.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 5.0,
-            "catalog_groups": [
-                "线对板针座",
-                "胶壳(线对板/线对线)",
-                "汽车连接器",
-                "连接器附件",
-                "胶壳端子",
-                "插拔式接线端子"
-            ]
-        },
-        {
-            "coupon_name": "15元瀚源品牌优惠",
-            "brand_name": "HanElectricity(瀚源)",
-            "brand_id": "15277",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "线对板针座",
-                "轻触开关",
-                "排针",
-                "USB连接器",
-                "FFC/FPC连接器",
-                "排母",
-                "胶壳(线对板/线对线)",
-                "滑动开关",
-                "拨码开关",
-                "IDC刺破式连接器(牛角/简牛)",
-                "DC电源连接器",
-                "按键开关",
-                "SIM卡连接器",
-                "行程开关",
-                "SD卡/存储卡连接器",
-                "IC/晶体管插座",
-                "音频连接器(耳机)",
-                "胶壳端子",
-                "短路帽/跳线帽",
-                "HDMI连接器",
-                "RF射频同轴连接器",
-                "机械键盘轴",
-                "旋转编码器"
-            ]
-        }
-    ],
-    "插拔式接线端子": [
-        {
-            "coupon_name": "15元德利品牌优惠",
-            "brand_name": "DLL(德利)",
-            "brand_id": "15765",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 20.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 5.0,
-            "catalog_groups": [
-                "线对板针座",
-                "胶壳(线对板/线对线)",
-                "汽车连接器",
-                "连接器附件",
-                "胶壳端子",
-                "插拔式接线端子"
-            ]
-        },
-        {
-            "coupon_name": "15元威克德诺品牌优惠",
-            "brand_name": "WECO(威克德诺)",
-            "brand_id": "13205",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 20.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 5.0,
-            "catalog_groups": [
-                "插拔式接线端子",
-                "栅栏式接线端子",
-                "螺钉式接线端子",
-                "PCB焊接端子",
-                "排针",
-                "弹簧式接线端子",
-                "连接器附件",
-                "连接器外壳",
-                "冷压端子"
-            ]
-        },
-        {
-            "coupon_name": "15元宇熙精密品牌优惠",
-            "brand_name": "Yxcon(宇熙精密)",
-            "brand_id": "15465",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "排针",
-                "排母",
-                "线对板针座",
-                "插拔式接线端子",
-                "IDC刺破式连接器(牛角/简牛)",
-                "以太网连接器(RJ45 RJ11)",
-                "HDMI连接器",
-                "汽车连接器",
-                "D-Sub/VGA连接器"
-            ]
-        },
-        {
-            "coupon_name": "15元迈旭品牌优惠",
-            "brand_name": "MAX(迈旭)",
-            "brand_id": "15187",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "插拔式接线端子",
-                "螺钉式接线端子",
-                "线对板针座",
-                "弹簧式接线端子",
-                "栅栏式接线端子",
-                "FFC/FPC连接器"
-            ]
-        }
-    ],
-    "栅栏式接线端子": [
-        {
-            "coupon_name": "15元威克德诺品牌优惠",
-            "brand_name": "WECO(威克德诺)",
-            "brand_id": "13205",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 20.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 5.0,
-            "catalog_groups": [
-                "插拔式接线端子",
-                "栅栏式接线端子",
-                "螺钉式接线端子",
-                "PCB焊接端子",
-                "排针",
-                "弹簧式接线端子",
-                "连接器附件",
-                "连接器外壳",
-                "冷压端子"
-            ]
-        },
-        {
-            "coupon_name": "15元迈旭品牌优惠",
-            "brand_name": "MAX(迈旭)",
-            "brand_id": "15187",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "插拔式接线端子",
-                "螺钉式接线端子",
-                "线对板针座",
-                "弹簧式接线端子",
-                "栅栏式接线端子",
-                "FFC/FPC连接器"
-            ]
-        }
-    ],
-    "螺钉式接线端子": [
-        {
-            "coupon_name": "15元威克德诺品牌优惠",
-            "brand_name": "WECO(威克德诺)",
-            "brand_id": "13205",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 20.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 5.0,
-            "catalog_groups": [
-                "插拔式接线端子",
-                "栅栏式接线端子",
-                "螺钉式接线端子",
-                "PCB焊接端子",
-                "排针",
-                "弹簧式接线端子",
-                "连接器附件",
-                "连接器外壳",
-                "冷压端子"
-            ]
-        },
-        {
-            "coupon_name": "15元迈旭品牌优惠",
-            "brand_name": "MAX(迈旭)",
-            "brand_id": "15187",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "插拔式接线端子",
-                "螺钉式接线端子",
-                "线对板针座",
-                "弹簧式接线端子",
-                "栅栏式接线端子",
-                "FFC/FPC连接器"
-            ]
-        }
-    ],
-    "PCB焊接端子": [
-        {
-            "coupon_name": "15元威克德诺品牌优惠",
-            "brand_name": "WECO(威克德诺)",
-            "brand_id": "13205",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 20.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 5.0,
-            "catalog_groups": [
-                "插拔式接线端子",
-                "栅栏式接线端子",
-                "螺钉式接线端子",
-                "PCB焊接端子",
-                "排针",
-                "弹簧式接线端子",
-                "连接器附件",
-                "连接器外壳",
-                "冷压端子"
-            ]
-        }
-    ],
-    "弹簧式接线端子": [
-        {
-            "coupon_name": "15元威克德诺品牌优惠",
-            "brand_name": "WECO(威克德诺)",
-            "brand_id": "13205",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 20.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 5.0,
-            "catalog_groups": [
-                "插拔式接线端子",
-                "栅栏式接线端子",
-                "螺钉式接线端子",
-                "PCB焊接端子",
-                "排针",
-                "弹簧式接线端子",
-                "连接器附件",
-                "连接器外壳",
-                "冷压端子"
-            ]
-        },
-        {
-            "coupon_name": "15元迈旭品牌优惠",
-            "brand_name": "MAX(迈旭)",
-            "brand_id": "15187",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "插拔式接线端子",
-                "螺钉式接线端子",
-                "线对板针座",
-                "弹簧式接线端子",
-                "栅栏式接线端子",
-                "FFC/FPC连接器"
-            ]
-        }
-    ],
-    "连接器外壳": [
-        {
-            "coupon_name": "15元威克德诺品牌优惠",
-            "brand_name": "WECO(威克德诺)",
-            "brand_id": "13205",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 20.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 5.0,
-            "catalog_groups": [
-                "插拔式接线端子",
-                "栅栏式接线端子",
-                "螺钉式接线端子",
-                "PCB焊接端子",
-                "排针",
-                "弹簧式接线端子",
-                "连接器附件",
-                "连接器外壳",
-                "冷压端子"
-            ]
-        },
-        {
-            "coupon_name": "15元友贸品牌优惠",
-            "brand_name": "UMaxconn(友贸)",
-            "brand_id": "12006",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "PCI/PCIe连接器",
-                "硬盘连接器(SAS/SATA/M.2)",
-                "连接器外壳",
-                "内存条连接器(DDR)",
-                "杜邦线/端子排线/电子线",
-                "金手指连接器",
-                "线对板针座",
-                "SD卡/存储卡连接器",
-                "光模块连接器"
-            ]
-        },
-        {
-            "coupon_name": "15元磁联达品牌优惠",
-            "brand_name": "CND-tek(磁联达)",
-            "brand_id": "12021",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "网口变压器",
-                "共模滤波器",
-                "以太网连接器(RJ45 RJ11)",
-                "无线充电线圈",
-                "脉冲变压器",
-                "色环/插件电感",
-                "电源变压器",
-                "连接器外壳",
-                "光模块连接器",
-                "功率电感"
-            ]
-        }
-    ],
-    "冷压端子": [
-        {
-            "coupon_name": "15元威克德诺品牌优惠",
-            "brand_name": "WECO(威克德诺)",
-            "brand_id": "13205",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 20.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 5.0,
-            "catalog_groups": [
-                "插拔式接线端子",
-                "栅栏式接线端子",
-                "螺钉式接线端子",
-                "PCB焊接端子",
-                "排针",
-                "弹簧式接线端子",
-                "连接器附件",
-                "连接器外壳",
-                "冷压端子"
-            ]
-        }
-    ],
-    "拨码开关": [
-        {
-            "coupon_name": "15元台普品牌优惠",
-            "brand_name": "ROCPU Switches(台普)",
-            "brand_id": "12574",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 20.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 5.0,
-            "catalog_groups": [
-                "按钮开关",
-                "轻触开关",
-                "滑动开关",
-                "拨码开关",
-                "行程开关",
-                "按键开关",
-                "指示灯",
-                "振动传感器",
-                "轻触开关/按键开关",
-                "多功能开关",
-                "微动开关",
-                "旋转编码器"
-            ]
-        },
-        {
-            "coupon_name": "15元瀚源品牌优惠",
-            "brand_name": "HanElectricity(瀚源)",
-            "brand_id": "15277",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "线对板针座",
-                "轻触开关",
-                "排针",
-                "USB连接器",
-                "FFC/FPC连接器",
-                "排母",
-                "胶壳(线对板/线对线)",
-                "滑动开关",
-                "拨码开关",
-                "IDC刺破式连接器(牛角/简牛)",
-                "DC电源连接器",
-                "按键开关",
-                "SIM卡连接器",
-                "行程开关",
-                "SD卡/存储卡连接器",
-                "IC/晶体管插座",
-                "音频连接器(耳机)",
-                "胶壳端子",
-                "短路帽/跳线帽",
-                "HDMI连接器",
-                "RF射频同轴连接器",
-                "机械键盘轴",
-                "旋转编码器"
-            ]
-        }
-    ],
-    "振动传感器": [
-        {
-            "coupon_name": "15元台普品牌优惠",
-            "brand_name": "ROCPU Switches(台普)",
-            "brand_id": "12574",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 20.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 5.0,
-            "catalog_groups": [
-                "按钮开关",
-                "轻触开关",
-                "滑动开关",
-                "拨码开关",
-                "行程开关",
-                "按键开关",
-                "指示灯",
-                "振动传感器",
-                "轻触开关/按键开关",
-                "多功能开关",
-                "微动开关",
-                "旋转编码器"
-            ]
-        }
-    ],
-    "轻触开关/按键开关": [
-        {
-            "coupon_name": "15元台普品牌优惠",
-            "brand_name": "ROCPU Switches(台普)",
-            "brand_id": "12574",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 20.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 5.0,
-            "catalog_groups": [
-                "按钮开关",
-                "轻触开关",
-                "滑动开关",
-                "拨码开关",
-                "行程开关",
-                "按键开关",
-                "指示灯",
-                "振动传感器",
-                "轻触开关/按键开关",
-                "多功能开关",
-                "微动开关",
-                "旋转编码器"
-            ]
-        }
-    ],
-    "多功能开关": [
-        {
-            "coupon_name": "15元台普品牌优惠",
-            "brand_name": "ROCPU Switches(台普)",
-            "brand_id": "12574",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 20.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 5.0,
-            "catalog_groups": [
-                "按钮开关",
-                "轻触开关",
-                "滑动开关",
-                "拨码开关",
-                "行程开关",
-                "按键开关",
-                "指示灯",
-                "振动传感器",
-                "轻触开关/按键开关",
-                "多功能开关",
-                "微动开关",
-                "旋转编码器"
-            ]
-        }
-    ],
-    "微动开关": [
-        {
-            "coupon_name": "15元台普品牌优惠",
-            "brand_name": "ROCPU Switches(台普)",
-            "brand_id": "12574",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 20.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 5.0,
-            "catalog_groups": [
-                "按钮开关",
-                "轻触开关",
-                "滑动开关",
-                "拨码开关",
-                "行程开关",
-                "按键开关",
-                "指示灯",
-                "振动传感器",
-                "轻触开关/按键开关",
-                "多功能开关",
-                "微动开关",
-                "旋转编码器"
-            ]
-        }
-    ],
-    "场效应管(MOSFET)": [
-        {
-            "coupon_name": "15元信安品牌优惠",
-            "brand_name": "Truesemi(信安)",
-            "brand_id": "11939",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 20.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 5.0,
-            "catalog_groups": [
-                "场效应管(MOSFET)"
-            ]
-        },
-        {
-            "coupon_name": "15元富信品牌优惠",
-            "brand_name": "FOSAN(富信)",
-            "brand_id": "13045",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 20.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 5.0,
-            "catalog_groups": [
-                "静电和浪涌保护(TVS/ESD)",
-                "稳压二极管",
-                "三极管(BJT)",
-                "场效应管(MOSFET)",
-                "肖特基二极管",
-                "快恢复/高效率二极管",
-                "开关二极管",
-                "线性稳压器(LDO)",
-                "贴片型铝电解电容",
-                "通用二极管",
-                "电压基准芯片",
-                "整流桥",
-                "触发二极管",
-                "电池管理"
-            ]
-        },
-        {
-            "coupon_name": "15元毅芯达品牌优惠",
-            "brand_name": "Existar(毅芯达)",
-            "brand_id": "16251",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 20.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 5.0,
-            "catalog_groups": [
-                "场效应管(MOSFET)",
-                "同步整流控制器"
-            ]
-        },
-        {
-            "coupon_name": "15元矽源品牌优惠",
-            "brand_name": "orisilicon(矽源)",
-            "brand_id": "15606",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 20.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 5.0,
-            "catalog_groups": [
-                "漏电保护芯片",
-                "AC-DC控制器和稳压器",
-                "场效应管(MOSFET)"
-            ]
-        },
-        {
-            "coupon_name": "15元派克微品牌优惠",
-            "brand_name": "PAKER(派克微)",
-            "brand_id": "13369",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "静电和浪涌保护(TVS/ESD)",
-                "稳压二极管",
-                "肖特基二极管",
-                "场效应管(MOSFET)",
-                "半导体放电管(TSS)",
-                "三极管(BJT)",
-                "开关二极管",
-                "通用二极管",
-                "快恢复/高效率二极管"
-            ]
-        },
-        {
-            "coupon_name": "15元旭昌辉品牌优惠",
-            "brand_name": "XCH(旭昌辉)",
-            "brand_id": "13273",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "稳压二极管",
-                "静电和浪涌保护(TVS/ESD)",
-                "肖特基二极管",
-                "快恢复/高效率二极管",
-                "三极管(BJT)",
-                "通用二极管",
-                "整流桥",
-                "晶闸管(可控硅)/模块",
-                "场效应管(MOSFET)",
-                "开关二极管",
-                "线性稳压器(LDO)",
-                "超势垒整流器(SBR)",
-                "触发二极管",
-                "半导体放电管(TSS)",
-                "晶体管输出光耦"
-            ]
-        },
-        {
-            "coupon_name": "15元美森科品牌优惠",
-            "brand_name": "MSKSEMI(美森科)",
-            "brand_id": "12667",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "静电和浪涌保护(TVS/ESD)",
-                "稳压二极管",
-                "线性稳压器(LDO)",
-                "场效应管(MOSFET)",
-                "肖特基二极管",
-                "三极管(BJT)",
-                "通用二极管",
-                "开关二极管",
-                "快恢复/高效率二极管",
-                "运算放大器",
-                "监控和复位芯片",
-                "逻辑门",
-                "有刷直流电机驱动芯片",
-                "DC-DC电源芯片",
-                "整流桥",
-                "晶闸管(可控硅)/模块",
-                "晶体管输出光耦",
-                "半导体放电管(TSS)",
-                "比较器",
-                "数字晶体管",
-                "模拟开关/多路复用器",
-                "RS232芯片",
-                "精密运放",
-                "气体放电管(GDT)",
-                "步进电机驱动芯片",
-                "LED驱动",
-                "无刷直流(BLDC)电机驱动芯片",
-                "电压基准芯片",
-                "RS-485/RS-422芯片",
-                "电池管理",
-                "达林顿晶体管阵列",
-                "LCD驱动",
-                "温度传感器",
-                "移位寄存器",
-                "反相器",
-                "定时器/计时器",
-                "触发二极管",
-                "计数器/分频器"
-            ]
-        },
-        {
-            "coupon_name": "15元翊欧品牌优惠",
-            "brand_name": "EVVO(翊欧)",
-            "brand_id": "16250",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "三极管(BJT)",
-                "静电和浪涌保护(TVS/ESD)",
-                "场效应管(MOSFET)",
-                "开关二极管",
-                "肖特基二极管",
-                "达林顿管"
-            ]
-        }
-    ],
-    "锅仔片": [
-        {
-            "coupon_name": "15元鸿源精密品牌优惠",
-            "brand_name": "HYP(鸿源精密)",
-            "brand_id": "11586",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 30.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 15.0,
-            "catalog_groups": [
-                "轻触开关",
-                "锅仔片",
-                "USB连接器",
-                "RF射频同轴连接器"
             ]
         }
     ],
@@ -3074,6 +1253,184 @@
                 "有刷直流电机驱动芯片",
                 "三极管(BJT)",
                 "监控和复位芯片"
+            ]
+        },
+        {
+            "coupon_name": "15元派克微品牌优惠",
+            "brand_name": "PAKER(派克微)",
+            "brand_id": "13369",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "静电和浪涌保护(TVS/ESD)",
+                "稳压二极管",
+                "肖特基二极管",
+                "场效应管(MOSFET)",
+                "半导体放电管(TSS)",
+                "三极管(BJT)",
+                "开关二极管",
+                "通用二极管",
+                "快恢复/高效率二极管"
+            ]
+        },
+        {
+            "coupon_name": "15元旭昌辉品牌优惠",
+            "brand_name": "XCH(旭昌辉)",
+            "brand_id": "13273",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "稳压二极管",
+                "静电和浪涌保护(TVS/ESD)",
+                "肖特基二极管",
+                "快恢复/高效率二极管",
+                "三极管(BJT)",
+                "通用二极管",
+                "整流桥",
+                "晶闸管(可控硅)/模块",
+                "场效应管(MOSFET)",
+                "开关二极管",
+                "线性稳压器(LDO)",
+                "超势垒整流器(SBR)",
+                "触发二极管",
+                "半导体放电管(TSS)",
+                "晶体管输出光耦"
+            ]
+        },
+        {
+            "coupon_name": "15元美森科品牌优惠",
+            "brand_name": "MSKSEMI(美森科)",
+            "brand_id": "12667",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "静电和浪涌保护(TVS/ESD)",
+                "稳压二极管",
+                "线性稳压器(LDO)",
+                "场效应管(MOSFET)",
+                "肖特基二极管",
+                "三极管(BJT)",
+                "通用二极管",
+                "开关二极管",
+                "快恢复/高效率二极管",
+                "运算放大器",
+                "监控和复位芯片",
+                "逻辑门",
+                "有刷直流电机驱动芯片",
+                "DC-DC电源芯片",
+                "整流桥",
+                "晶闸管(可控硅)/模块",
+                "晶体管输出光耦",
+                "半导体放电管(TSS)",
+                "比较器",
+                "数字晶体管",
+                "模拟开关/多路复用器",
+                "RS232芯片",
+                "精密运放",
+                "气体放电管(GDT)",
+                "步进电机驱动芯片",
+                "LED驱动",
+                "无刷直流(BLDC)电机驱动芯片",
+                "电压基准芯片",
+                "RS-485/RS-422芯片",
+                "电池管理",
+                "达林顿晶体管阵列",
+                "LCD驱动",
+                "温度传感器",
+                "移位寄存器",
+                "反相器",
+                "定时器/计时器",
+                "触发二极管",
+                "计数器/分频器"
+            ]
+        },
+        {
+            "coupon_name": "15元翊欧品牌优惠",
+            "brand_name": "EVVO(翊欧)",
+            "brand_id": "16250",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "三极管(BJT)",
+                "静电和浪涌保护(TVS/ESD)",
+                "场效应管(MOSFET)",
+                "开关二极管",
+                "肖特基二极管",
+                "达林顿管"
+            ]
+        }
+    ],
+    "场效应管(MOSFET)": [
+        {
+            "coupon_name": "15元富信品牌优惠",
+            "brand_name": "FOSAN(富信)",
+            "brand_id": "13045",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 20.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 5.0,
+            "catalog_groups": [
+                "静电和浪涌保护(TVS/ESD)",
+                "稳压二极管",
+                "三极管(BJT)",
+                "场效应管(MOSFET)",
+                "肖特基二极管",
+                "快恢复/高效率二极管",
+                "开关二极管",
+                "线性稳压器(LDO)",
+                "贴片型铝电解电容",
+                "通用二极管",
+                "电压基准芯片",
+                "整流桥",
+                "触发二极管",
+                "电池管理"
+            ]
+        },
+        {
+            "coupon_name": "15元信安品牌优惠",
+            "brand_name": "Truesemi(信安)",
+            "brand_id": "11939",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 20.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 5.0,
+            "catalog_groups": [
+                "场效应管(MOSFET)"
+            ]
+        },
+        {
+            "coupon_name": "15元毅芯达品牌优惠",
+            "brand_name": "Existar(毅芯达)",
+            "brand_id": "16251",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 20.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 5.0,
+            "catalog_groups": [
+                "场效应管(MOSFET)",
+                "同步整流控制器"
+            ]
+        },
+        {
+            "coupon_name": "15元矽源品牌优惠",
+            "brand_name": "orisilicon(矽源)",
+            "brand_id": "15606",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 20.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 5.0,
+            "catalog_groups": [
+                "漏电保护芯片",
+                "AC-DC控制器和稳压器",
+                "场效应管(MOSFET)"
             ]
         },
         {
@@ -4267,33 +2624,556 @@
             ]
         }
     ],
-    "同步整流控制器": [
+    "汽车连接器": [
         {
-            "coupon_name": "15元毅芯达品牌优惠",
-            "brand_name": "Existar(毅芯达)",
-            "brand_id": "16251",
+            "coupon_name": "15元德利品牌优惠",
+            "brand_name": "DLL(德利)",
+            "brand_id": "15765",
             "activity_name": "24年12月品牌推广活动",
             "min_order_amount": 20.0,
             "coupon_amount": 15.0,
             "min_order_after_discount": 5.0,
             "catalog_groups": [
-                "场效应管(MOSFET)",
-                "同步整流控制器"
+                "线对板针座",
+                "胶壳(线对板/线对线)",
+                "汽车连接器",
+                "连接器附件",
+                "胶壳端子",
+                "插拔式接线端子"
+            ]
+        },
+        {
+            "coupon_name": "15元宇熙精密品牌优惠",
+            "brand_name": "Yxcon(宇熙精密)",
+            "brand_id": "15465",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "排针",
+                "排母",
+                "线对板针座",
+                "插拔式接线端子",
+                "IDC刺破式连接器(牛角/简牛)",
+                "以太网连接器(RJ45 RJ11)",
+                "HDMI连接器",
+                "汽车连接器",
+                "D-Sub/VGA连接器"
             ]
         }
     ],
-    "FFC/FPC连接器": [
+    "连接器附件": [
         {
-            "coupon_name": "15元温达电子品牌优惠",
-            "brand_name": "ZGWD(温达电子)",
-            "brand_id": "16617",
+            "coupon_name": "15元德利品牌优惠",
+            "brand_name": "DLL(德利)",
+            "brand_id": "15765",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 20.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 5.0,
+            "catalog_groups": [
+                "线对板针座",
+                "胶壳(线对板/线对线)",
+                "汽车连接器",
+                "连接器附件",
+                "胶壳端子",
+                "插拔式接线端子"
+            ]
+        },
+        {
+            "coupon_name": "15元威克德诺品牌优惠",
+            "brand_name": "WECO(威克德诺)",
+            "brand_id": "13205",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 20.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 5.0,
+            "catalog_groups": [
+                "插拔式接线端子",
+                "栅栏式接线端子",
+                "螺钉式接线端子",
+                "PCB焊接端子",
+                "排针",
+                "弹簧式接线端子",
+                "连接器附件",
+                "连接器外壳",
+                "冷压端子"
+            ]
+        }
+    ],
+    "胶壳端子": [
+        {
+            "coupon_name": "15元德利品牌优惠",
+            "brand_name": "DLL(德利)",
+            "brand_id": "15765",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 20.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 5.0,
+            "catalog_groups": [
+                "线对板针座",
+                "胶壳(线对板/线对线)",
+                "汽车连接器",
+                "连接器附件",
+                "胶壳端子",
+                "插拔式接线端子"
+            ]
+        },
+        {
+            "coupon_name": "15元瀚源品牌优惠",
+            "brand_name": "HanElectricity(瀚源)",
+            "brand_id": "15277",
             "activity_name": "24年12月品牌推广活动",
             "min_order_amount": 16.0,
             "coupon_amount": 15.0,
             "min_order_after_discount": 1.0,
             "catalog_groups": [
                 "线对板针座",
+                "轻触开关",
+                "排针",
+                "USB连接器",
+                "FFC/FPC连接器",
+                "排母",
+                "胶壳(线对板/线对线)",
+                "滑动开关",
+                "拨码开关",
+                "IDC刺破式连接器(牛角/简牛)",
+                "DC电源连接器",
+                "按键开关",
+                "SIM卡连接器",
+                "行程开关",
+                "SD卡/存储卡连接器",
+                "IC/晶体管插座",
+                "音频连接器(耳机)",
+                "胶壳端子",
+                "短路帽/跳线帽",
+                "HDMI连接器",
+                "RF射频同轴连接器",
+                "机械键盘轴",
+                "旋转编码器"
+            ]
+        }
+    ],
+    "插拔式接线端子": [
+        {
+            "coupon_name": "15元德利品牌优惠",
+            "brand_name": "DLL(德利)",
+            "brand_id": "15765",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 20.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 5.0,
+            "catalog_groups": [
+                "线对板针座",
+                "胶壳(线对板/线对线)",
+                "汽车连接器",
+                "连接器附件",
+                "胶壳端子",
+                "插拔式接线端子"
+            ]
+        },
+        {
+            "coupon_name": "15元威克德诺品牌优惠",
+            "brand_name": "WECO(威克德诺)",
+            "brand_id": "13205",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 20.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 5.0,
+            "catalog_groups": [
+                "插拔式接线端子",
+                "栅栏式接线端子",
+                "螺钉式接线端子",
+                "PCB焊接端子",
+                "排针",
+                "弹簧式接线端子",
+                "连接器附件",
+                "连接器外壳",
+                "冷压端子"
+            ]
+        },
+        {
+            "coupon_name": "15元宇熙精密品牌优惠",
+            "brand_name": "Yxcon(宇熙精密)",
+            "brand_id": "15465",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "排针",
+                "排母",
+                "线对板针座",
+                "插拔式接线端子",
+                "IDC刺破式连接器(牛角/简牛)",
+                "以太网连接器(RJ45 RJ11)",
+                "HDMI连接器",
+                "汽车连接器",
+                "D-Sub/VGA连接器"
+            ]
+        },
+        {
+            "coupon_name": "15元迈旭品牌优惠",
+            "brand_name": "MAX(迈旭)",
+            "brand_id": "15187",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "插拔式接线端子",
+                "螺钉式接线端子",
+                "线对板针座",
+                "弹簧式接线端子",
+                "栅栏式接线端子",
                 "FFC/FPC连接器"
+            ]
+        }
+    ],
+    "船型开关": [
+        {
+            "coupon_name": "20元六钧品牌优惠",
+            "brand_name": "Legion(六钧)",
+            "brand_id": "11729",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 30.0,
+            "coupon_amount": 20.0,
+            "min_order_after_discount": 10.0,
+            "catalog_groups": [
+                "船型开关",
+                "AC电源连接器",
+                "旋转开关",
+                "DC电源连接器",
+                "直键开关",
+                "行程开关",
+                "轻触开关",
+                "按键开关",
+                "滑动开关",
+                "圆形DIN连接器",
+                "音频连接器(耳机)",
+                "XLR(卡侬)连接器",
+                "按钮开关",
+                "USB连接器",
+                "钮子开关",
+                "指示灯",
+                "以太网连接器(RJ45 RJ11)",
+                "旋转编码器"
+            ]
+        }
+    ],
+    "AC电源连接器": [
+        {
+            "coupon_name": "20元六钧品牌优惠",
+            "brand_name": "Legion(六钧)",
+            "brand_id": "11729",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 30.0,
+            "coupon_amount": 20.0,
+            "min_order_after_discount": 10.0,
+            "catalog_groups": [
+                "船型开关",
+                "AC电源连接器",
+                "旋转开关",
+                "DC电源连接器",
+                "直键开关",
+                "行程开关",
+                "轻触开关",
+                "按键开关",
+                "滑动开关",
+                "圆形DIN连接器",
+                "音频连接器(耳机)",
+                "XLR(卡侬)连接器",
+                "按钮开关",
+                "USB连接器",
+                "钮子开关",
+                "指示灯",
+                "以太网连接器(RJ45 RJ11)",
+                "旋转编码器"
+            ]
+        }
+    ],
+    "旋转开关": [
+        {
+            "coupon_name": "20元六钧品牌优惠",
+            "brand_name": "Legion(六钧)",
+            "brand_id": "11729",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 30.0,
+            "coupon_amount": 20.0,
+            "min_order_after_discount": 10.0,
+            "catalog_groups": [
+                "船型开关",
+                "AC电源连接器",
+                "旋转开关",
+                "DC电源连接器",
+                "直键开关",
+                "行程开关",
+                "轻触开关",
+                "按键开关",
+                "滑动开关",
+                "圆形DIN连接器",
+                "音频连接器(耳机)",
+                "XLR(卡侬)连接器",
+                "按钮开关",
+                "USB连接器",
+                "钮子开关",
+                "指示灯",
+                "以太网连接器(RJ45 RJ11)",
+                "旋转编码器"
+            ]
+        }
+    ],
+    "DC电源连接器": [
+        {
+            "coupon_name": "20元六钧品牌优惠",
+            "brand_name": "Legion(六钧)",
+            "brand_id": "11729",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 30.0,
+            "coupon_amount": 20.0,
+            "min_order_after_discount": 10.0,
+            "catalog_groups": [
+                "船型开关",
+                "AC电源连接器",
+                "旋转开关",
+                "DC电源连接器",
+                "直键开关",
+                "行程开关",
+                "轻触开关",
+                "按键开关",
+                "滑动开关",
+                "圆形DIN连接器",
+                "音频连接器(耳机)",
+                "XLR(卡侬)连接器",
+                "按钮开关",
+                "USB连接器",
+                "钮子开关",
+                "指示灯",
+                "以太网连接器(RJ45 RJ11)",
+                "旋转编码器"
+            ]
+        },
+        {
+            "coupon_name": "15元瀚源品牌优惠",
+            "brand_name": "HanElectricity(瀚源)",
+            "brand_id": "15277",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "线对板针座",
+                "轻触开关",
+                "排针",
+                "USB连接器",
+                "FFC/FPC连接器",
+                "排母",
+                "胶壳(线对板/线对线)",
+                "滑动开关",
+                "拨码开关",
+                "IDC刺破式连接器(牛角/简牛)",
+                "DC电源连接器",
+                "按键开关",
+                "SIM卡连接器",
+                "行程开关",
+                "SD卡/存储卡连接器",
+                "IC/晶体管插座",
+                "音频连接器(耳机)",
+                "胶壳端子",
+                "短路帽/跳线帽",
+                "HDMI连接器",
+                "RF射频同轴连接器",
+                "机械键盘轴",
+                "旋转编码器"
+            ]
+        }
+    ],
+    "直键开关": [
+        {
+            "coupon_name": "20元六钧品牌优惠",
+            "brand_name": "Legion(六钧)",
+            "brand_id": "11729",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 30.0,
+            "coupon_amount": 20.0,
+            "min_order_after_discount": 10.0,
+            "catalog_groups": [
+                "船型开关",
+                "AC电源连接器",
+                "旋转开关",
+                "DC电源连接器",
+                "直键开关",
+                "行程开关",
+                "轻触开关",
+                "按键开关",
+                "滑动开关",
+                "圆形DIN连接器",
+                "音频连接器(耳机)",
+                "XLR(卡侬)连接器",
+                "按钮开关",
+                "USB连接器",
+                "钮子开关",
+                "指示灯",
+                "以太网连接器(RJ45 RJ11)",
+                "旋转编码器"
+            ]
+        }
+    ],
+    "行程开关": [
+        {
+            "coupon_name": "20元六钧品牌优惠",
+            "brand_name": "Legion(六钧)",
+            "brand_id": "11729",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 30.0,
+            "coupon_amount": 20.0,
+            "min_order_after_discount": 10.0,
+            "catalog_groups": [
+                "船型开关",
+                "AC电源连接器",
+                "旋转开关",
+                "DC电源连接器",
+                "直键开关",
+                "行程开关",
+                "轻触开关",
+                "按键开关",
+                "滑动开关",
+                "圆形DIN连接器",
+                "音频连接器(耳机)",
+                "XLR(卡侬)连接器",
+                "按钮开关",
+                "USB连接器",
+                "钮子开关",
+                "指示灯",
+                "以太网连接器(RJ45 RJ11)",
+                "旋转编码器"
+            ]
+        },
+        {
+            "coupon_name": "15元台普品牌优惠",
+            "brand_name": "ROCPU Switches(台普)",
+            "brand_id": "12574",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 20.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 5.0,
+            "catalog_groups": [
+                "按钮开关",
+                "轻触开关",
+                "滑动开关",
+                "拨码开关",
+                "行程开关",
+                "按键开关",
+                "指示灯",
+                "振动传感器",
+                "轻触开关/按键开关",
+                "多功能开关",
+                "微动开关",
+                "旋转编码器"
+            ]
+        },
+        {
+            "coupon_name": "15元瀚源品牌优惠",
+            "brand_name": "HanElectricity(瀚源)",
+            "brand_id": "15277",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "线对板针座",
+                "轻触开关",
+                "排针",
+                "USB连接器",
+                "FFC/FPC连接器",
+                "排母",
+                "胶壳(线对板/线对线)",
+                "滑动开关",
+                "拨码开关",
+                "IDC刺破式连接器(牛角/简牛)",
+                "DC电源连接器",
+                "按键开关",
+                "SIM卡连接器",
+                "行程开关",
+                "SD卡/存储卡连接器",
+                "IC/晶体管插座",
+                "音频连接器(耳机)",
+                "胶壳端子",
+                "短路帽/跳线帽",
+                "HDMI连接器",
+                "RF射频同轴连接器",
+                "机械键盘轴",
+                "旋转编码器"
+            ]
+        }
+    ],
+    "轻触开关": [
+        {
+            "coupon_name": "20元六钧品牌优惠",
+            "brand_name": "Legion(六钧)",
+            "brand_id": "11729",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 30.0,
+            "coupon_amount": 20.0,
+            "min_order_after_discount": 10.0,
+            "catalog_groups": [
+                "船型开关",
+                "AC电源连接器",
+                "旋转开关",
+                "DC电源连接器",
+                "直键开关",
+                "行程开关",
+                "轻触开关",
+                "按键开关",
+                "滑动开关",
+                "圆形DIN连接器",
+                "音频连接器(耳机)",
+                "XLR(卡侬)连接器",
+                "按钮开关",
+                "USB连接器",
+                "钮子开关",
+                "指示灯",
+                "以太网连接器(RJ45 RJ11)",
+                "旋转编码器"
+            ]
+        },
+        {
+            "coupon_name": "15元鸿源精密品牌优惠",
+            "brand_name": "HYP(鸿源精密)",
+            "brand_id": "11586",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 30.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 15.0,
+            "catalog_groups": [
+                "轻触开关",
+                "锅仔片",
+                "USB连接器",
+                "RF射频同轴连接器"
+            ]
+        },
+        {
+            "coupon_name": "15元台普品牌优惠",
+            "brand_name": "ROCPU Switches(台普)",
+            "brand_id": "12574",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 20.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 5.0,
+            "catalog_groups": [
+                "按钮开关",
+                "轻触开关",
+                "滑动开关",
+                "拨码开关",
+                "行程开关",
+                "按键开关",
+                "指示灯",
+                "振动传感器",
+                "轻触开关/按键开关",
+                "多功能开关",
+                "微动开关",
+                "旋转编码器"
             ]
         },
         {
@@ -4331,6 +3211,258 @@
             ]
         },
         {
+            "coupon_name": "15元博众电气品牌优惠",
+            "brand_name": "BZCN(博众电气)",
+            "brand_id": "12737",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "轻触开关",
+                "线对板针座",
+                "FFC连接线(柔性扁平线缆)"
+            ]
+        }
+    ],
+    "按键开关": [
+        {
+            "coupon_name": "20元六钧品牌优惠",
+            "brand_name": "Legion(六钧)",
+            "brand_id": "11729",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 30.0,
+            "coupon_amount": 20.0,
+            "min_order_after_discount": 10.0,
+            "catalog_groups": [
+                "船型开关",
+                "AC电源连接器",
+                "旋转开关",
+                "DC电源连接器",
+                "直键开关",
+                "行程开关",
+                "轻触开关",
+                "按键开关",
+                "滑动开关",
+                "圆形DIN连接器",
+                "音频连接器(耳机)",
+                "XLR(卡侬)连接器",
+                "按钮开关",
+                "USB连接器",
+                "钮子开关",
+                "指示灯",
+                "以太网连接器(RJ45 RJ11)",
+                "旋转编码器"
+            ]
+        },
+        {
+            "coupon_name": "15元台普品牌优惠",
+            "brand_name": "ROCPU Switches(台普)",
+            "brand_id": "12574",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 20.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 5.0,
+            "catalog_groups": [
+                "按钮开关",
+                "轻触开关",
+                "滑动开关",
+                "拨码开关",
+                "行程开关",
+                "按键开关",
+                "指示灯",
+                "振动传感器",
+                "轻触开关/按键开关",
+                "多功能开关",
+                "微动开关",
+                "旋转编码器"
+            ]
+        },
+        {
+            "coupon_name": "15元瀚源品牌优惠",
+            "brand_name": "HanElectricity(瀚源)",
+            "brand_id": "15277",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "线对板针座",
+                "轻触开关",
+                "排针",
+                "USB连接器",
+                "FFC/FPC连接器",
+                "排母",
+                "胶壳(线对板/线对线)",
+                "滑动开关",
+                "拨码开关",
+                "IDC刺破式连接器(牛角/简牛)",
+                "DC电源连接器",
+                "按键开关",
+                "SIM卡连接器",
+                "行程开关",
+                "SD卡/存储卡连接器",
+                "IC/晶体管插座",
+                "音频连接器(耳机)",
+                "胶壳端子",
+                "短路帽/跳线帽",
+                "HDMI连接器",
+                "RF射频同轴连接器",
+                "机械键盘轴",
+                "旋转编码器"
+            ]
+        }
+    ],
+    "滑动开关": [
+        {
+            "coupon_name": "20元六钧品牌优惠",
+            "brand_name": "Legion(六钧)",
+            "brand_id": "11729",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 30.0,
+            "coupon_amount": 20.0,
+            "min_order_after_discount": 10.0,
+            "catalog_groups": [
+                "船型开关",
+                "AC电源连接器",
+                "旋转开关",
+                "DC电源连接器",
+                "直键开关",
+                "行程开关",
+                "轻触开关",
+                "按键开关",
+                "滑动开关",
+                "圆形DIN连接器",
+                "音频连接器(耳机)",
+                "XLR(卡侬)连接器",
+                "按钮开关",
+                "USB连接器",
+                "钮子开关",
+                "指示灯",
+                "以太网连接器(RJ45 RJ11)",
+                "旋转编码器"
+            ]
+        },
+        {
+            "coupon_name": "15元台普品牌优惠",
+            "brand_name": "ROCPU Switches(台普)",
+            "brand_id": "12574",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 20.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 5.0,
+            "catalog_groups": [
+                "按钮开关",
+                "轻触开关",
+                "滑动开关",
+                "拨码开关",
+                "行程开关",
+                "按键开关",
+                "指示灯",
+                "振动传感器",
+                "轻触开关/按键开关",
+                "多功能开关",
+                "微动开关",
+                "旋转编码器"
+            ]
+        },
+        {
+            "coupon_name": "15元瀚源品牌优惠",
+            "brand_name": "HanElectricity(瀚源)",
+            "brand_id": "15277",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "线对板针座",
+                "轻触开关",
+                "排针",
+                "USB连接器",
+                "FFC/FPC连接器",
+                "排母",
+                "胶壳(线对板/线对线)",
+                "滑动开关",
+                "拨码开关",
+                "IDC刺破式连接器(牛角/简牛)",
+                "DC电源连接器",
+                "按键开关",
+                "SIM卡连接器",
+                "行程开关",
+                "SD卡/存储卡连接器",
+                "IC/晶体管插座",
+                "音频连接器(耳机)",
+                "胶壳端子",
+                "短路帽/跳线帽",
+                "HDMI连接器",
+                "RF射频同轴连接器",
+                "机械键盘轴",
+                "旋转编码器"
+            ]
+        }
+    ],
+    "圆形DIN连接器": [
+        {
+            "coupon_name": "20元六钧品牌优惠",
+            "brand_name": "Legion(六钧)",
+            "brand_id": "11729",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 30.0,
+            "coupon_amount": 20.0,
+            "min_order_after_discount": 10.0,
+            "catalog_groups": [
+                "船型开关",
+                "AC电源连接器",
+                "旋转开关",
+                "DC电源连接器",
+                "直键开关",
+                "行程开关",
+                "轻触开关",
+                "按键开关",
+                "滑动开关",
+                "圆形DIN连接器",
+                "音频连接器(耳机)",
+                "XLR(卡侬)连接器",
+                "按钮开关",
+                "USB连接器",
+                "钮子开关",
+                "指示灯",
+                "以太网连接器(RJ45 RJ11)",
+                "旋转编码器"
+            ]
+        }
+    ],
+    "音频连接器(耳机)": [
+        {
+            "coupon_name": "20元六钧品牌优惠",
+            "brand_name": "Legion(六钧)",
+            "brand_id": "11729",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 30.0,
+            "coupon_amount": 20.0,
+            "min_order_after_discount": 10.0,
+            "catalog_groups": [
+                "船型开关",
+                "AC电源连接器",
+                "旋转开关",
+                "DC电源连接器",
+                "直键开关",
+                "行程开关",
+                "轻触开关",
+                "按键开关",
+                "滑动开关",
+                "圆形DIN连接器",
+                "音频连接器(耳机)",
+                "XLR(卡侬)连接器",
+                "按钮开关",
+                "USB连接器",
+                "钮子开关",
+                "指示灯",
+                "以太网连接器(RJ45 RJ11)",
+                "旋转编码器"
+            ]
+        },
+        {
             "coupon_name": "15元虹成电子品牌优惠",
             "brand_name": "HC(虹成电子)",
             "brand_id": "15376",
@@ -4351,6 +3483,429 @@
             ]
         },
         {
+            "coupon_name": "15元瀚源品牌优惠",
+            "brand_name": "HanElectricity(瀚源)",
+            "brand_id": "15277",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "线对板针座",
+                "轻触开关",
+                "排针",
+                "USB连接器",
+                "FFC/FPC连接器",
+                "排母",
+                "胶壳(线对板/线对线)",
+                "滑动开关",
+                "拨码开关",
+                "IDC刺破式连接器(牛角/简牛)",
+                "DC电源连接器",
+                "按键开关",
+                "SIM卡连接器",
+                "行程开关",
+                "SD卡/存储卡连接器",
+                "IC/晶体管插座",
+                "音频连接器(耳机)",
+                "胶壳端子",
+                "短路帽/跳线帽",
+                "HDMI连接器",
+                "RF射频同轴连接器",
+                "机械键盘轴",
+                "旋转编码器"
+            ]
+        }
+    ],
+    "XLR(卡侬)连接器": [
+        {
+            "coupon_name": "20元六钧品牌优惠",
+            "brand_name": "Legion(六钧)",
+            "brand_id": "11729",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 30.0,
+            "coupon_amount": 20.0,
+            "min_order_after_discount": 10.0,
+            "catalog_groups": [
+                "船型开关",
+                "AC电源连接器",
+                "旋转开关",
+                "DC电源连接器",
+                "直键开关",
+                "行程开关",
+                "轻触开关",
+                "按键开关",
+                "滑动开关",
+                "圆形DIN连接器",
+                "音频连接器(耳机)",
+                "XLR(卡侬)连接器",
+                "按钮开关",
+                "USB连接器",
+                "钮子开关",
+                "指示灯",
+                "以太网连接器(RJ45 RJ11)",
+                "旋转编码器"
+            ]
+        }
+    ],
+    "按钮开关": [
+        {
+            "coupon_name": "20元六钧品牌优惠",
+            "brand_name": "Legion(六钧)",
+            "brand_id": "11729",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 30.0,
+            "coupon_amount": 20.0,
+            "min_order_after_discount": 10.0,
+            "catalog_groups": [
+                "船型开关",
+                "AC电源连接器",
+                "旋转开关",
+                "DC电源连接器",
+                "直键开关",
+                "行程开关",
+                "轻触开关",
+                "按键开关",
+                "滑动开关",
+                "圆形DIN连接器",
+                "音频连接器(耳机)",
+                "XLR(卡侬)连接器",
+                "按钮开关",
+                "USB连接器",
+                "钮子开关",
+                "指示灯",
+                "以太网连接器(RJ45 RJ11)",
+                "旋转编码器"
+            ]
+        },
+        {
+            "coupon_name": "15元台普品牌优惠",
+            "brand_name": "ROCPU Switches(台普)",
+            "brand_id": "12574",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 20.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 5.0,
+            "catalog_groups": [
+                "按钮开关",
+                "轻触开关",
+                "滑动开关",
+                "拨码开关",
+                "行程开关",
+                "按键开关",
+                "指示灯",
+                "振动传感器",
+                "轻触开关/按键开关",
+                "多功能开关",
+                "微动开关",
+                "旋转编码器"
+            ]
+        }
+    ],
+    "钮子开关": [
+        {
+            "coupon_name": "20元六钧品牌优惠",
+            "brand_name": "Legion(六钧)",
+            "brand_id": "11729",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 30.0,
+            "coupon_amount": 20.0,
+            "min_order_after_discount": 10.0,
+            "catalog_groups": [
+                "船型开关",
+                "AC电源连接器",
+                "旋转开关",
+                "DC电源连接器",
+                "直键开关",
+                "行程开关",
+                "轻触开关",
+                "按键开关",
+                "滑动开关",
+                "圆形DIN连接器",
+                "音频连接器(耳机)",
+                "XLR(卡侬)连接器",
+                "按钮开关",
+                "USB连接器",
+                "钮子开关",
+                "指示灯",
+                "以太网连接器(RJ45 RJ11)",
+                "旋转编码器"
+            ]
+        }
+    ],
+    "指示灯": [
+        {
+            "coupon_name": "20元六钧品牌优惠",
+            "brand_name": "Legion(六钧)",
+            "brand_id": "11729",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 30.0,
+            "coupon_amount": 20.0,
+            "min_order_after_discount": 10.0,
+            "catalog_groups": [
+                "船型开关",
+                "AC电源连接器",
+                "旋转开关",
+                "DC电源连接器",
+                "直键开关",
+                "行程开关",
+                "轻触开关",
+                "按键开关",
+                "滑动开关",
+                "圆形DIN连接器",
+                "音频连接器(耳机)",
+                "XLR(卡侬)连接器",
+                "按钮开关",
+                "USB连接器",
+                "钮子开关",
+                "指示灯",
+                "以太网连接器(RJ45 RJ11)",
+                "旋转编码器"
+            ]
+        },
+        {
+            "coupon_name": "15元台普品牌优惠",
+            "brand_name": "ROCPU Switches(台普)",
+            "brand_id": "12574",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 20.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 5.0,
+            "catalog_groups": [
+                "按钮开关",
+                "轻触开关",
+                "滑动开关",
+                "拨码开关",
+                "行程开关",
+                "按键开关",
+                "指示灯",
+                "振动传感器",
+                "轻触开关/按键开关",
+                "多功能开关",
+                "微动开关",
+                "旋转编码器"
+            ]
+        }
+    ],
+    "以太网连接器(RJ45 RJ11)": [
+        {
+            "coupon_name": "20元六钧品牌优惠",
+            "brand_name": "Legion(六钧)",
+            "brand_id": "11729",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 30.0,
+            "coupon_amount": 20.0,
+            "min_order_after_discount": 10.0,
+            "catalog_groups": [
+                "船型开关",
+                "AC电源连接器",
+                "旋转开关",
+                "DC电源连接器",
+                "直键开关",
+                "行程开关",
+                "轻触开关",
+                "按键开关",
+                "滑动开关",
+                "圆形DIN连接器",
+                "音频连接器(耳机)",
+                "XLR(卡侬)连接器",
+                "按钮开关",
+                "USB连接器",
+                "钮子开关",
+                "指示灯",
+                "以太网连接器(RJ45 RJ11)",
+                "旋转编码器"
+            ]
+        },
+        {
+            "coupon_name": "15元宇熙精密品牌优惠",
+            "brand_name": "Yxcon(宇熙精密)",
+            "brand_id": "15465",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "排针",
+                "排母",
+                "线对板针座",
+                "插拔式接线端子",
+                "IDC刺破式连接器(牛角/简牛)",
+                "以太网连接器(RJ45 RJ11)",
+                "HDMI连接器",
+                "汽车连接器",
+                "D-Sub/VGA连接器"
+            ]
+        },
+        {
+            "coupon_name": "15元虹成电子品牌优惠",
+            "brand_name": "HC(虹成电子)",
+            "brand_id": "15376",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "线对板针座",
+                "排母",
+                "排针",
+                "USB连接器",
+                "FFC/FPC连接器",
+                "RF射频同轴连接器",
+                "以太网连接器(RJ45 RJ11)",
+                "音频连接器(耳机)",
+                "HDMI连接器"
+            ]
+        },
+        {
+            "coupon_name": "15元磁联达品牌优惠",
+            "brand_name": "CND-tek(磁联达)",
+            "brand_id": "12021",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "网口变压器",
+                "共模滤波器",
+                "以太网连接器(RJ45 RJ11)",
+                "无线充电线圈",
+                "脉冲变压器",
+                "色环/插件电感",
+                "电源变压器",
+                "连接器外壳",
+                "光模块连接器",
+                "功率电感"
+            ]
+        }
+    ],
+    "旋转编码器": [
+        {
+            "coupon_name": "20元六钧品牌优惠",
+            "brand_name": "Legion(六钧)",
+            "brand_id": "11729",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 30.0,
+            "coupon_amount": 20.0,
+            "min_order_after_discount": 10.0,
+            "catalog_groups": [
+                "船型开关",
+                "AC电源连接器",
+                "旋转开关",
+                "DC电源连接器",
+                "直键开关",
+                "行程开关",
+                "轻触开关",
+                "按键开关",
+                "滑动开关",
+                "圆形DIN连接器",
+                "音频连接器(耳机)",
+                "XLR(卡侬)连接器",
+                "按钮开关",
+                "USB连接器",
+                "钮子开关",
+                "指示灯",
+                "以太网连接器(RJ45 RJ11)",
+                "旋转编码器"
+            ]
+        },
+        {
+            "coupon_name": "15元台普品牌优惠",
+            "brand_name": "ROCPU Switches(台普)",
+            "brand_id": "12574",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 20.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 5.0,
+            "catalog_groups": [
+                "按钮开关",
+                "轻触开关",
+                "滑动开关",
+                "拨码开关",
+                "行程开关",
+                "按键开关",
+                "指示灯",
+                "振动传感器",
+                "轻触开关/按键开关",
+                "多功能开关",
+                "微动开关",
+                "旋转编码器"
+            ]
+        },
+        {
+            "coupon_name": "15元瀚源品牌优惠",
+            "brand_name": "HanElectricity(瀚源)",
+            "brand_id": "15277",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "线对板针座",
+                "轻触开关",
+                "排针",
+                "USB连接器",
+                "FFC/FPC连接器",
+                "排母",
+                "胶壳(线对板/线对线)",
+                "滑动开关",
+                "拨码开关",
+                "IDC刺破式连接器(牛角/简牛)",
+                "DC电源连接器",
+                "按键开关",
+                "SIM卡连接器",
+                "行程开关",
+                "SD卡/存储卡连接器",
+                "IC/晶体管插座",
+                "音频连接器(耳机)",
+                "胶壳端子",
+                "短路帽/跳线帽",
+                "HDMI连接器",
+                "RF射频同轴连接器",
+                "机械键盘轴",
+                "旋转编码器"
+            ]
+        }
+    ],
+    "锅仔片": [
+        {
+            "coupon_name": "15元鸿源精密品牌优惠",
+            "brand_name": "HYP(鸿源精密)",
+            "brand_id": "11586",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 30.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 15.0,
+            "catalog_groups": [
+                "轻触开关",
+                "锅仔片",
+                "USB连接器",
+                "RF射频同轴连接器"
+            ]
+        }
+    ],
+    "栅栏式接线端子": [
+        {
+            "coupon_name": "15元威克德诺品牌优惠",
+            "brand_name": "WECO(威克德诺)",
+            "brand_id": "13205",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 20.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 5.0,
+            "catalog_groups": [
+                "插拔式接线端子",
+                "栅栏式接线端子",
+                "螺钉式接线端子",
+                "PCB焊接端子",
+                "排针",
+                "弹簧式接线端子",
+                "连接器附件",
+                "连接器外壳",
+                "冷压端子"
+            ]
+        },
+        {
             "coupon_name": "15元迈旭品牌优惠",
             "brand_name": "MAX(迈旭)",
             "brand_id": "15187",
@@ -4365,6 +3920,365 @@
                 "弹簧式接线端子",
                 "栅栏式接线端子",
                 "FFC/FPC连接器"
+            ]
+        }
+    ],
+    "螺钉式接线端子": [
+        {
+            "coupon_name": "15元威克德诺品牌优惠",
+            "brand_name": "WECO(威克德诺)",
+            "brand_id": "13205",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 20.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 5.0,
+            "catalog_groups": [
+                "插拔式接线端子",
+                "栅栏式接线端子",
+                "螺钉式接线端子",
+                "PCB焊接端子",
+                "排针",
+                "弹簧式接线端子",
+                "连接器附件",
+                "连接器外壳",
+                "冷压端子"
+            ]
+        },
+        {
+            "coupon_name": "15元迈旭品牌优惠",
+            "brand_name": "MAX(迈旭)",
+            "brand_id": "15187",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "插拔式接线端子",
+                "螺钉式接线端子",
+                "线对板针座",
+                "弹簧式接线端子",
+                "栅栏式接线端子",
+                "FFC/FPC连接器"
+            ]
+        }
+    ],
+    "PCB焊接端子": [
+        {
+            "coupon_name": "15元威克德诺品牌优惠",
+            "brand_name": "WECO(威克德诺)",
+            "brand_id": "13205",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 20.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 5.0,
+            "catalog_groups": [
+                "插拔式接线端子",
+                "栅栏式接线端子",
+                "螺钉式接线端子",
+                "PCB焊接端子",
+                "排针",
+                "弹簧式接线端子",
+                "连接器附件",
+                "连接器外壳",
+                "冷压端子"
+            ]
+        }
+    ],
+    "弹簧式接线端子": [
+        {
+            "coupon_name": "15元威克德诺品牌优惠",
+            "brand_name": "WECO(威克德诺)",
+            "brand_id": "13205",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 20.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 5.0,
+            "catalog_groups": [
+                "插拔式接线端子",
+                "栅栏式接线端子",
+                "螺钉式接线端子",
+                "PCB焊接端子",
+                "排针",
+                "弹簧式接线端子",
+                "连接器附件",
+                "连接器外壳",
+                "冷压端子"
+            ]
+        },
+        {
+            "coupon_name": "15元迈旭品牌优惠",
+            "brand_name": "MAX(迈旭)",
+            "brand_id": "15187",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "插拔式接线端子",
+                "螺钉式接线端子",
+                "线对板针座",
+                "弹簧式接线端子",
+                "栅栏式接线端子",
+                "FFC/FPC连接器"
+            ]
+        }
+    ],
+    "连接器外壳": [
+        {
+            "coupon_name": "15元威克德诺品牌优惠",
+            "brand_name": "WECO(威克德诺)",
+            "brand_id": "13205",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 20.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 5.0,
+            "catalog_groups": [
+                "插拔式接线端子",
+                "栅栏式接线端子",
+                "螺钉式接线端子",
+                "PCB焊接端子",
+                "排针",
+                "弹簧式接线端子",
+                "连接器附件",
+                "连接器外壳",
+                "冷压端子"
+            ]
+        },
+        {
+            "coupon_name": "15元友贸品牌优惠",
+            "brand_name": "UMaxconn(友贸)",
+            "brand_id": "12006",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "PCI/PCIe连接器",
+                "硬盘连接器(SAS/SATA/M.2)",
+                "连接器外壳",
+                "内存条连接器(DDR)",
+                "杜邦线/端子排线/电子线",
+                "金手指连接器",
+                "线对板针座",
+                "SD卡/存储卡连接器",
+                "光模块连接器"
+            ]
+        },
+        {
+            "coupon_name": "15元磁联达品牌优惠",
+            "brand_name": "CND-tek(磁联达)",
+            "brand_id": "12021",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "网口变压器",
+                "共模滤波器",
+                "以太网连接器(RJ45 RJ11)",
+                "无线充电线圈",
+                "脉冲变压器",
+                "色环/插件电感",
+                "电源变压器",
+                "连接器外壳",
+                "光模块连接器",
+                "功率电感"
+            ]
+        }
+    ],
+    "冷压端子": [
+        {
+            "coupon_name": "15元威克德诺品牌优惠",
+            "brand_name": "WECO(威克德诺)",
+            "brand_id": "13205",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 20.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 5.0,
+            "catalog_groups": [
+                "插拔式接线端子",
+                "栅栏式接线端子",
+                "螺钉式接线端子",
+                "PCB焊接端子",
+                "排针",
+                "弹簧式接线端子",
+                "连接器附件",
+                "连接器外壳",
+                "冷压端子"
+            ]
+        }
+    ],
+    "拨码开关": [
+        {
+            "coupon_name": "15元台普品牌优惠",
+            "brand_name": "ROCPU Switches(台普)",
+            "brand_id": "12574",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 20.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 5.0,
+            "catalog_groups": [
+                "按钮开关",
+                "轻触开关",
+                "滑动开关",
+                "拨码开关",
+                "行程开关",
+                "按键开关",
+                "指示灯",
+                "振动传感器",
+                "轻触开关/按键开关",
+                "多功能开关",
+                "微动开关",
+                "旋转编码器"
+            ]
+        },
+        {
+            "coupon_name": "15元瀚源品牌优惠",
+            "brand_name": "HanElectricity(瀚源)",
+            "brand_id": "15277",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "线对板针座",
+                "轻触开关",
+                "排针",
+                "USB连接器",
+                "FFC/FPC连接器",
+                "排母",
+                "胶壳(线对板/线对线)",
+                "滑动开关",
+                "拨码开关",
+                "IDC刺破式连接器(牛角/简牛)",
+                "DC电源连接器",
+                "按键开关",
+                "SIM卡连接器",
+                "行程开关",
+                "SD卡/存储卡连接器",
+                "IC/晶体管插座",
+                "音频连接器(耳机)",
+                "胶壳端子",
+                "短路帽/跳线帽",
+                "HDMI连接器",
+                "RF射频同轴连接器",
+                "机械键盘轴",
+                "旋转编码器"
+            ]
+        }
+    ],
+    "振动传感器": [
+        {
+            "coupon_name": "15元台普品牌优惠",
+            "brand_name": "ROCPU Switches(台普)",
+            "brand_id": "12574",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 20.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 5.0,
+            "catalog_groups": [
+                "按钮开关",
+                "轻触开关",
+                "滑动开关",
+                "拨码开关",
+                "行程开关",
+                "按键开关",
+                "指示灯",
+                "振动传感器",
+                "轻触开关/按键开关",
+                "多功能开关",
+                "微动开关",
+                "旋转编码器"
+            ]
+        }
+    ],
+    "轻触开关/按键开关": [
+        {
+            "coupon_name": "15元台普品牌优惠",
+            "brand_name": "ROCPU Switches(台普)",
+            "brand_id": "12574",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 20.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 5.0,
+            "catalog_groups": [
+                "按钮开关",
+                "轻触开关",
+                "滑动开关",
+                "拨码开关",
+                "行程开关",
+                "按键开关",
+                "指示灯",
+                "振动传感器",
+                "轻触开关/按键开关",
+                "多功能开关",
+                "微动开关",
+                "旋转编码器"
+            ]
+        }
+    ],
+    "多功能开关": [
+        {
+            "coupon_name": "15元台普品牌优惠",
+            "brand_name": "ROCPU Switches(台普)",
+            "brand_id": "12574",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 20.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 5.0,
+            "catalog_groups": [
+                "按钮开关",
+                "轻触开关",
+                "滑动开关",
+                "拨码开关",
+                "行程开关",
+                "按键开关",
+                "指示灯",
+                "振动传感器",
+                "轻触开关/按键开关",
+                "多功能开关",
+                "微动开关",
+                "旋转编码器"
+            ]
+        }
+    ],
+    "微动开关": [
+        {
+            "coupon_name": "15元台普品牌优惠",
+            "brand_name": "ROCPU Switches(台普)",
+            "brand_id": "12574",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 20.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 5.0,
+            "catalog_groups": [
+                "按钮开关",
+                "轻触开关",
+                "滑动开关",
+                "拨码开关",
+                "行程开关",
+                "按键开关",
+                "指示灯",
+                "振动传感器",
+                "轻触开关/按键开关",
+                "多功能开关",
+                "微动开关",
+                "旋转编码器"
+            ]
+        }
+    ],
+    "同步整流控制器": [
+        {
+            "coupon_name": "15元毅芯达品牌优惠",
+            "brand_name": "Existar(毅芯达)",
+            "brand_id": "16251",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 20.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 5.0,
+            "catalog_groups": [
+                "场效应管(MOSFET)",
+                "同步整流控制器"
             ]
         }
     ],
@@ -4443,6 +4357,246 @@
                 "有刷直流电机驱动芯片",
                 "三极管(BJT)",
                 "监控和复位芯片"
+            ]
+        }
+    ],
+    "IDC刺破式连接器(牛角/简牛)": [
+        {
+            "coupon_name": "15元宇熙精密品牌优惠",
+            "brand_name": "Yxcon(宇熙精密)",
+            "brand_id": "15465",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "排针",
+                "排母",
+                "线对板针座",
+                "插拔式接线端子",
+                "IDC刺破式连接器(牛角/简牛)",
+                "以太网连接器(RJ45 RJ11)",
+                "HDMI连接器",
+                "汽车连接器",
+                "D-Sub/VGA连接器"
+            ]
+        },
+        {
+            "coupon_name": "15元瀚源品牌优惠",
+            "brand_name": "HanElectricity(瀚源)",
+            "brand_id": "15277",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "线对板针座",
+                "轻触开关",
+                "排针",
+                "USB连接器",
+                "FFC/FPC连接器",
+                "排母",
+                "胶壳(线对板/线对线)",
+                "滑动开关",
+                "拨码开关",
+                "IDC刺破式连接器(牛角/简牛)",
+                "DC电源连接器",
+                "按键开关",
+                "SIM卡连接器",
+                "行程开关",
+                "SD卡/存储卡连接器",
+                "IC/晶体管插座",
+                "音频连接器(耳机)",
+                "胶壳端子",
+                "短路帽/跳线帽",
+                "HDMI连接器",
+                "RF射频同轴连接器",
+                "机械键盘轴",
+                "旋转编码器"
+            ]
+        }
+    ],
+    "HDMI连接器": [
+        {
+            "coupon_name": "15元宇熙精密品牌优惠",
+            "brand_name": "Yxcon(宇熙精密)",
+            "brand_id": "15465",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "排针",
+                "排母",
+                "线对板针座",
+                "插拔式接线端子",
+                "IDC刺破式连接器(牛角/简牛)",
+                "以太网连接器(RJ45 RJ11)",
+                "HDMI连接器",
+                "汽车连接器",
+                "D-Sub/VGA连接器"
+            ]
+        },
+        {
+            "coupon_name": "15元虹成电子品牌优惠",
+            "brand_name": "HC(虹成电子)",
+            "brand_id": "15376",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "线对板针座",
+                "排母",
+                "排针",
+                "USB连接器",
+                "FFC/FPC连接器",
+                "RF射频同轴连接器",
+                "以太网连接器(RJ45 RJ11)",
+                "音频连接器(耳机)",
+                "HDMI连接器"
+            ]
+        },
+        {
+            "coupon_name": "15元瀚源品牌优惠",
+            "brand_name": "HanElectricity(瀚源)",
+            "brand_id": "15277",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "线对板针座",
+                "轻触开关",
+                "排针",
+                "USB连接器",
+                "FFC/FPC连接器",
+                "排母",
+                "胶壳(线对板/线对线)",
+                "滑动开关",
+                "拨码开关",
+                "IDC刺破式连接器(牛角/简牛)",
+                "DC电源连接器",
+                "按键开关",
+                "SIM卡连接器",
+                "行程开关",
+                "SD卡/存储卡连接器",
+                "IC/晶体管插座",
+                "音频连接器(耳机)",
+                "胶壳端子",
+                "短路帽/跳线帽",
+                "HDMI连接器",
+                "RF射频同轴连接器",
+                "机械键盘轴",
+                "旋转编码器"
+            ]
+        }
+    ],
+    "D-Sub/VGA连接器": [
+        {
+            "coupon_name": "15元宇熙精密品牌优惠",
+            "brand_name": "Yxcon(宇熙精密)",
+            "brand_id": "15465",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "排针",
+                "排母",
+                "线对板针座",
+                "插拔式接线端子",
+                "IDC刺破式连接器(牛角/简牛)",
+                "以太网连接器(RJ45 RJ11)",
+                "HDMI连接器",
+                "汽车连接器",
+                "D-Sub/VGA连接器"
+            ]
+        }
+    ],
+    "FFC/FPC连接器": [
+        {
+            "coupon_name": "15元温达电子品牌优惠",
+            "brand_name": "ZGWD(温达电子)",
+            "brand_id": "16617",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "线对板针座",
+                "FFC/FPC连接器"
+            ]
+        },
+        {
+            "coupon_name": "15元虹成电子品牌优惠",
+            "brand_name": "HC(虹成电子)",
+            "brand_id": "15376",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "线对板针座",
+                "排母",
+                "排针",
+                "USB连接器",
+                "FFC/FPC连接器",
+                "RF射频同轴连接器",
+                "以太网连接器(RJ45 RJ11)",
+                "音频连接器(耳机)",
+                "HDMI连接器"
+            ]
+        },
+        {
+            "coupon_name": "15元迈旭品牌优惠",
+            "brand_name": "MAX(迈旭)",
+            "brand_id": "15187",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "插拔式接线端子",
+                "螺钉式接线端子",
+                "线对板针座",
+                "弹簧式接线端子",
+                "栅栏式接线端子",
+                "FFC/FPC连接器"
+            ]
+        },
+        {
+            "coupon_name": "15元瀚源品牌优惠",
+            "brand_name": "HanElectricity(瀚源)",
+            "brand_id": "15277",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "线对板针座",
+                "轻触开关",
+                "排针",
+                "USB连接器",
+                "FFC/FPC连接器",
+                "排母",
+                "胶壳(线对板/线对线)",
+                "滑动开关",
+                "拨码开关",
+                "IDC刺破式连接器(牛角/简牛)",
+                "DC电源连接器",
+                "按键开关",
+                "SIM卡连接器",
+                "行程开关",
+                "SD卡/存储卡连接器",
+                "IC/晶体管插座",
+                "音频连接器(耳机)",
+                "胶壳端子",
+                "短路帽/跳线帽",
+                "HDMI连接器",
+                "RF射频同轴连接器",
+                "机械键盘轴",
+                "旋转编码器"
             ]
         }
     ],
@@ -6717,157 +6871,100 @@
             ]
         }
     ],
-    "IDC刺破式连接器(牛角/简牛)": [
+    "半导体放电管(TSS)": [
         {
-            "coupon_name": "15元宇熙精密品牌优惠",
-            "brand_name": "Yxcon(宇熙精密)",
-            "brand_id": "15465",
+            "coupon_name": "15元派克微品牌优惠",
+            "brand_name": "PAKER(派克微)",
+            "brand_id": "13369",
             "activity_name": "24年12月品牌推广活动",
             "min_order_amount": 16.0,
             "coupon_amount": 15.0,
             "min_order_after_discount": 1.0,
             "catalog_groups": [
-                "排针",
-                "排母",
-                "线对板针座",
-                "插拔式接线端子",
-                "IDC刺破式连接器(牛角/简牛)",
-                "以太网连接器(RJ45 RJ11)",
-                "HDMI连接器",
-                "汽车连接器",
-                "D-Sub/VGA连接器"
+                "静电和浪涌保护(TVS/ESD)",
+                "稳压二极管",
+                "肖特基二极管",
+                "场效应管(MOSFET)",
+                "半导体放电管(TSS)",
+                "三极管(BJT)",
+                "开关二极管",
+                "通用二极管",
+                "快恢复/高效率二极管"
             ]
         },
         {
-            "coupon_name": "15元瀚源品牌优惠",
-            "brand_name": "HanElectricity(瀚源)",
-            "brand_id": "15277",
+            "coupon_name": "15元旭昌辉品牌优惠",
+            "brand_name": "XCH(旭昌辉)",
+            "brand_id": "13273",
             "activity_name": "24年12月品牌推广活动",
             "min_order_amount": 16.0,
             "coupon_amount": 15.0,
             "min_order_after_discount": 1.0,
             "catalog_groups": [
-                "线对板针座",
-                "轻触开关",
-                "排针",
-                "USB连接器",
-                "FFC/FPC连接器",
-                "排母",
-                "胶壳(线对板/线对线)",
-                "滑动开关",
-                "拨码开关",
-                "IDC刺破式连接器(牛角/简牛)",
-                "DC电源连接器",
-                "按键开关",
-                "SIM卡连接器",
-                "行程开关",
-                "SD卡/存储卡连接器",
-                "IC/晶体管插座",
-                "音频连接器(耳机)",
-                "胶壳端子",
-                "短路帽/跳线帽",
-                "HDMI连接器",
-                "RF射频同轴连接器",
-                "机械键盘轴",
-                "旋转编码器"
-            ]
-        }
-    ],
-    "HDMI连接器": [
-        {
-            "coupon_name": "15元宇熙精密品牌优惠",
-            "brand_name": "Yxcon(宇熙精密)",
-            "brand_id": "15465",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "排针",
-                "排母",
-                "线对板针座",
-                "插拔式接线端子",
-                "IDC刺破式连接器(牛角/简牛)",
-                "以太网连接器(RJ45 RJ11)",
-                "HDMI连接器",
-                "汽车连接器",
-                "D-Sub/VGA连接器"
+                "稳压二极管",
+                "静电和浪涌保护(TVS/ESD)",
+                "肖特基二极管",
+                "快恢复/高效率二极管",
+                "三极管(BJT)",
+                "通用二极管",
+                "整流桥",
+                "晶闸管(可控硅)/模块",
+                "场效应管(MOSFET)",
+                "开关二极管",
+                "线性稳压器(LDO)",
+                "超势垒整流器(SBR)",
+                "触发二极管",
+                "半导体放电管(TSS)",
+                "晶体管输出光耦"
             ]
         },
         {
-            "coupon_name": "15元瀚源品牌优惠",
-            "brand_name": "HanElectricity(瀚源)",
-            "brand_id": "15277",
+            "coupon_name": "15元美森科品牌优惠",
+            "brand_name": "MSKSEMI(美森科)",
+            "brand_id": "12667",
             "activity_name": "24年12月品牌推广活动",
             "min_order_amount": 16.0,
             "coupon_amount": 15.0,
             "min_order_after_discount": 1.0,
             "catalog_groups": [
-                "线对板针座",
-                "轻触开关",
-                "排针",
-                "USB连接器",
-                "FFC/FPC连接器",
-                "排母",
-                "胶壳(线对板/线对线)",
-                "滑动开关",
-                "拨码开关",
-                "IDC刺破式连接器(牛角/简牛)",
-                "DC电源连接器",
-                "按键开关",
-                "SIM卡连接器",
-                "行程开关",
-                "SD卡/存储卡连接器",
-                "IC/晶体管插座",
-                "音频连接器(耳机)",
-                "胶壳端子",
-                "短路帽/跳线帽",
-                "HDMI连接器",
-                "RF射频同轴连接器",
-                "机械键盘轴",
-                "旋转编码器"
-            ]
-        },
-        {
-            "coupon_name": "15元虹成电子品牌优惠",
-            "brand_name": "HC(虹成电子)",
-            "brand_id": "15376",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "线对板针座",
-                "排母",
-                "排针",
-                "USB连接器",
-                "FFC/FPC连接器",
-                "RF射频同轴连接器",
-                "以太网连接器(RJ45 RJ11)",
-                "音频连接器(耳机)",
-                "HDMI连接器"
-            ]
-        }
-    ],
-    "D-Sub/VGA连接器": [
-        {
-            "coupon_name": "15元宇熙精密品牌优惠",
-            "brand_name": "Yxcon(宇熙精密)",
-            "brand_id": "15465",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "排针",
-                "排母",
-                "线对板针座",
-                "插拔式接线端子",
-                "IDC刺破式连接器(牛角/简牛)",
-                "以太网连接器(RJ45 RJ11)",
-                "HDMI连接器",
-                "汽车连接器",
-                "D-Sub/VGA连接器"
+                "静电和浪涌保护(TVS/ESD)",
+                "稳压二极管",
+                "线性稳压器(LDO)",
+                "场效应管(MOSFET)",
+                "肖特基二极管",
+                "三极管(BJT)",
+                "通用二极管",
+                "开关二极管",
+                "快恢复/高效率二极管",
+                "运算放大器",
+                "监控和复位芯片",
+                "逻辑门",
+                "有刷直流电机驱动芯片",
+                "DC-DC电源芯片",
+                "整流桥",
+                "晶闸管(可控硅)/模块",
+                "晶体管输出光耦",
+                "半导体放电管(TSS)",
+                "比较器",
+                "数字晶体管",
+                "模拟开关/多路复用器",
+                "RS232芯片",
+                "精密运放",
+                "气体放电管(GDT)",
+                "步进电机驱动芯片",
+                "LED驱动",
+                "无刷直流(BLDC)电机驱动芯片",
+                "电压基准芯片",
+                "RS-485/RS-422芯片",
+                "电池管理",
+                "达林顿晶体管阵列",
+                "LCD驱动",
+                "温度传感器",
+                "移位寄存器",
+                "反相器",
+                "定时器/计时器",
+                "触发二极管",
+                "计数器/分频器"
             ]
         }
     ],
@@ -7180,103 +7277,6 @@
                 "RF射频同轴连接器",
                 "机械键盘轴",
                 "旋转编码器"
-            ]
-        }
-    ],
-    "半导体放电管(TSS)": [
-        {
-            "coupon_name": "15元派克微品牌优惠",
-            "brand_name": "PAKER(派克微)",
-            "brand_id": "13369",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "静电和浪涌保护(TVS/ESD)",
-                "稳压二极管",
-                "肖特基二极管",
-                "场效应管(MOSFET)",
-                "半导体放电管(TSS)",
-                "三极管(BJT)",
-                "开关二极管",
-                "通用二极管",
-                "快恢复/高效率二极管"
-            ]
-        },
-        {
-            "coupon_name": "15元旭昌辉品牌优惠",
-            "brand_name": "XCH(旭昌辉)",
-            "brand_id": "13273",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "稳压二极管",
-                "静电和浪涌保护(TVS/ESD)",
-                "肖特基二极管",
-                "快恢复/高效率二极管",
-                "三极管(BJT)",
-                "通用二极管",
-                "整流桥",
-                "晶闸管(可控硅)/模块",
-                "场效应管(MOSFET)",
-                "开关二极管",
-                "线性稳压器(LDO)",
-                "超势垒整流器(SBR)",
-                "触发二极管",
-                "半导体放电管(TSS)",
-                "晶体管输出光耦"
-            ]
-        },
-        {
-            "coupon_name": "15元美森科品牌优惠",
-            "brand_name": "MSKSEMI(美森科)",
-            "brand_id": "12667",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "静电和浪涌保护(TVS/ESD)",
-                "稳压二极管",
-                "线性稳压器(LDO)",
-                "场效应管(MOSFET)",
-                "肖特基二极管",
-                "三极管(BJT)",
-                "通用二极管",
-                "开关二极管",
-                "快恢复/高效率二极管",
-                "运算放大器",
-                "监控和复位芯片",
-                "逻辑门",
-                "有刷直流电机驱动芯片",
-                "DC-DC电源芯片",
-                "整流桥",
-                "晶闸管(可控硅)/模块",
-                "晶体管输出光耦",
-                "半导体放电管(TSS)",
-                "比较器",
-                "数字晶体管",
-                "模拟开关/多路复用器",
-                "RS232芯片",
-                "精密运放",
-                "气体放电管(GDT)",
-                "步进电机驱动芯片",
-                "LED驱动",
-                "无刷直流(BLDC)电机驱动芯片",
-                "电压基准芯片",
-                "RS-485/RS-422芯片",
-                "电池管理",
-                "达林顿晶体管阵列",
-                "LCD驱动",
-                "温度传感器",
-                "移位寄存器",
-                "反相器",
-                "定时器/计时器",
-                "触发二极管",
-                "计数器/分频器"
             ]
         }
     ],
@@ -7687,6 +7687,188 @@
             ]
         }
     ],
+    "晶闸管(可控硅)/模块": [
+        {
+            "coupon_name": "15元旭昌辉品牌优惠",
+            "brand_name": "XCH(旭昌辉)",
+            "brand_id": "13273",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "稳压二极管",
+                "静电和浪涌保护(TVS/ESD)",
+                "肖特基二极管",
+                "快恢复/高效率二极管",
+                "三极管(BJT)",
+                "通用二极管",
+                "整流桥",
+                "晶闸管(可控硅)/模块",
+                "场效应管(MOSFET)",
+                "开关二极管",
+                "线性稳压器(LDO)",
+                "超势垒整流器(SBR)",
+                "触发二极管",
+                "半导体放电管(TSS)",
+                "晶体管输出光耦"
+            ]
+        },
+        {
+            "coupon_name": "15元美森科品牌优惠",
+            "brand_name": "MSKSEMI(美森科)",
+            "brand_id": "12667",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "静电和浪涌保护(TVS/ESD)",
+                "稳压二极管",
+                "线性稳压器(LDO)",
+                "场效应管(MOSFET)",
+                "肖特基二极管",
+                "三极管(BJT)",
+                "通用二极管",
+                "开关二极管",
+                "快恢复/高效率二极管",
+                "运算放大器",
+                "监控和复位芯片",
+                "逻辑门",
+                "有刷直流电机驱动芯片",
+                "DC-DC电源芯片",
+                "整流桥",
+                "晶闸管(可控硅)/模块",
+                "晶体管输出光耦",
+                "半导体放电管(TSS)",
+                "比较器",
+                "数字晶体管",
+                "模拟开关/多路复用器",
+                "RS232芯片",
+                "精密运放",
+                "气体放电管(GDT)",
+                "步进电机驱动芯片",
+                "LED驱动",
+                "无刷直流(BLDC)电机驱动芯片",
+                "电压基准芯片",
+                "RS-485/RS-422芯片",
+                "电池管理",
+                "达林顿晶体管阵列",
+                "LCD驱动",
+                "温度传感器",
+                "移位寄存器",
+                "反相器",
+                "定时器/计时器",
+                "触发二极管",
+                "计数器/分频器"
+            ]
+        }
+    ],
+    "超势垒整流器(SBR)": [
+        {
+            "coupon_name": "15元旭昌辉品牌优惠",
+            "brand_name": "XCH(旭昌辉)",
+            "brand_id": "13273",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "稳压二极管",
+                "静电和浪涌保护(TVS/ESD)",
+                "肖特基二极管",
+                "快恢复/高效率二极管",
+                "三极管(BJT)",
+                "通用二极管",
+                "整流桥",
+                "晶闸管(可控硅)/模块",
+                "场效应管(MOSFET)",
+                "开关二极管",
+                "线性稳压器(LDO)",
+                "超势垒整流器(SBR)",
+                "触发二极管",
+                "半导体放电管(TSS)",
+                "晶体管输出光耦"
+            ]
+        }
+    ],
+    "晶体管输出光耦": [
+        {
+            "coupon_name": "15元旭昌辉品牌优惠",
+            "brand_name": "XCH(旭昌辉)",
+            "brand_id": "13273",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "稳压二极管",
+                "静电和浪涌保护(TVS/ESD)",
+                "肖特基二极管",
+                "快恢复/高效率二极管",
+                "三极管(BJT)",
+                "通用二极管",
+                "整流桥",
+                "晶闸管(可控硅)/模块",
+                "场效应管(MOSFET)",
+                "开关二极管",
+                "线性稳压器(LDO)",
+                "超势垒整流器(SBR)",
+                "触发二极管",
+                "半导体放电管(TSS)",
+                "晶体管输出光耦"
+            ]
+        },
+        {
+            "coupon_name": "15元美森科品牌优惠",
+            "brand_name": "MSKSEMI(美森科)",
+            "brand_id": "12667",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "静电和浪涌保护(TVS/ESD)",
+                "稳压二极管",
+                "线性稳压器(LDO)",
+                "场效应管(MOSFET)",
+                "肖特基二极管",
+                "三极管(BJT)",
+                "通用二极管",
+                "开关二极管",
+                "快恢复/高效率二极管",
+                "运算放大器",
+                "监控和复位芯片",
+                "逻辑门",
+                "有刷直流电机驱动芯片",
+                "DC-DC电源芯片",
+                "整流桥",
+                "晶闸管(可控硅)/模块",
+                "晶体管输出光耦",
+                "半导体放电管(TSS)",
+                "比较器",
+                "数字晶体管",
+                "模拟开关/多路复用器",
+                "RS232芯片",
+                "精密运放",
+                "气体放电管(GDT)",
+                "步进电机驱动芯片",
+                "LED驱动",
+                "无刷直流(BLDC)电机驱动芯片",
+                "电压基准芯片",
+                "RS-485/RS-422芯片",
+                "电池管理",
+                "达林顿晶体管阵列",
+                "LCD驱动",
+                "温度传感器",
+                "移位寄存器",
+                "反相器",
+                "定时器/计时器",
+                "触发二极管",
+                "计数器/分频器"
+            ]
+        }
+    ],
     "网口变压器": [
         {
             "coupon_name": "15元磁联达品牌优惠",
@@ -8009,19 +8191,6 @@
             ]
         },
         {
-            "coupon_name": "15元元磁品牌优惠",
-            "brand_name": "Magnetsyc(元磁)",
-            "brand_id": "16049",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "功率电感",
-                "贴片电感"
-            ]
-        },
-        {
             "coupon_name": "15元柯爱亚品牌优惠",
             "brand_name": "ceaiya(柯爱亚)",
             "brand_id": "12191",
@@ -8034,187 +8203,18 @@
                 "贴片电感",
                 "共模滤波器"
             ]
-        }
-    ],
-    "晶闸管(可控硅)/模块": [
-        {
-            "coupon_name": "15元旭昌辉品牌优惠",
-            "brand_name": "XCH(旭昌辉)",
-            "brand_id": "13273",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "稳压二极管",
-                "静电和浪涌保护(TVS/ESD)",
-                "肖特基二极管",
-                "快恢复/高效率二极管",
-                "三极管(BJT)",
-                "通用二极管",
-                "整流桥",
-                "晶闸管(可控硅)/模块",
-                "场效应管(MOSFET)",
-                "开关二极管",
-                "线性稳压器(LDO)",
-                "超势垒整流器(SBR)",
-                "触发二极管",
-                "半导体放电管(TSS)",
-                "晶体管输出光耦"
-            ]
         },
         {
-            "coupon_name": "15元美森科品牌优惠",
-            "brand_name": "MSKSEMI(美森科)",
-            "brand_id": "12667",
+            "coupon_name": "15元元磁品牌优惠",
+            "brand_name": "Magnetsyc(元磁)",
+            "brand_id": "16049",
             "activity_name": "24年12月品牌推广活动",
             "min_order_amount": 16.0,
             "coupon_amount": 15.0,
             "min_order_after_discount": 1.0,
             "catalog_groups": [
-                "静电和浪涌保护(TVS/ESD)",
-                "稳压二极管",
-                "线性稳压器(LDO)",
-                "场效应管(MOSFET)",
-                "肖特基二极管",
-                "三极管(BJT)",
-                "通用二极管",
-                "开关二极管",
-                "快恢复/高效率二极管",
-                "运算放大器",
-                "监控和复位芯片",
-                "逻辑门",
-                "有刷直流电机驱动芯片",
-                "DC-DC电源芯片",
-                "整流桥",
-                "晶闸管(可控硅)/模块",
-                "晶体管输出光耦",
-                "半导体放电管(TSS)",
-                "比较器",
-                "数字晶体管",
-                "模拟开关/多路复用器",
-                "RS232芯片",
-                "精密运放",
-                "气体放电管(GDT)",
-                "步进电机驱动芯片",
-                "LED驱动",
-                "无刷直流(BLDC)电机驱动芯片",
-                "电压基准芯片",
-                "RS-485/RS-422芯片",
-                "电池管理",
-                "达林顿晶体管阵列",
-                "LCD驱动",
-                "温度传感器",
-                "移位寄存器",
-                "反相器",
-                "定时器/计时器",
-                "触发二极管",
-                "计数器/分频器"
-            ]
-        }
-    ],
-    "超势垒整流器(SBR)": [
-        {
-            "coupon_name": "15元旭昌辉品牌优惠",
-            "brand_name": "XCH(旭昌辉)",
-            "brand_id": "13273",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "稳压二极管",
-                "静电和浪涌保护(TVS/ESD)",
-                "肖特基二极管",
-                "快恢复/高效率二极管",
-                "三极管(BJT)",
-                "通用二极管",
-                "整流桥",
-                "晶闸管(可控硅)/模块",
-                "场效应管(MOSFET)",
-                "开关二极管",
-                "线性稳压器(LDO)",
-                "超势垒整流器(SBR)",
-                "触发二极管",
-                "半导体放电管(TSS)",
-                "晶体管输出光耦"
-            ]
-        }
-    ],
-    "晶体管输出光耦": [
-        {
-            "coupon_name": "15元旭昌辉品牌优惠",
-            "brand_name": "XCH(旭昌辉)",
-            "brand_id": "13273",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "稳压二极管",
-                "静电和浪涌保护(TVS/ESD)",
-                "肖特基二极管",
-                "快恢复/高效率二极管",
-                "三极管(BJT)",
-                "通用二极管",
-                "整流桥",
-                "晶闸管(可控硅)/模块",
-                "场效应管(MOSFET)",
-                "开关二极管",
-                "线性稳压器(LDO)",
-                "超势垒整流器(SBR)",
-                "触发二极管",
-                "半导体放电管(TSS)",
-                "晶体管输出光耦"
-            ]
-        },
-        {
-            "coupon_name": "15元美森科品牌优惠",
-            "brand_name": "MSKSEMI(美森科)",
-            "brand_id": "12667",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "静电和浪涌保护(TVS/ESD)",
-                "稳压二极管",
-                "线性稳压器(LDO)",
-                "场效应管(MOSFET)",
-                "肖特基二极管",
-                "三极管(BJT)",
-                "通用二极管",
-                "开关二极管",
-                "快恢复/高效率二极管",
-                "运算放大器",
-                "监控和复位芯片",
-                "逻辑门",
-                "有刷直流电机驱动芯片",
-                "DC-DC电源芯片",
-                "整流桥",
-                "晶闸管(可控硅)/模块",
-                "晶体管输出光耦",
-                "半导体放电管(TSS)",
-                "比较器",
-                "数字晶体管",
-                "模拟开关/多路复用器",
-                "RS232芯片",
-                "精密运放",
-                "气体放电管(GDT)",
-                "步进电机驱动芯片",
-                "LED驱动",
-                "无刷直流(BLDC)电机驱动芯片",
-                "电压基准芯片",
-                "RS-485/RS-422芯片",
-                "电池管理",
-                "达林顿晶体管阵列",
-                "LCD驱动",
-                "温度传感器",
-                "移位寄存器",
-                "反相器",
-                "定时器/计时器",
-                "触发二极管",
-                "计数器/分频器"
+                "功率电感",
+                "贴片电感"
             ]
         }
     ],
@@ -8620,182 +8620,8 @@
             ]
         }
     ],
-    "达林顿管": [
-        {
-            "coupon_name": "15元翊欧品牌优惠",
-            "brand_name": "EVVO(翊欧)",
-            "brand_id": "16250",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "三极管(BJT)",
-                "静电和浪涌保护(TVS/ESD)",
-                "场效应管(MOSFET)",
-                "开关二极管",
-                "肖特基二极管",
-                "达林顿管"
-            ]
-        }
-    ],
-    "电流采样电阻/分流器": [
-        {
-            "coupon_name": "15元业展品牌优惠",
-            "brand_name": "yezhan(业展)",
-            "brand_id": "12113",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "电流采样电阻/分流器",
-                "贴片电阻"
-            ]
-        }
-    ],
-    "贴片电阻": [
-        {
-            "coupon_name": "15元业展品牌优惠",
-            "brand_name": "yezhan(业展)",
-            "brand_id": "12113",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "电流采样电阻/分流器",
-                "贴片电阻"
-            ]
-        }
-    ],
-    "直插铝电解电容": [
-        {
-            "coupon_name": "15元容强品牌优惠",
-            "brand_name": "ROQANG(容强)",
-            "brand_id": "851",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "贴片型铝电解电容",
-                "直插铝电解电容"
-            ]
-        },
-        {
-            "coupon_name": "15元圣融达品牌优惠",
-            "brand_name": "SRD(圣融达)",
-            "brand_id": "1056",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "聚丙烯膜电容(CBB)",
-                "安规电容",
-                "直插铝电解电容"
-            ]
-        }
-    ],
-    "聚丙烯膜电容(CBB)": [
-        {
-            "coupon_name": "15元久亦品牌优惠",
-            "brand_name": "JOEY(久亦)",
-            "brand_id": "13487",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "聚丙烯膜电容(CBB)",
-                "薄膜电容",
-                "安规电容"
-            ]
-        },
-        {
-            "coupon_name": "15元松田品牌优惠",
-            "brand_name": "STE(松田)",
-            "brand_id": "11597",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "安规电容",
-                "压敏电阻",
-                "聚丙烯膜电容(CBB)",
-                "直插瓷片电容",
-                "薄膜电容",
-                "NTC热敏电阻",
-                "直插独石电容(MLCC)"
-            ]
-        },
-        {
-            "coupon_name": "15元圣融达品牌优惠",
-            "brand_name": "SRD(圣融达)",
-            "brand_id": "1056",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "聚丙烯膜电容(CBB)",
-                "安规电容",
-                "直插铝电解电容"
-            ]
-        }
-    ],
-    "薄膜电容": [
-        {
-            "coupon_name": "15元久亦品牌优惠",
-            "brand_name": "JOEY(久亦)",
-            "brand_id": "13487",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "聚丙烯膜电容(CBB)",
-                "薄膜电容",
-                "安规电容"
-            ]
-        },
-        {
-            "coupon_name": "15元松田品牌优惠",
-            "brand_name": "STE(松田)",
-            "brand_id": "11597",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "安规电容",
-                "压敏电阻",
-                "聚丙烯膜电容(CBB)",
-                "直插瓷片电容",
-                "薄膜电容",
-                "NTC热敏电阻",
-                "直插独石电容(MLCC)"
-            ]
-        }
-    ],
     "安规电容": [
         {
-            "coupon_name": "15元久亦品牌优惠",
-            "brand_name": "JOEY(久亦)",
-            "brand_id": "13487",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "聚丙烯膜电容(CBB)",
-                "薄膜电容",
-                "安规电容"
-            ]
-        },
-        {
             "coupon_name": "15元松田品牌优惠",
             "brand_name": "STE(松田)",
             "brand_id": "11597",
@@ -8811,6 +8637,20 @@
                 "薄膜电容",
                 "NTC热敏电阻",
                 "直插独石电容(MLCC)"
+            ]
+        },
+        {
+            "coupon_name": "15元久亦品牌优惠",
+            "brand_name": "JOEY(久亦)",
+            "brand_id": "13487",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "聚丙烯膜电容(CBB)",
+                "薄膜电容",
+                "安规电容"
             ]
         },
         {
@@ -8848,6 +8688,54 @@
             ]
         }
     ],
+    "聚丙烯膜电容(CBB)": [
+        {
+            "coupon_name": "15元松田品牌优惠",
+            "brand_name": "STE(松田)",
+            "brand_id": "11597",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "安规电容",
+                "压敏电阻",
+                "聚丙烯膜电容(CBB)",
+                "直插瓷片电容",
+                "薄膜电容",
+                "NTC热敏电阻",
+                "直插独石电容(MLCC)"
+            ]
+        },
+        {
+            "coupon_name": "15元久亦品牌优惠",
+            "brand_name": "JOEY(久亦)",
+            "brand_id": "13487",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "聚丙烯膜电容(CBB)",
+                "薄膜电容",
+                "安规电容"
+            ]
+        },
+        {
+            "coupon_name": "15元圣融达品牌优惠",
+            "brand_name": "SRD(圣融达)",
+            "brand_id": "1056",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "聚丙烯膜电容(CBB)",
+                "安规电容",
+                "直插铝电解电容"
+            ]
+        }
+    ],
     "直插瓷片电容": [
         {
             "coupon_name": "15元松田品牌优惠",
@@ -8865,6 +8753,40 @@
                 "薄膜电容",
                 "NTC热敏电阻",
                 "直插独石电容(MLCC)"
+            ]
+        }
+    ],
+    "薄膜电容": [
+        {
+            "coupon_name": "15元松田品牌优惠",
+            "brand_name": "STE(松田)",
+            "brand_id": "11597",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "安规电容",
+                "压敏电阻",
+                "聚丙烯膜电容(CBB)",
+                "直插瓷片电容",
+                "薄膜电容",
+                "NTC热敏电阻",
+                "直插独石电容(MLCC)"
+            ]
+        },
+        {
+            "coupon_name": "15元久亦品牌优惠",
+            "brand_name": "JOEY(久亦)",
+            "brand_id": "13487",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "聚丙烯膜电容(CBB)",
+                "薄膜电容",
+                "安规电容"
             ]
         }
     ],
@@ -8925,19 +8847,6 @@
             ]
         },
         {
-            "coupon_name": "15元元磁品牌优惠",
-            "brand_name": "Magnetsyc(元磁)",
-            "brand_id": "16049",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "功率电感",
-                "贴片电感"
-            ]
-        },
-        {
             "coupon_name": "15元柯爱亚品牌优惠",
             "brand_name": "ceaiya(柯爱亚)",
             "brand_id": "12191",
@@ -8949,6 +8858,114 @@
                 "功率电感",
                 "贴片电感",
                 "共模滤波器"
+            ]
+        },
+        {
+            "coupon_name": "15元元磁品牌优惠",
+            "brand_name": "Magnetsyc(元磁)",
+            "brand_id": "16049",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "功率电感",
+                "贴片电感"
+            ]
+        }
+    ],
+    "直插铝电解电容": [
+        {
+            "coupon_name": "15元容强品牌优惠",
+            "brand_name": "ROQANG(容强)",
+            "brand_id": "851",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "贴片型铝电解电容",
+                "直插铝电解电容"
+            ]
+        },
+        {
+            "coupon_name": "15元圣融达品牌优惠",
+            "brand_name": "SRD(圣融达)",
+            "brand_id": "1056",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "聚丙烯膜电容(CBB)",
+                "安规电容",
+                "直插铝电解电容"
+            ]
+        }
+    ],
+    "达林顿管": [
+        {
+            "coupon_name": "15元翊欧品牌优惠",
+            "brand_name": "EVVO(翊欧)",
+            "brand_id": "16250",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "三极管(BJT)",
+                "静电和浪涌保护(TVS/ESD)",
+                "场效应管(MOSFET)",
+                "开关二极管",
+                "肖特基二极管",
+                "达林顿管"
+            ]
+        }
+    ],
+    "电流采样电阻/分流器": [
+        {
+            "coupon_name": "15元业展品牌优惠",
+            "brand_name": "yezhan(业展)",
+            "brand_id": "12113",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "电流采样电阻/分流器",
+                "贴片电阻"
+            ]
+        }
+    ],
+    "贴片电阻": [
+        {
+            "coupon_name": "15元业展品牌优惠",
+            "brand_name": "yezhan(业展)",
+            "brand_id": "12113",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "电流采样电阻/分流器",
+                "贴片电阻"
+            ]
+        }
+    ],
+    "DIN41612连接器": [
+        {
+            "coupon_name": "15元格林柏品牌优惠",
+            "brand_name": "WingTAT(格林柏)",
+            "brand_id": "15171",
+            "activity_name": "24年12月品牌推广活动",
+            "min_order_amount": 16.0,
+            "coupon_amount": 15.0,
+            "min_order_after_discount": 1.0,
+            "catalog_groups": [
+                "金手指连接器",
+                "DIN41612连接器",
+                "排针",
+                "排母"
             ]
         }
     ],
@@ -8985,23 +9002,6 @@
                 "陶瓷谐振器(无源)",
                 "SAW谐振器(无源)",
                 "晶体滤波器"
-            ]
-        }
-    ],
-    "DIN41612连接器": [
-        {
-            "coupon_name": "15元格林柏品牌优惠",
-            "brand_name": "WingTAT(格林柏)",
-            "brand_id": "15171",
-            "activity_name": "24年12月品牌推广活动",
-            "min_order_amount": 16.0,
-            "coupon_amount": 15.0,
-            "min_order_after_discount": 1.0,
-            "catalog_groups": [
-                "金手指连接器",
-                "DIN41612连接器",
-                "排针",
-                "排母"
             ]
         }
     ],
