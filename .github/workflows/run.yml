@@ -3,9 +3,9 @@ name: Deploy to GitHub Pages
 on:
   schedule:
  # 每月1-7号每天10点运行一次
-    - cron: '0 2 1-7 * *'  # 10 AM China Standard Time (CST, UTC+8)
-    # 每周二运行一次
-    - cron: '0 2 * * 2'  # 10 AM China Standard Time (CST, UTC+8)
+  - cron: '0 2 1-7 * *'  # 10 AM China Standard Time (CST, UTC+8)
+    # 每周二和周五运行一次
+  - cron: '0 2 * * 2,5'  # 10 AM China Standard Time (CST, UTC+8)
   push:
     branches:
       - master
