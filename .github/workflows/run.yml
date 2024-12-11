@@ -2,10 +2,10 @@ name: Deploy to GitHub Pages
 
 on:
   schedule:
- # 每月1-7号每天10点运行一次
-  - cron: '0 2 1-7 * *'  # 10 AM China Standard Time (CST, UTC+8)
+    # 每月1-7号每天10点运行一次
+    - cron: '0 2 1-7 * *' # 10 AM China Standard Time (CST, UTC+8)
     # 每周二和周五运行一次
-  - cron: '0 2 * * 2,5'  # 10 AM China Standard Time (CST, UTC+8)
+    - cron: '0 2 * * 2,5' # 10 AM China Standard Time (CST, UTC+8)
   push:
     branches:
       - master
@@ -31,8 +31,43 @@ jobs:
       - name: Run script to generate coupon_details.json
         run: python main.py
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install minification tools
+        run: |
+          npm install -g html-minifier-terser
+          npm install -g clean-css-cli
+          npm install -g terser
+
+      - name: Minify HTML files
+        run: |
+          find html -name "*.html" -type f -exec html-minifier-terser \
+            --collapse-whitespace \
+            --remove-comments \
+            --remove-redundant-attributes \
+            --remove-script-type-attributes \
+            --remove-tag-whitespace \
+            --use-short-doctype \
+            --minify-css true \
+            --minify-js true \
+            -o {}.min {} \; \
+            -exec sh -c 'mv "$1.min" "$1"' _ {} \;
+
+      - name: Minify CSS files
+        run: |
+          find html -name "*.css" -type f -exec cleancss -o {}.min {} \; \
+          -exec sh -c 'mv "$1.min" "$1"' _ {} \;
+
+      - name: Minify JavaScript files
+        run: |
+          find html -name "*.js" -type f -exec terser {} -c -m -o {}.min \; \
+          -exec sh -c 'mv "$1.min" "$1"' _ {} \;
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: html/  # Directory containing your index.html and coupon_details.json
+          publish_dir: html/ # Directory containing your index.html and coupon_details.json
