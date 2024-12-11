@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>立创商城优惠券辅助</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <style>
+        a {text-decoration: none;}
+        @media (prefers-color-scheme: dark) {
+            body,.card {background: #252525;}
+        }
+    </style>
+</head>
+
+<body class=".bg-light">
+
+    <!-- 导航栏开始 -->
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid px-3">
+            <!-- 网站Logo或品牌名 -->
+            <a class="navbar-brand text-white " href="#">立创商城优惠券辅助</a>
+            <!-- 移动设备上的导航栏切换按钮 -->
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- 导航链接 -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">说明</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="https://github.com/xiaowine/szlcsc-help" target="_blank">Github</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- 导航栏结束 -->
+
+    <!-- 模态框 (Modal) -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">说明</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>这是个网站项目，用于帮忙选择立创商城领券中心的优惠券。</p>
+                    <p>因为立创商城的优惠券每月都会更新，并且大部分品牌都不认识，不知道有啥卖的，所以就做了这个网站。</p>
+                    <p>网页只会显示有优惠券且符合条件（非新人专享优惠后消费小于15）的厂商</p>
+                    <p>本项目仅用于辅助项目，不涉及任何商业行为。</p>
+                    <p>如果有侵权，请联系我删除。</p>
+                    <p>数据来源：立创商城领券中心。</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">关闭</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center mt-3">
+        <div class="row align-items-start">
+            <div class="col"><div class="alert alert-primary" id="run_time" role="alert">更新时间</div></div>
+            <div class="col"><div class="alert alert-primary" id="count" role="alert">统计</div></div>
+        </div>
+    </div>
+
+    <!-- Coupon Sections -->
+    <main id="content" class="coupon-section">
+        <p id="loading-message">数据加载中</p>
+    </main>
+
+    <div class="container mt-3 text-center">
+        <!-- 选项卡导航 -->
+        <ul class="nav nav-tabs border-bottom-0" role="tablist"></ul>
+
+        <!-- 选项卡内容 -->
+        <div class="tab-content card border-2 mt-3" id="tabContent"></div>
+    </div>
+
+    <div class="container d-flex justify-content-center align-items-center my-4">
+        <a href="#navbarNav"><button type="button" class="btn btn-success">回到顶部</button></a>
+    </div>
+    
+
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Fetch and display runtime info
+            fetch('run_time.txt')
+                .then(response => response.text())
+                .then(content => {
+                    document.getElementById('run_time').textContent = `更新时间：${content}`;
+                })
+                .catch(console.error);
+
+            // Fetch and display coupon data
+            fetch('coupon_details.json')
+                .then(response => response.json())
+                .then(data => {
+                    const loadingMessage = document.getElementById('loading-message');
+                    loadingMessage && loadingMessage.remove();
+
+                    const classification = {};
+                    let brandCount = 0, categoryCount = 0;
+
+                    // Process data into categories
+                    Object.entries(data).forEach(([category, items]) => {
+                        categoryCount++;
+                        classification[category] = items.map(coupon => {
+                            brandCount++;
+                            return {
+                                name: coupon.brand_name,
+                                url: `https://list.szlcsc.com/brand/${coupon.brand_id}.html`,
+                                details: coupon
+                            };
+                        });
+                    });
+
+                    // Update stats
+                    document.getElementById('count').textContent = `厂商数：${brandCount}, 元件分类数: ${categoryCount}`;
+
+                    // Generate coupon sections
+                    let content = document.querySelector('content');
+                    Object.entries(classification).forEach(([category, coupons], index) => {
+                        let navtabs = document.querySelector('.nav-tabs');
+                        let tabcontents = document.querySelector('.tab-content');
+
+                        // Tab 选项
+                        let title = document.createElement('li');
+                        title.className = "nav-item";
+                        title.setAttribute('role', 'presentation');
+                        title.innerHTML = `<a href="#tabContent"><button class="nav-link ${index == 0 ? "active" : ""}" data-bs-toggle="tab" data-bs-target="#${index}" type="button" role="tab" aria-controls="${index}" aria-selected="${index == 0 ? "true" : "false"}">${category}</button></a>`;
+                        navtabs.appendChild(title);
+
+                        // Tab 内容
+                        let tab = document.createElement('div');
+                        tab.className = `tab-pane fade mt-3 ${index == 0 ? "active show" : ""}`;
+                        tab.id = index;
+                        tab.setAttribute('role', 'tabpanel');
+                        tab.setAttribute('aria-labelledby', 'profile-tab');
+
+                        tab.innerHTML = `<h3> ${category} </h3>`;
+                        coupons.forEach(coupon => {
+                            tab.innerHTML += `<p><a href="${coupon.url}" target="_blank">${coupon.details.coupon_name} (优惠后最低消费${coupon.details.min_order_after_discount}元)</a></p>`;
+                        });
+
+                        tabcontents.appendChild(tab)
+                    });
+                })
+                .catch(error => {
+                    const loadingMessage = document.getElementById('loading-message');
+                    if (loadingMessage) {
+                        loadingMessage.textContent = '加载失败，请稍后再试';
+                    }
+                    console.error(error);
+                });
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
