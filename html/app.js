@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           targetCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
           targetCard.classList.add('highlight');
 
-          // 移除其他卡片的高��
+          // 移除其他卡片的高亮
           document.querySelectorAll('.category-card.highlight').forEach((card) => {
             if (card !== targetCard) {
               card.classList.remove('highlight');
@@ -219,26 +219,28 @@ document.addEventListener('DOMContentLoaded', function () {
   const showInfoBtn = document.getElementById('showInfo');
   const closeBtn = document.getElementById('closeModal');
 
-  showInfoBtn.addEventListener('click', () => {
-    modal.style.display = 'flex';
-  });
+  if (showInfoBtn && modal && closeBtn) {
+    showInfoBtn.addEventListener('click', () => {
+      modal.style.display = 'flex';
+    });
 
-  closeBtn.addEventListener('click', () => {
-    modal.style.display = 'none';
-  });
-
-  modal.addEventListener('click', (e) => {
-    if (e.target === modal) {
+    closeBtn.addEventListener('click', () => {
       modal.style.display = 'none';
-    }
-  });
+    });
 
-  // 添加 ESC 键关闭模态框
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && modal.style.display === 'flex') {
-      modal.style.display = 'none';
-    }
-  });
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.style.display = 'none';
+      }
+    });
+
+    // 添加 ESC 键关闭模态框
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && modal.style.display === 'flex') {
+        modal.style.display = 'none';
+      }
+    });
+  }
 });
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -325,28 +327,5 @@ document.addEventListener('DOMContentLoaded', function () {
       const shouldShow = text.includes(searchTerm);
       link.style.display = shouldShow ? 'flex' : 'none';
     });
-  });
-
-  // 处理搜索结果点击
-  categoryNav.addEventListener('click', function (e) {
-    if (e.target.tagName === 'A') {
-      e.preventDefault();
-      const targetId = e.target.getAttribute('href').slice(1);
-      const targetElement = document.getElementById(targetId);
-
-      if (targetElement) {
-        setTimeout(() => {
-          targetElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
-          targetElement.classList.add('highlight');
-
-          // 移除其他元素的高亮
-          document.querySelectorAll('.category-card.highlight').forEach((card) => {
-            if (card !== targetElement) {
-              card.classList.remove('highlight');
-            }
-          });
-        }, 100);
-      }
-    }
   });
 });
