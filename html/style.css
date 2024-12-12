@@ -47,7 +47,7 @@ body {
   margin-top: 60px;
   overflow-y: auto;
   box-sizing: border-box;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
   scrollbar-width: thin;
   scrollbar-color: var(--primary-color) transparent;
 }
@@ -482,7 +482,7 @@ body {
   margin-top: 60px;
   overflow-y: auto;
   box-sizing: border-box;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
   scrollbar-width: thin;
   scrollbar-color: var(--primary-color) transparent;
 }
@@ -491,13 +491,13 @@ body {
 @media (max-width: 768px) {
   .container {
     padding: 15px;
-    padding-bottom: 30px;
+    padding-bottom: 90px;
     height: calc(100vh - 50px);
     margin-top: 50px;
   }
 
   .coupon-grid {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 }
 
@@ -507,8 +507,8 @@ body {
   right: 20px;
   background-color: var(--primary-color);
   color: white;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   display: none;
   justify-content: center;
@@ -518,6 +518,7 @@ body {
   transition: all 0.3s ease;
   border: none;
   z-index: 999;
+  opacity: 0.9;
 }
 
 .back-to-top:hover {
@@ -528,10 +529,10 @@ body {
 /* 移动端适配 */
 @media (max-width: 768px) {
   .back-to-top {
-    bottom: 15px;
+    bottom: 25px;
     right: 15px;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
   }
 }
 

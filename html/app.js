@@ -136,7 +136,13 @@ document.addEventListener('DOMContentLoaded', async function () {
 
       if (searchTerm && hasVisibleLinks) {
         categoryContainer.classList.add('active');
+        // 添加滚动到顶部的代码
+        document.querySelector('.container').scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
       }
+
     });
 
     // 生成优惠券网格
