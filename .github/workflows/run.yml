@@ -9,6 +9,7 @@ on:
   push:
     branches:
       - master
+  workflow_dispatch: # Manual trigger
 
 jobs:
   deploy:
