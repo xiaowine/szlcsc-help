@@ -181,6 +181,7 @@ document.addEventListener('DOMContentLoaded', async function () {
                                           <a href="https://list.szlcsc.com/brand/${coupon.brand_id}.html" target="_blank">
                                               ${coupon.brand_name} - ${coupon.coupon_name}
                                               <small>(优惠后最低消费${coupon.min_order_after_discount}元)</small>
+                                              <small>- 已领取${coupon.receive_customer_num}张</small>
                                           </a>
                                       </li>
                                   `

@@ -49,6 +49,7 @@ def get_coupon_details(coupon: dict) -> dict:
         "min_order_amount": coupon['minOrderMoney'],
         "coupon_amount": coupon['couponAmount'],
         "min_order_after_discount": coupon['minOrderMoney'] - coupon['couponAmount'],
+        "receive_customer_num": coupon['receiveCustomerNum'],
         "catalog_groups": catalog_groups
     }
 
@@ -61,6 +62,7 @@ def filter_and_classify_coupons(coupons: dict) -> dict:
     for category, coupons_list in coupon_map.items():
         if category != "plus":
             for coupon in coupons_list:
+                print(coupon["receiveCustomerNum"])
                 if "<新人专享>" not in coupon["couponName"] and "品牌" in coupon["couponName"]:
                     discount_diff = coupon['minOrderMoney'] - coupon['couponAmount']
                     if discount_diff <= 15:
