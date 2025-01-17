@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         const brandCount = Object.values(data).flat().length;
         document.getElementById(
             'count'
-        ).textContent = `厂商数：${brandCount}，分类数：${categories.length}`;
+        ).textContent = `品牌数：${brandCount}，分类数：${categories.length}`;
 
         // 生成分类导航
         const nav = document.getElementById('category-nav');
@@ -120,13 +120,23 @@ document.addEventListener('DOMContentLoaded', async function () {
         modal.className = 'coupon-modal';
         document.body.appendChild(modal);
 
-        categories.forEach((category) => {
+        const sortedCategories = categories.sort((a, b) => {
+            const totalReceiveCustomerNumA = data[a].reduce((sum, coupon) => sum + coupon.receive_customer_num, 0);
+            const averageReceiveCustomerNumA = totalReceiveCustomerNumA / data[a].length;
+            const totalReceiveCustomerNumB = data[b].reduce((sum, coupon) => sum + coupon.receive_customer_num, 0);
+            const averageReceiveCustomerNumB = totalReceiveCustomerNumB / data[b].length;
+            return averageReceiveCustomerNumB - averageReceiveCustomerNumA;
+        });
+
+        sortedCategories.forEach((category) => {
             const card = document.createElement('div');
             card.className = 'category-card';
             card.id = category;
 
             const title = document.createElement('h2');
-            title.innerHTML = `${category} <span class="brand-count">(${data[category].length}个厂商)</span>`;
+            const totalReceiveCustomerNum = data[category].reduce((sum, coupon) => sum + coupon.receive_customer_num, 0);
+            const averageReceiveCustomerNum = totalReceiveCustomerNum / data[category].length;
+            title.innerHTML = `${category} <br><span class="brand-count">共${data[category].length}个品牌<br>平均领取数: ${averageReceiveCustomerNum.toFixed(0)}</span>`;
             card.appendChild(title);
             grid.appendChild(card);
 
@@ -136,7 +146,7 @@ document.addEventListener('DOMContentLoaded', async function () {
                 modal.innerHTML = `
                       <div class="coupon-modal-content">
                           <div class="coupon-modal-header">
-                              <h2>${category}</h2>
+                              <h2>${category}</h2>平均领取数: ${averageReceiveCustomerNum.toFixed(0)}
                               <button class="coupon-modal-close">&times;</button>
                           </div>
                           <div class="coupon-modal-body">
