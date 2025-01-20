@@ -44,6 +44,14 @@
 - 🎨 HTML/CSS/JavaScript
 - 🔄 GitHub Actions
 
+## 📱 网页预览
+
+<details>
+<summary>点击查看预览图</summary>
+
+<img src="/pic/preview1.png" alt="网页预览1" width="800"/>
+<img src="/pic/preview2.png" alt="网页预览2" width="800"/>
+
 ## 📊 项目统计
 
 [![Star History Chart](https://api.star-history.com/svg?repos=xiaowine/szlcsc-help&type=Timeline)](https://star-history.com/#xiaowine/szlcsc-help&Timeline)
