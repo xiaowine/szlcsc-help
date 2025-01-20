@@ -1,3 +1,5 @@
+## ![](https://socialify.git.ci/xiaowine/szlcsc-help/image?description=1&descriptionEditable=一个帮助选择立创商城优惠券的网站工具&language=1&name=1&owner=1&theme=Auto)
+
 # 🛍️ 立创商城优惠券助手
 
 一个帮助选择立创商城优惠券的网站工具。
@@ -29,7 +31,7 @@
 
 ## 🌐 在线访问
 
-[https://szlcsc-help.xiaowine.cc/](https://szlcsc-help.xiaowine.cc/)
+[szlcsc-help.xiaowine.cc](https://szlcsc-help.xiaowine.cc/)
 
 ## ⚠️ 声明
 
@@ -49,8 +51,10 @@
 <details>
 <summary>点击查看预览图</summary>
 
-<img src="/pic/preview1.png" alt="网页预览1" width="800"/>
-<img src="/pic/preview2.png" alt="网页预览2" width="800"/>
+![网页预览1](/pic/preview1.png)
+![网页预览2](/pic/preview2.png)
+
+</details>
 
 ## 📊 项目统计
 
