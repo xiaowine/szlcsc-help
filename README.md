@@ -8,6 +8,13 @@
 
 本项目旨在帮助用户更便捷地选择立创商城领券中心的优惠券。由于立创商城的优惠券每月更新，且大部分品牌对用户来说并不熟悉，本工具可以帮助用户更好地筛选和了解优惠券信息。
 
+## ⚠️ 声明
+
+- 💡 本项目仅用于辅助选择优惠券
+- 🤝 不涉及任何商业行为
+- 📚 数据来源：立创商城领券中心
+- ✉️ 如有侵权，请联系删除
+
 ## ✨ 特点
 
 - 🔄 自动筛选显示符合条件的优惠券
@@ -33,12 +40,40 @@
 
 [szlcsc-help.xiaowine.cc](https://szlcsc-help.xiaowine.cc/)
 
-## ⚠️ 声明
+## 🚀 本地运行
 
-- 💡 本项目仅用于辅助选择优惠券
-- 🤝 不涉及任何商业行为
-- 📚 数据来源：立创商城领券中心
-- ✉️ 如有侵权，请联系删除
+1. 克隆项目
+
+```bash
+git clone https://github.com/xiaowine/szlcsc-help.git
+cd szlcsc-help
+```
+
+2. 安装依赖
+
+```bash
+pip install -r requirements.txt
+```
+
+3. 运行脚本生成数据
+
+```bash
+python main.py
+```
+
+4. 启动网页服务
+
+- 使用 Python 内置服务器
+
+```bash
+cd html
+python -m http.server 8080
+```
+
+- 或使用其他静态文件服务器
+
+5. 访问网页
+   打开浏览器访问 `http://localhost:8080`
 
 ## 🔧 技术栈
 
