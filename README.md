@@ -1,5 +1,3 @@
-![](https://socialify.git.ci/xiaowine/szlcsc-help/image?description=1&descriptionEditable=立创商城领券辅助助手&language=1&name=1&owner=1&theme=Auto)
-
 # 🛍️ 立创商城优惠券助手
 
 一个帮助选择立创商城优惠券的网站工具。
