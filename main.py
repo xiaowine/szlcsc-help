@@ -7,8 +7,27 @@ from concurrent.futures import ThreadPoolExecutor, as_completed, TimeoutError
 
 from pytz import timezone
 
+import os
+import re
+import fnmatch
+
+tmpdir = '/tmp/lcsc-tmp'
+os.makedirs(tmpdir, exist_ok=True)
 
 def get_coupons(url: str) -> dict | None:
+    def clean_string(input_str):
+        cleaned_str = re.sub(r'[^a-zA-Z0-9]', '_', input_str) # 将非字母、非数字字符替换为下划线
+        cleaned_str = re.sub(r'_+', '_', cleaned_str) # 将连续多个下划线替换为一个下划线
+        return cleaned_str
+
+    cache_file = f"{tmpdir}/{clean_string(url) }"
+
+    if os.path.exists(cache_file) and os.path.getsize(cache_file) > 1024*100 :
+        print(f"读缓存文件 {cache_file}")
+        json_text = open(cache_file).read()
+        return json.loads(json_text)
+
+    print(f"准备连接获取 {url}")
     headers = {
         'User-Agent': ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
                        'AppleWebKit/537.36 (KHTML, like Gecko) '
@@ -19,6 +38,11 @@ def get_coupons(url: str) -> dict | None:
             session.headers.update(headers)
             response = session.get(url)
             response.raise_for_status()
+
+            with open(cache_file, 'w') as f:
+                f.write(response.text)
+                f.flush()
+
             return response.json()
     except requests.RequestException as e:
         print(f"请求错误: {e}")
@@ -41,7 +65,7 @@ def fetch_brand_info(brand_id: str) -> list[str]:
 
 def get_coupon_details(coupon: dict) -> dict:
     catalog_groups = fetch_brand_info(coupon['brandIds'])
-    return {
+    result = {
         "coupon_name": coupon['couponName'],
         "brand_name": coupon['brandNames'],
         "brand_id": coupon['brandIds'],
@@ -52,6 +76,8 @@ def get_coupon_details(coupon: dict) -> dict:
         "receive_customer_num": coupon['receiveCustomerNum'],
         "catalog_groups": catalog_groups
     }
+    print(result)
+    return result
 
 
 def filter_and_classify_coupons(coupons: dict) -> dict:
@@ -66,6 +92,7 @@ def filter_and_classify_coupons(coupons: dict) -> dict:
                     discount_diff = coupon['minOrderMoney'] - coupon['couponAmount']
                     if discount_diff <= 15:
                         valid_coupons.append(coupon)
+    print(f"有效的优惠券：{ [ i['couponName'] for i in valid_coupons ]} ")
 
     valid_coupons_count = len(valid_coupons)
     print(f"总共需要处理 {valid_coupons_count} 个有效优惠券")
@@ -88,6 +115,46 @@ def filter_and_classify_coupons(coupons: dict) -> dict:
 
     return classified_coupons
 
+def parse_more_info():
+    catagories_numbers = {}
+
+    brand_files_list = [f for f in os.listdir(tmpdir) if fnmatch.fnmatch(f, "https*brand*")]
+
+    brand_more_info = {}
+    for brand_file in brand_files_list:
+        brandInfo = json.loads(open(f"{tmpdir}/{brand_file}").read())
+
+        brand_name =    brandInfo["result"]["searchResult"]["currentBrand"]["productGradePlateName"]
+        brand_id =      brandInfo["result"]["searchResult"]["currentBrand"]["productGradePlateId"]
+        brand_url =     f"https://list.szlcsc.com/brand/{brand_id}.html"
+        brand_website = brandInfo["result"]["searchResult"]["currentBrand"]["companyWebsite"]
+        brand_desc =    brandInfo["result"]["searchResult"]["currentBrand"]["companyContext"]
+
+
+        def extract_brand_disp_name(brand_name):
+            match = re.search(r'\((.*?)\)', brand_name) # 使用正则表达式匹配括号内的内容
+            if match:
+                return match.group(1) # 如果找到括号，返回括号内的内容
+            else:
+                return brand_name # 如果没有括号，返回原字符串
+
+        brandResult = {
+            'brand_name': brand_name,
+            'brand_id':   brand_id,
+            'brand_name_disp': extract_brand_disp_name(brand_name),
+            'brand_url': brand_url,
+            'brand_website': brand_website,
+            'brand_desc': brand_desc,
+        }
+        brand_more_info [brand_name] = brandResult
+
+    with open("html/brand_more_info.json", 'w') as f:
+        f.write(json.dumps(brand_more_info, ensure_ascii=False, indent=2))
+        f.flush()
+    with open("html/catagories_numbers.json", 'w') as f:
+        f.write(json.dumps(catagories_numbers, ensure_ascii=False, indent=2))
+        f.flush()
+
 
 if __name__ == '__main__':
     url = "https://activity.szlcsc.com/phone/activity/coupon"
@@ -102,5 +169,7 @@ if __name__ == '__main__':
             current_time = datetime.now(china_tz)
             formatted_time = current_time.strftime("%Y-%m-%d %H:%M:%S")
             f.write(formatted_time)
+
+        parse_more_info()
     else:
         print("没有找到优惠券信息")
