@@ -130,6 +130,22 @@ def parse_more_info():
         brand_website = brandInfo["result"]["searchResult"]["currentBrand"]["companyWebsite"]
         brand_desc =    brandInfo["result"]["searchResult"]["currentBrand"]["companyContext"]
 
+        brand_catalogGroup = brandInfo["result"]["searchResult"]["catalogGroup"]
+        for group in brand_catalogGroup:
+            groupLabel = group['label']
+            groupValue = group['value']
+
+            if not groupLabel in catagories_numbers:
+                groupCount = group['count']
+            else:
+                groupCount = group['count'] + catagories_numbers [groupLabel] ['count']
+
+            catagories_numbers [groupLabel] = {
+                'id': groupValue,
+                'url': f"https://list.szlcsc.com/catalog/{groupValue}.html",
+                'count': groupCount,
+            }
+
 
         def extract_brand_disp_name(brand_name):
             match = re.search(r'\((.*?)\)', brand_name) # 使用正则表达式匹配括号内的内容
