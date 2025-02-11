@@ -903,6 +903,14 @@
     "brand_website": "http://www.suntekmicro.com",
     "brand_desc": "洺太（SUNTEK）是一家专注于电源芯片产品研发的设计公司，团队主要成员来自于美国BCD和上海贝岭等国内外知名IC设计公司。公司拥有国内一流的低压差线性稳压器（LDO）、DCDC变换器、充电芯片、负载开关、LED 驱动、电压检测芯片、电容触控传感器、霍尔传感器、达林顿管、电平转换芯片、TVS、PMUS等产品。"
   },
+  "Chinocera(华瓷)": {
+    "brand_name": "Chinocera(华瓷)",
+    "brand_id": "12099",
+    "brand_name_disp": "华瓷",
+    "brand_url": "https://list.szlcsc.com/brand/12099.html",
+    "brand_website": "https://www.chinocera.com",
+    "brand_desc": "遂宁宏明华瓷科技有限公司是四川省投资集团有限责任公司的四级子公司，是成都宏明电子股份有限公司（原七一五厂）的全资子公司。四川省投资集团有限责任公司（简称“川投集团”）是四川省人民政府授权的国有资产经营主体、重点建设项目的融资主体和投资主体之一，省国资委管理的国有独资公司。成都宏明电子股份有限公司是国家“一五”时期重点建设的156项重点工程之一，是具有近60年从事电子元器件科研生产历史的单位，自1987年起连续荣获“中国电子元件百强企业”称号。"
+  },
   "Megastar(兆星)": {
     "brand_name": "Megastar(兆星)",
     "brand_id": "15340",
