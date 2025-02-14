@@ -144,30 +144,31 @@ document.addEventListener('DOMContentLoaded', async function () {
             card.addEventListener('click', () => {
                 // 创建模态框内容
                 modal.innerHTML = `
-                      <div class="coupon-modal-content">
-                          <div class="coupon-modal-header">
-                              <h2>${category}</h2>平均领取数: ${averageReceiveCustomerNum.toFixed(0)}
-                              <button class="coupon-modal-close">&times;</button>
-                          </div>
-                          <div class="coupon-modal-body">
-                              <ul class="coupon-list">
-                                  ${data[category]
-                    .map(
-                        (coupon) => `
-                                      <li class="coupon-item">
-                                          <a href="https://list.szlcsc.com/brand/${coupon.brand_id}.html" target="_blank">
-                                              ${coupon.brand_name} - ${coupon.coupon_name}
-                                              <small>(优惠后最低消费${coupon.min_order_after_discount}元)</small>
-                                              <small>- 已领取${coupon.receive_customer_num}张</small>
-                                          </a>
-                                      </li>
-                                  `
-                    )
-                    .join('')}
-                              </ul>
-                          </div>
-                      </div>
-                  `;
+                    <div class="coupon-modal-content">
+                        <div class="coupon-modal-header">
+                            <h2>${category}</h2>平均领取数: ${averageReceiveCustomerNum.toFixed(0)}
+                            <button class="coupon-modal-close">&times;</button>
+                        </div>
+                        <div class="coupon-modal-body">
+                            <ul class="coupon-list">
+                                ${data[category]
+                                    .sort((a, b) => b.receive_customer_num - a.receive_customer_num) // 按领取数排序
+                                    .map(
+                                        (coupon) => `
+                                            <li class="coupon-item">
+                                                <a href="https://list.szlcsc.com/brand/${coupon.brand_id}.html" target="_blank">
+                                                    ${coupon.brand_name} - ${coupon.coupon_name}
+                                                    <small>(优惠后最低消费${coupon.min_order_after_discount}元)</small>
+                                                    <small>- 已领取${coupon.receive_customer_num}张</small>
+                                                </a>
+                                            </li>
+                                        `
+                                    )
+                                    .join('')}
+                            </ul>
+                        </div>
+                    </div>
+                `;
 
                 modal.style.display = 'flex';
 
