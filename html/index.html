@@ -1,103 +1,181 @@
 <!DOCTYPE html>
-<html lang="zh">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="logo.ico" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-		<meta http-equiv="Pragma" content="no-cache" />
-		<meta http-equiv="Expires" content="0" />
-		<title>立创商城优惠券助手</title>
-		<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap"
-			rel="stylesheet"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-		/>
-		<link rel="stylesheet" href="style.css" />
-		<script src="app.js" defer></script>
-		<script type="text/javascript">
-			(function (c, l, a, r, i, t, y) {
-				c[a] =
-					c[a] ||
-					function () {
-						(c[a].q = c[a].q || []).push(arguments);
-					};
-				t = l.createElement(r);
-				t.async = 1;
-				t.src = 'https://www.clarity.ms/tag/' + i;
-				y = l.getElementsByTagName(r)[0];
-				y.parentNode.insertBefore(t, y);
-			})(window, document, 'clarity', 'script', 'pwtqxzby84');
-		</script>
-	</head>
-	<body>
-		<div class="topbar">
-			<h1>立创商城优惠券助手</h1>
-			<div class="topbar-right">
-				<i class="fas fa-search search-icon" id="searchToggle"></i>
-				<a
-					href="https://github.com/xiaowine/szlcsc-help"
-					target="_blank"
-					class="github-link"
-					title="查看项目源码"
-				>
-					<i class="fab fa-github"></i>
-				</a>
-				<button class="info-button" id="showInfo">使用说明</button>
-			</div>
-		</div>
+<html lang="zh-CN">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="立创商城优惠券助手 - 帮助选择立创商城优惠券的工具网站"
+    />
+    <meta name="keywords" content="立创商城,优惠券,电子元件,PCB" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
 
-		<div class="search-container">
-			<input type="text" class="search-box" id="categorySearch" placeholder="搜索分类..." />
-			<i class="fas fa-times search-close" id="searchClose"></i>
-		</div>
+    <!-- Title and Favicon -->
+    <title>立创商城优惠券助手</title>
+    <link rel="icon" type="image/svg+xml" href="logo.ico" />
 
-		<div class="modal" id="infoModal">
-			<div class="modal-content">
-				<button class="close-button" id="closeModal">&times;</button>
-				<h2>使用说明</h2>
-				<div class="description">
-					<p>这是一个帮助选择立创商城领券中心优惠券的工具网站。</p>
-					<p>
-						由于立创商城的优惠券每月更新，且大部分品牌不太熟悉，本站可以帮助您更好地选择优惠券。
-					</p>
-					<p>网站只显示有优惠券且符合条件（非新人专享，优惠后消费小于15元）的厂商。</p>
-					<p>本项目仅用于辅助，不涉及任何商业行为。如有侵权，请联删除。</p>
-					<p>数据来源：立创商城优惠券中心</p>
-				</div>
-			</div>
-		</div>
+    <!-- External Resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
 
-		<div class="container">
-			<section class="stats">
-				<h3 id="run_time">更新时间</h3>
-				<div id="busuanzi_container_site_pv">
-					总访问量：<span id="busuanzi_value_site_pv"></span>
-				</div>
-				<div id="busuanzi_container_site_uv">访客数：<span id="busuanzi_value_site_uv"></span></div>
-				<div id="count">统计加载中...</div>
-				<br />
-				<a href="https://github.com/xiaowine/pcb-calculation-tools" target="_blank"
-					>作者写了个立创EDA专业版辅助计算插件，欢迎前来使用</a
-				>
-			</section>
+    <!-- Internal Resources -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
 
-			<nav id="category-nav"></nav>
+    <!-- Analytics -->
+    <script
+      async
+      src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
+    ></script>
+    <script type="text/javascript">
+      (function (c, l, a, r, i, t, y) {
+        c[a] =
+          c[a] ||
+          function () {
+            (c[a].q = c[a].q || []).push(arguments);
+          };
+        t = l.createElement(r);
+        t.async = 1;
+        t.src = "https://www.clarity.ms/tag/" + i;
+        y = l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t, y);
+      })(window, document, "clarity", "script", "pwtqxzby84");
+    </script>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="topbar">
+      <h1>立创商城优惠券助手</h1>
+      <nav class="topbar-right">
+        <button class="search-toggle" id="searchToggle" aria-label="搜索">
+          <i class="fas fa-search"></i>
+        </button>
+        <a
+          href="https://github.com/xiaowine/szlcsc-help"
+          target="_blank"
+          class="github-link"
+          title="查看项目源码"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <button class="info-button" id="showInfo">使用说明</button>
+      </nav>
+    </header>
 
-			<div id="loading" class="loading">
-				<div class="loading-spinner"></div>
-				<p>数据加载中...</p>
-			</div>
+    <!-- Search Section -->
+    <section class="search-container" role="search">
+      <label class="sr-only" for="categorySearch">搜索分类</label>
+      <input
+        type="text"
+        class="search-box"
+        id="categorySearch"
+        placeholder="搜索分类..."
+        aria-label="搜索分类"
+      />
+      <button class="search-close" id="searchClose" aria-label="关闭搜索">
+        <i class="fas fa-times"></i>
+      </button>
+    </section>
 
-			<main class="coupon-grid" id="coupon-grid"></main>
+    <!-- Info Modal -->
+    <dialog class="modal" id="infoModal">
+      <div class="modal-content">
+        <button class="close-button" id="closeModal" aria-label="关闭说明">
+          <i class="fas fa-times"></i>
+        </button>
+        <h2>使用说明</h2>
+        <div class="description">
+          <p>这是一个帮助选择立创商城领券中心优惠券的工具网站。</p>
+          <p>
+            由于立创商城的优惠券每月更新，且大部分品牌不太熟悉，本站可以帮助您更好地选择优惠券。
+          </p>
+          <p>
+            网站只显示有优惠券且符合条件（非新人专享，优惠后消费小于15元）的厂商。
+          </p>
+          <p>本项目仅用于辅助，不涉及任何商业行为。如有侵权，请联系删除。</p>
+          <p>数据来源：立创商城优惠券中心</p>
+        </div>
+      </div>
+    </dialog>
 
-			<button class="back-to-top" id="backToTop" title="返回顶部">
-				<i class="fas fa-arrow-up"></i>
-			</button>
-		</div>
-	</body>
+    <!-- Main Content -->
+    <main class="container">
+      <!-- Statistics Section -->
+      <section class="stats" aria-label="网站统计">
+        <h3 id="run_time">更新时间</h3>
+        <div id="busuanzi_container_site_pv" class="stats-item">
+          总访问量：<span id="busuanzi_value_site_pv"></span>
+        </div>
+        <div id="busuanzi_container_site_uv" class="stats-item">
+          访客数：<span id="busuanzi_value_site_uv"></span>
+        </div>
+        <div id="count" class="stats-item">统计加载中...</div>
+        <a
+          href="https://github.com/xiaowine/pcb-calculation-tools"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="tools-link"
+        >
+          作者写了个立创EDA专业版辅助计算插件，欢迎前来使用
+        </a>
+      </section>
+
+      <!-- Category Navigation -->
+      <nav
+        id="category-nav"
+        class="category-navigation"
+        aria-label="分类导航"
+      ></nav>
+
+      <!-- Loading Section -->
+      <div id="loading" class="loading" aria-live="polite">
+        <div class="loading-spinner" role="status">
+          <span class="sr-only">数据加载中...</span>
+        </div>
+        <p>数据加载中...</p>
+      </div>
+
+      <!-- Coupon Grid -->
+      <section
+        id="coupon-grid"
+        class="coupon-grid"
+        aria-label="优惠券列表"
+      ></section>
+
+      <!-- Back to Top Button -->
+      <button class="back-to-top" id="backToTop" aria-label="返回顶部">
+        <i class="fas fa-arrow-up"></i>
+      </button>
+    </main>
+
+    <!-- Template for Coupon Modal (will be populated by JavaScript) -->
+    <template id="couponModalTemplate">
+      <div class="coupon-modal-content">
+        <header class="coupon-modal-header">
+          <h2></h2>
+          <button class="coupon-modal-close" aria-label="关闭详情">
+            <i class="fas fa-times"></i>
+          </button>
+        </header>
+        <div class="coupon-modal-body">
+          <ul class="coupon-list"></ul>
+        </div>
+      </div>
+    </template>
+  </body>
 </html>

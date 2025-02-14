@@ -1,318 +1,341 @@
-document.addEventListener('DOMContentLoaded', async function () {
-    try {
-        // 加载更新时间
+class CouponApp {
+    /**
+     * 优惠券应用构造函数
+     * 初始化主要数据存储属性
+     */
+    constructor() {
+        this.data = null;
+        this.categories = null;
+        this.brandCount = 0;
+        this.modal = null;
+        this.categoryContainer = null;
+    }
+
+    /**
+     * 应用程序初始化入口
+     * 加载数据并设置事件监听器
+     */
+    async init() {
+        try {
+            await this.loadRunTime();
+            await this.loadCouponData();
+            this.setupEventListeners();
+            this.initializeComponents();
+        } catch (error) {
+            console.error('初始化失败:', error);
+            document.getElementById('loading').innerHTML = '<p>数据加载失败，请稍后重试</p>';
+        }
+    }
+
+    /**
+     * 加载更新时间
+     * 从run_time.txt获取并显示数据更新时间
+     */
+    async loadRunTime() {
         const timeResponse = await fetch('run_time.txt');
         const timeContent = await timeResponse.text();
         document.getElementById('run_time').textContent = `更新时间：${timeContent}`;
+    }
 
-        // 加载优惠数据
+    /**
+     * 加载优惠券数据
+     * 从coupon_details.json获取优惠券数据并更新统计信息
+     */
+    async loadCouponData() {
         const response = await fetch('coupon_details.json');
-        const data = await response.json();
-
-        // 移除加载动画
+        this.data = await response.json();
+        this.categories = Object.keys(this.data);
+        this.brandCount = Object.values(this.data).flat().length;
         document.getElementById('loading').style.display = 'none';
+        document.getElementById('count').textContent = 
+            `品牌数：${this.brandCount}，分类数：${this.categories.length}`;
+    }
 
-        // 处理数据
-        const categories = Object.keys(data);
-        const brandCount = Object.values(data).flat().length;
-        document.getElementById(
-            'count'
-        ).textContent = `品牌数：${brandCount}，分类数：${categories.length}`;
+    /**
+     * 设置所有事件监听器
+     * 初始化模态框、返回顶部按钮和搜索功能的事件
+     */
+    setupEventListeners() {
+        this.setupModalEvents();
+        this.setupBackToTopButton();
+        this.setupSearchFeature();
+    }
 
-        // 生成分类导航
+    /**
+     * 设置模态框相关事件
+     * 包括打开、关闭和点击外部区域关闭
+     */
+    setupModalEvents() {
+        // 信息模态框事件
+        const infoModal = document.getElementById('infoModal');
+        const showInfoBtn = document.getElementById('showInfo');
+        const closeBtn = document.getElementById('closeModal');
+
+        showInfoBtn?.addEventListener('click', () => infoModal.style.display = 'flex');
+        closeBtn?.addEventListener('click', () => infoModal.style.display = 'none');
+        infoModal?.addEventListener('click', (e) => {
+            if (e.target === infoModal) infoModal.style.display = 'none';
+        });
+    }
+
+    /**
+     * 设置返回顶部按钮事件
+     * 控制按钮显示/隐藏和点击滚动行为
+     */
+    setupBackToTopButton() {
+        const backToTopButton = document.getElementById('backToTop');
+        const container = document.querySelector('.container');
+
+        container?.addEventListener('scroll', () => {
+            backToTopButton.style.display = container.scrollTop > 300 ? 'flex' : 'none';
+        });
+
+        backToTopButton?.addEventListener('click', () => {
+            container.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    }
+
+    /**
+     * 设置搜索功能相关事件
+     * 包括搜索框的打开、关闭和搜索触发
+     */
+    setupSearchFeature() {
+        const searchToggle = document.getElementById('searchToggle');
+        const searchClose = document.getElementById('searchClose');
+        const searchContainer = document.querySelector('.search-container');
+        const searchBox = document.querySelector('.search-box');
+
+        const openSearch = () => {
+            searchContainer.style.display = 'flex';
+            searchContainer.offsetHeight; // 强制重绘
+            searchContainer.classList.add('active_search');
+            setTimeout(() => searchBox.focus(), 300);
+        };
+
+        const closeSearch = () => {
+            searchContainer.classList.remove('active_search');
+            setTimeout(() => searchContainer.style.display = 'none', 300);
+            searchBox.blur();
+        };
+
+        searchToggle?.addEventListener('click', (e) => {
+            e.preventDefault();
+            searchContainer.classList.contains('active_search') ? closeSearch() : openSearch();
+        });
+
+        searchClose?.addEventListener('click', (e) => {
+            e.preventDefault();
+            closeSearch();
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                if (searchContainer.classList.contains('active_search')) closeSearch();
+                if (this.modal?.style.display === 'flex') this.modal.style.display = 'none';
+            }
+        });
+    }
+
+    /**
+     * 初始化所有组件
+     * 包括分类导航和优惠券网格
+     */
+    initializeComponents() {
+        this.initializeCategoryNav();
+        this.initializeCouponGrid();
+    }
+
+    /**
+     * 初始化分类导航
+     * 创建并添加分类导航容器
+     */
+    initializeCategoryNav() {
         const nav = document.getElementById('category-nav');
+        this.categoryContainer = this.createCategoryContainer();
+        nav.appendChild(this.categoryContainer);
+    }
 
-        // 创建分类容器
-        const categoryContainer = document.createElement('div');
-        categoryContainer.className = 'category-container';
+    /**
+     * 创建分类容器
+     * 包括分类标题和内容区域
+     */
+    createCategoryContainer() {
+        const container = document.createElement('div');
+        container.className = 'category-container';
 
-        // 创建头部
         const header = document.createElement('div');
         header.className = 'category-header';
         header.innerHTML = `
-              <h2>
-                  分类列表
-                  <span class="category-count">(${categories.length}个分类)</span>
-              </h2>
-              <i class="fas fa-chevron-down toggle-icon"></i>
-          `;
+            <h2>
+                分类列表
+                <span class="category-count">(${this.categories.length}个分类)</span>
+            </h2>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        `;
 
-        // 创建内容区域
         const content = document.createElement('div');
         content.className = 'category-content';
+        
+        const categoryNav = this.createCategoryNav();
+        content.appendChild(categoryNav);
+        container.appendChild(header);
+        container.appendChild(content);
 
-        // 创建分类导航
-        const categoryNav = document.createElement('div');
-        categoryNav.className = 'category-nav';
+        header.addEventListener('click', () => {
+            container.classList.toggle('category_active');
+        });
 
-        // 生成分类链接
-        categories.forEach((category) => {
+        return container;
+    }
+
+    /**
+     * 创建分类导航
+     * 生成所有分类的链接列表
+     */
+    createCategoryNav() {
+        const nav = document.createElement('div');
+        nav.className = 'category-nav';
+
+        this.categories.forEach(category => {
             const link = document.createElement('a');
             link.href = `#${category}`;
-            const count = data[category].length;
-            link.innerHTML = `${category} <small>(${count})</small>`;
-            categoryNav.appendChild(link);
-
-            // 添加点击事件
-            link.addEventListener('click', (e) => {
-                e.preventDefault();
-
-                // 关闭分类列表
-                categoryContainer.classList.remove('category_active');
-
-                // 获取目标卡片
-                const targetCard = document.getElementById(category);
-
-                // 滚动到目标位置并添加高亮
-                targetCard.scrollIntoView({behavior: 'smooth', block: 'center'});
-                targetCard.classList.add('highlight');
-
-                // 移除其他卡片的高亮
-                document.querySelectorAll('.category-card.highlight').forEach((card) => {
-                    if (card !== targetCard) {
-                        card.classList.remove('highlight');
-                    }
-                });
-            });
+            link.innerHTML = `${category} <small>(${this.data[category].length})</small>`;
+            
+            link.addEventListener('click', (e) => this.handleCategoryClick(e, category));
+            nav.appendChild(link);
         });
 
-        // 组装结构
-        content.appendChild(categoryNav);
-        categoryContainer.appendChild(header);
-        categoryContainer.appendChild(content);
-        nav.appendChild(categoryContainer);
+        return nav;
+    }
 
-        // 添加点击事件
-        header.addEventListener('click', () => {
-            categoryContainer.classList.toggle('category_active');
+    /**
+     * 处理分类点击事件
+     * 滚动到对应分类并添加高亮效果
+     */
+    handleCategoryClick(e, category) {
+        e.preventDefault();
+        this.categoryContainer.classList.remove('category_active');
+
+        const targetCard = document.getElementById(category);
+        targetCard.scrollIntoView({behavior: 'smooth', block: 'center'});
+        targetCard.classList.add('highlight');
+
+        document.querySelectorAll('.category-card.highlight').forEach(card => {
+            if (card !== targetCard) card.classList.remove('highlight');
         });
+    }
 
-        // 修改搜索功能
-        const searchBox = document.getElementById('categorySearch');
-        searchBox.addEventListener('input', function (e) {
-            const searchTerm = e.target.value.toLowerCase();
-            const links = categoryNav.querySelectorAll('a');
-            let hasVisibleLinks = false;
-
-            links.forEach((link) => {
-                const text = link.textContent.toLowerCase();
-                const shouldShow = text.includes(searchTerm);
-                link.style.display = shouldShow ? 'flex' : 'none';
-                if (shouldShow) hasVisibleLinks = true;
-            });
-
-            if (searchTerm && hasVisibleLinks) {
-                categoryContainer.classList.add('category_active');
-                // 添加滚动到顶部的代码
-                document.querySelector('.container').scrollTo({
-                    top: 0,
-                    behavior: 'smooth'
-                });
-            }
-
-        });
-
-        // 生成优惠券网格
+    /**
+     * 初始化优惠券展示网格
+     * 创建模态框并添加分类卡片
+     */
+    initializeCouponGrid() {
         const grid = document.getElementById('coupon-grid');
+        this.modal = document.createElement('div');
+        this.modal.className = 'coupon-modal';
+        document.body.appendChild(this.modal);
 
-        // 创建模态框
-        const modal = document.createElement('div');
-        modal.className = 'coupon-modal';
-        document.body.appendChild(modal);
-
-        const sortedCategories = categories.sort((a, b) => {
-            const totalReceiveCustomerNumA = data[a].reduce((sum, coupon) => sum + coupon.receive_customer_num, 0);
-            const averageReceiveCustomerNumA = totalReceiveCustomerNumA / data[a].length;
-            const totalReceiveCustomerNumB = data[b].reduce((sum, coupon) => sum + coupon.receive_customer_num, 0);
-            const averageReceiveCustomerNumB = totalReceiveCustomerNumB / data[b].length;
-            return averageReceiveCustomerNumB - averageReceiveCustomerNumA;
-        });
-
-        sortedCategories.forEach((category) => {
-            const card = document.createElement('div');
-            card.className = 'category-card';
-            card.id = category;
-
-            const title = document.createElement('h2');
-            const totalReceiveCustomerNum = data[category].reduce((sum, coupon) => sum + coupon.receive_customer_num, 0);
-            const averageReceiveCustomerNum = totalReceiveCustomerNum / data[category].length;
-            title.innerHTML = `${category} <br><span class="brand-count">共${data[category].length}个品牌<br>平均领取数: ${averageReceiveCustomerNum.toFixed(0)}</span>`;
-            card.appendChild(title);
-            grid.appendChild(card);
-
-            // 添加点击事件
-            card.addEventListener('click', () => {
-                // 创建模态框内容
-                modal.innerHTML = `
-                    <div class="coupon-modal-content">
-                        <div class="coupon-modal-header">
-                            <h2>${category}</h2>平均领取数: ${averageReceiveCustomerNum.toFixed(0)}
-                            <button class="coupon-modal-close">&times;</button>
-                        </div>
-                        <div class="coupon-modal-body">
-                            <ul class="coupon-list">
-                                ${data[category]
-                                    .sort((a, b) => b.receive_customer_num - a.receive_customer_num) // 按领取数排序
-                                    .map(
-                                        (coupon) => `
-                                            <li class="coupon-item">
-                                                <a href="https://list.szlcsc.com/brand/${coupon.brand_id}.html" target="_blank">
-                                                    ${coupon.brand_name} - ${coupon.coupon_name}
-                                                    <small>(优惠后最低消费${coupon.min_order_after_discount}元)</small>
-                                                    <small>- 已领取${coupon.receive_customer_num}张</small>
-                                                </a>
-                                            </li>
-                                        `
-                                    )
-                                    .join('')}
-                            </ul>
-                        </div>
-                    </div>
-                `;
-
-                modal.style.display = 'flex';
-
-                // 关闭按钮事件
-                const closeBtn = modal.querySelector('.coupon-modal-close');
-                closeBtn.addEventListener('click', () => {
-                    modal.style.display = 'none';
-                });
-
-                // 点击模态框外部关闭
-                modal.addEventListener('click', (e) => {
-                    if (e.target === modal) {
-                        modal.style.display = 'none';
-                    }
-                });
-            });
-        });
-
-        // 添加 ESC 键关闭模态框
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape' && modal.style.display === 'flex') {
-                modal.style.display = 'none';
-            }
-        });
-    } catch (error) {
-        console.error('数据加载失败:', error);
-        document.getElementById('loading').innerHTML = '<p>数据加载失败，请稍后重试</p>';
-    }
-});
-
-// 使用说明模态框
-document.addEventListener('DOMContentLoaded', function () {
-    const modal = document.getElementById('infoModal');
-    const showInfoBtn = document.getElementById('showInfo');
-    const closeBtn = document.getElementById('closeModal');
-
-    if (showInfoBtn && modal && closeBtn) {
-        showInfoBtn.addEventListener('click', () => {
-            modal.style.display = 'flex';
-        });
-
-        closeBtn.addEventListener('click', () => {
-            modal.style.display = 'none';
-        });
-
-        modal.addEventListener('click', (e) => {
-            if (e.target === modal) {
-                modal.style.display = 'none';
-            }
-        });
-
-        // 添加 ESC 键关闭模态框
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape' && modal.style.display === 'flex') {
-                modal.style.display = 'none';
-            }
-        });
-    }
-});
-
-// 返回顶部按钮
-document.addEventListener('DOMContentLoaded', function () {
-    const backToTopButton = document.getElementById('backToTop');
-    const container = document.querySelector('.container');
-
-    // 显示/隐藏返回顶部按钮
-    container.addEventListener('scroll', function () {
-        if (container.scrollTop > 300) {
-            backToTopButton.style.display = 'flex';
-        } else {
-            backToTopButton.style.display = 'none';
-        }
-    });
-
-    // 点击返回顶部
-    backToTopButton.addEventListener('click', function () {
-        container.scrollTo({
-            top: 0,
-            behavior: 'smooth',
-        });
-    });
-});
-
-// 修改搜索框交互代码
-document.addEventListener('DOMContentLoaded', function () {
-    const searchToggle = document.getElementById('searchToggle');
-    const searchClose = document.getElementById('searchClose');
-    const searchContainer = document.querySelector('.search-container');
-    const searchBox = document.querySelector('.search-box');
-    const categoryNav = document.querySelector('.category-nav');
-
-    // 打开搜索框
-    function openSearch() {
-        searchContainer.style.display = 'flex';
-        // 强制重绘
-        searchContainer.offsetHeight;
-        searchContainer.classList.add('active_search');
-        setTimeout(() => {
-            searchBox.focus();
-        }, 300);
+        const sortedCategories = this.getSortedCategories();
+        sortedCategories.forEach(category => this.createCategoryCard(category, grid));
     }
 
-    // 关闭搜索框
-    function closeSearch() {
-        searchContainer.classList.remove('active_search');
-        // 等待过渡动画完成后隐藏
-        setTimeout(() => {
-            searchContainer.style.display = 'none';
-        }, 300);
-        searchBox.blur();
+    /**
+     * 获取排序后的分类列表
+     * 按照平均领取数量降序排列
+     */
+    getSortedCategories() {
+        return this.categories.sort((a, b) => {
+            const avgA = this.getAverageReceiveNum(this.data[a]);
+            const avgB = this.getAverageReceiveNum(this.data[b]);
+            return avgB - avgA;
+        });
     }
 
-    // 点击搜索图标
-    searchToggle.addEventListener('click', function (e) {
-        e.preventDefault();
-        if (searchContainer.classList.contains('active_search')) {
-            closeSearch();
-        } else {
-            openSearch();
-        }
-    });
+    /**
+     * 计算优惠券平均领取数量
+     * @param {Array} coupons 优惠券数组
+     */
+    getAverageReceiveNum(coupons) {
+        const total = coupons.reduce((sum, coupon) => sum + coupon.receive_customer_num, 0);
+        return total / coupons.length;
+    }
 
-    // 点击关闭按钮
-    searchClose.addEventListener('click', function (e) {
-        e.preventDefault();
-        closeSearch();
-    });
+    /**
+     * 创建分类卡片
+     * 显示分类名称和统计信息
+     */
+    createCategoryCard(category, grid) {
+        const card = document.createElement('div');
+        card.className = 'category-card';
+        card.id = category;
 
-    // ESC键关闭
-    document.addEventListener('keydown', function (e) {
-        if (e.key === 'Escape' && searchContainer.classList.contains('active_search')) {
-            closeSearch();
-        }
-    });
+        const avgReceiveNum = this.getAverageReceiveNum(this.data[category]);
+        card.innerHTML = `
+            <h2>${category} <br>
+                <span class="brand-count">
+                    共${this.data[category].length}个品牌<br>
+                    平均领取数: ${avgReceiveNum.toFixed(0)}
+                </span>
+            </h2>
+        `;
 
-    // 处理搜索框输入
-    searchBox.addEventListener('input', function (e) {
-        const searchTerm = e.target.value.toLowerCase();
-        const links = document.querySelectorAll('.category-nav a');
+        card.addEventListener('click', () => this.showCouponModal(category, avgReceiveNum));
+        grid.appendChild(card);
+    }
 
-        links.forEach((link) => {
-            const text = link.textContent.toLowerCase();
-            const shouldShow = text.includes(searchTerm);
-            link.style.display = shouldShow ? 'flex' : 'none';
+    /**
+     * 显示优惠券详情模态框
+     * 展示分类下所有优惠券信息
+     */
+    showCouponModal(category, avgReceiveNum) {
+        const sortedCoupons = this.data[category]
+            .sort((a, b) => b.receive_customer_num - a.receive_customer_num);
+
+        this.modal.innerHTML = this.createModalContent(category, avgReceiveNum, sortedCoupons);
+        this.modal.style.display = 'flex';
+
+        const closeBtn = this.modal.querySelector('.coupon-modal-close');
+        closeBtn.addEventListener('click', () => this.modal.style.display = 'none');
+
+        this.modal.addEventListener('click', (e) => {
+            if (e.target === this.modal) this.modal.style.display = 'none';
         });
-    });
+    }
+
+    /**
+     * 创建模态框内容
+     * 生成优惠券列表的HTML
+     */
+    createModalContent(category, avgReceiveNum, coupons) {
+        return `
+            <div class="coupon-modal-content">
+                <div class="coupon-modal-header">
+                    <h2>${category}</h2>平均领取数: ${avgReceiveNum.toFixed(0)}
+                    <button class="coupon-modal-close">&times;</button>
+                </div>
+                <div class="coupon-modal-body">
+                    <ul class="coupon-list">
+                        ${coupons.map(coupon => `
+                            <li class="coupon-item">
+                                <a href="https://list.szlcsc.com/brand/${coupon.brand_id}.html" target="_blank">
+                                    ${coupon.brand_name} - ${coupon.coupon_name}
+                                    <small>(优惠后最低消费${coupon.min_order_after_discount}元)</small>
+                                    <small>- 已领取${coupon.receive_customer_num}张</small>
+                                </a>
+                            </li>
+                        `).join('')}
+                    </ul>
+                </div>
+            </div>
+        `;
+    }
+}
+
+/**
+ * 应用程序入口
+ * DOM加载完成后初始化应用
+ */
+document.addEventListener('DOMContentLoaded', () => {
+    const app = new CouponApp();
+    app.init();
 });
