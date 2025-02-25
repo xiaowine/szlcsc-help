@@ -7,12 +7,12 @@
   "AC-DC控制器和稳压器": {
     "id": "483",
     "url": "https://list.szlcsc.com/catalog/483.html",
-    "count": 196
+    "count": 198
   },
   "AC-DC电源模块": {
     "id": "634",
     "url": "https://list.szlcsc.com/catalog/634.html",
-    "count": 189
+    "count": 463
   },
   "AC电源连接器": {
     "id": "13421",
@@ -27,7 +27,7 @@
   "CAN总线模块": {
     "id": "11226",
     "url": "https://list.szlcsc.com/catalog/11226.html",
-    "count": 24
+    "count": 35
   },
   "CAN控制器": {
     "id": "13496",
@@ -37,12 +37,12 @@
   "CAN收发器": {
     "id": "606",
     "url": "https://list.szlcsc.com/catalog/606.html",
-    "count": 60
+    "count": 61
   },
   "COB光源": {
     "id": "11289",
     "url": "https://list.szlcsc.com/catalog/11289.html",
-    "count": 58
+    "count": 57
   },
   "D-Sub/VGA连接器": {
     "id": "630",
@@ -62,12 +62,12 @@
   "DC-DC电源模块": {
     "id": "13486",
     "url": "https://list.szlcsc.com/catalog/13486.html",
-    "count": 110
+    "count": 811
   },
   "DC-DC电源芯片": {
     "id": "484",
     "url": "https://list.szlcsc.com/catalog/484.html",
-    "count": 573
+    "count": 574
   },
   "DC电源连接器": {
     "id": "557",
@@ -82,7 +82,7 @@
   "DIN41612连接器": {
     "id": "13423",
     "url": "https://list.szlcsc.com/catalog/13423.html",
-    "count": 57
+    "count": 59
   },
   "DVI连接器": {
     "id": "928",
@@ -99,10 +99,15 @@
     "url": "https://list.szlcsc.com/catalog/502.html",
     "count": 338
   },
+  "EMC滤波器": {
+    "id": "11060",
+    "url": "https://list.szlcsc.com/catalog/11060.html",
+    "count": 18
+  },
   "EMI滤波器(RC,LC网络)": {
     "id": "11057",
     "url": "https://list.szlcsc.com/catalog/11057.html",
-    "count": 1
+    "count": 2
   },
   "FET输入运放": {
     "id": "598",
@@ -112,12 +117,12 @@
   "FFC/FPC连接器": {
     "id": "545",
     "url": "https://list.szlcsc.com/catalog/545.html",
-    "count": 3663
+    "count": 3664
   },
   "FFC连接线(柔性扁平线缆)": {
     "id": "920",
     "url": "https://list.szlcsc.com/catalog/920.html",
-    "count": 1733
+    "count": 1736
   },
   "HDMI连接器": {
     "id": "11001",
@@ -132,17 +137,17 @@
   "IC/晶体管插座": {
     "id": "366",
     "url": "https://list.szlcsc.com/catalog/366.html",
-    "count": 122
+    "count": 121
   },
   "IDC刺破式连接器(牛角/简牛)": {
     "id": "961",
     "url": "https://list.szlcsc.com/catalog/961.html",
-    "count": 1260
+    "count": 1263
   },
   "IGBT管/模块": {
     "id": "924",
     "url": "https://list.szlcsc.com/catalog/924.html",
-    "count": 25
+    "count": 23
   },
   "LCD驱动": {
     "id": "584",
@@ -172,12 +177,12 @@
   "Micro-Match 连接器": {
     "id": "13422",
     "url": "https://list.szlcsc.com/catalog/13422.html",
-    "count": 7
+    "count": 8
   },
   "NAND FLASH": {
     "id": "11266",
     "url": "https://list.szlcsc.com/catalog/11266.html",
-    "count": 35
+    "count": 34
   },
   "NOR FLASH": {
     "id": "501",
@@ -192,7 +197,7 @@
   "PCB焊接端子": {
     "id": "11512",
     "url": "https://list.szlcsc.com/catalog/11512.html",
-    "count": 247
+    "count": 250
   },
   "PCI/PCIe连接器": {
     "id": "13416",
@@ -217,7 +222,7 @@
   "RF射频同轴连接器": {
     "id": "11072",
     "url": "https://list.szlcsc.com/catalog/11072.html",
-    "count": 647
+    "count": 648
   },
   "RF滤波器": {
     "id": "10995",
@@ -237,17 +242,17 @@
   "RGB LED(内置IC)": {
     "id": "13484",
     "url": "https://list.szlcsc.com/catalog/13484.html",
-    "count": 35
+    "count": 36
   },
   "RS-485/RS-422芯片": {
     "id": "578",
     "url": "https://list.szlcsc.com/catalog/578.html",
-    "count": 338
+    "count": 341
   },
   "RS232总线模块": {
     "id": "11228",
     "url": "https://list.szlcsc.com/catalog/11228.html",
-    "count": 6
+    "count": 13
   },
   "RS232芯片": {
     "id": "577",
@@ -257,7 +262,7 @@
   "RS485总线模块": {
     "id": "11227",
     "url": "https://list.szlcsc.com/catalog/11227.html",
-    "count": 36
+    "count": 55
   },
   "SAW谐振器(无源)": {
     "id": "529",
@@ -272,12 +277,12 @@
   "SIM卡连接器": {
     "id": "637",
     "url": "https://list.szlcsc.com/catalog/637.html",
-    "count": 401
+    "count": 400
   },
   "USB电缆/数据线": {
     "id": "11491",
     "url": "https://list.szlcsc.com/catalog/11491.html",
-    "count": 7
+    "count": 8
   },
   "USB转换模块": {
     "id": "11048",
@@ -292,7 +297,7 @@
   "USB连接器": {
     "id": "369",
     "url": "https://list.szlcsc.com/catalog/369.html",
-    "count": 1838
+    "count": 1837
   },
   "V/F和F/V转换芯片": {
     "id": "11294",
@@ -332,7 +337,7 @@
   "专业电源管理(PMIC)": {
     "id": "485",
     "url": "https://list.szlcsc.com/catalog/485.html",
-    "count": 4
+    "count": 5
   },
   "专用传感器": {
     "id": "11092",
@@ -362,7 +367,7 @@
   "以太网连接器(RJ45 RJ11)": {
     "id": "449",
     "url": "https://list.szlcsc.com/catalog/449.html",
-    "count": 611
+    "count": 616
   },
   "仪表放大器": {
     "id": "594",
@@ -392,7 +397,7 @@
   "信号开关/编解码器/多路复用器": {
     "id": "11100",
     "url": "https://list.szlcsc.com/catalog/11100.html",
-    "count": 93
+    "count": 92
   },
   "信号继电器": {
     "id": "11305",
@@ -407,7 +412,7 @@
   "光电二极管": {
     "id": "451",
     "url": "https://list.szlcsc.com/catalog/451.html",
-    "count": 11
+    "count": 10
   },
   "光电晶体管": {
     "id": "11291",
@@ -422,12 +427,12 @@
   "共模滤波器": {
     "id": "640",
     "url": "https://list.szlcsc.com/catalog/640.html",
-    "count": 1172
+    "count": 1181
   },
   "其他接口": {
     "id": "11111",
     "url": "https://list.szlcsc.com/catalog/11111.html",
-    "count": 4
+    "count": 5
   },
   "其他模块": {
     "id": "959",
@@ -452,7 +457,7 @@
   "冷压端子": {
     "id": "11333",
     "url": "https://list.szlcsc.com/catalog/11333.html",
-    "count": 4
+    "count": 220
   },
   "刀片/弹片接触电池连接器": {
     "id": "13412",
@@ -467,7 +472,7 @@
   "功率电感": {
     "id": "544",
     "url": "https://list.szlcsc.com/catalog/544.html",
-    "count": 8873
+    "count": 8899
   },
   "功率继电器": {
     "id": "531",
@@ -497,12 +502,12 @@
   "卫星定位模块": {
     "id": "940",
     "url": "https://list.szlcsc.com/catalog/940.html",
-    "count": 9
+    "count": 8
   },
   "压力传感器": {
     "id": "11046",
     "url": "https://list.szlcsc.com/catalog/11046.html",
-    "count": 41
+    "count": 40
   },
   "压控振荡器(VCO)": {
     "id": "11303",
@@ -517,7 +522,7 @@
   "压敏电阻": {
     "id": "482",
     "url": "https://list.szlcsc.com/catalog/482.html",
-    "count": 1105
+    "count": 1098
   },
   "双工器": {
     "id": "11078",
@@ -537,7 +542,7 @@
   "发光二极管/LED": {
     "id": "528",
     "url": "https://list.szlcsc.com/catalog/528.html",
-    "count": 1475
+    "count": 1470
   },
   "变压器驱动器": {
     "id": "13477",
@@ -562,7 +567,7 @@
   "可调电阻/电位器": {
     "id": "520",
     "url": "https://list.szlcsc.com/catalog/520.html",
-    "count": 84
+    "count": 86
   },
   "同步整流控制器": {
     "id": "13517",
@@ -592,7 +597,7 @@
   "圆形(线缆)连接器": {
     "id": "648",
     "url": "https://list.szlcsc.com/catalog/648.html",
-    "count": 762
+    "count": 761
   },
   "圆形DIN连接器": {
     "id": "13414",
@@ -607,7 +612,7 @@
   "场效应管(MOSFET)": {
     "id": "381",
     "url": "https://list.szlcsc.com/catalog/381.html",
-    "count": 6685
+    "count": 6690
   },
   "声表面波滤波器(SAW)": {
     "id": "10996",
@@ -664,6 +669,11 @@
     "url": "https://list.szlcsc.com/catalog/499.html",
     "count": 84
   },
+  "导轨开关电源": {
+    "id": "12779",
+    "url": "https://list.szlcsc.com/catalog/12779.html",
+    "count": 51
+  },
   "射频低噪声放大器": {
     "id": "599",
     "url": "https://list.szlcsc.com/catalog/599.html",
@@ -717,7 +727,7 @@
   "开关电源": {
     "id": "463",
     "url": "https://list.szlcsc.com/catalog/463.html",
-    "count": 28
+    "count": 354
   },
   "开关配件/盖帽": {
     "id": "11066",
@@ -737,12 +747,12 @@
   "弹簧式接线端子": {
     "id": "432",
     "url": "https://list.szlcsc.com/catalog/432.html",
-    "count": 201
+    "count": 205
   },
   "快恢复/高效率二极管": {
     "id": "372",
     "url": "https://list.szlcsc.com/catalog/372.html",
-    "count": 1296
+    "count": 1301
   },
   "总线转UART": {
     "id": "11320",
@@ -757,12 +767,12 @@
   "扁平柔性跳线、电缆(FFC, FPC)": {
     "id": "13121",
     "url": "https://list.szlcsc.com/catalog/13121.html",
-    "count": 113
+    "count": 114
   },
   "拨码开关": {
     "id": "429",
     "url": "https://list.szlcsc.com/catalog/429.html",
-    "count": 1114
+    "count": 1119
   },
   "拨轮开关": {
     "id": "13467",
@@ -782,7 +792,7 @@
   "按键开关": {
     "id": "425",
     "url": "https://list.szlcsc.com/catalog/425.html",
-    "count": 160
+    "count": 161
   },
   "振动传感器": {
     "id": "11281",
@@ -792,12 +802,12 @@
   "排母": {
     "id": "645",
     "url": "https://list.szlcsc.com/catalog/645.html",
-    "count": 3664
+    "count": 3665
   },
   "排针": {
     "id": "644",
     "url": "https://list.szlcsc.com/catalog/644.html",
-    "count": 5580
+    "count": 5578
   },
   "接近传感器": {
     "id": "11284",
@@ -807,12 +817,12 @@
   "插件电阻": {
     "id": "11239",
     "url": "https://list.szlcsc.com/catalog/11239.html",
-    "count": 1077
+    "count": 1093
   },
   "插拔式接线端子": {
     "id": "11071",
     "url": "https://list.szlcsc.com/catalog/11071.html",
-    "count": 3204
+    "count": 3222
   },
   "数字晶体管": {
     "id": "562",
@@ -827,6 +837,11 @@
   "数字隔离器": {
     "id": "581",
     "url": "https://list.szlcsc.com/catalog/581.html",
+    "count": 4
+  },
+  "数字隔离器(带电源)": {
+    "id": "13454",
+    "url": "https://list.szlcsc.com/catalog/13454.html",
     "count": 1
   },
   "数模转换芯片DAC": {
@@ -862,7 +877,7 @@
   "无源晶振": {
     "id": "537",
     "url": "https://list.szlcsc.com/catalog/537.html",
-    "count": 4431
+    "count": 4434
   },
   "无线充电线圈": {
     "id": "11243",
@@ -892,7 +907,7 @@
   "晶闸管(可控硅)/模块": {
     "id": "388",
     "url": "https://list.szlcsc.com/catalog/388.html",
-    "count": 235
+    "count": 237
   },
   "智能功率模块(IPM)": {
     "id": "11219",
@@ -907,7 +922,7 @@
   "有源晶振": {
     "id": "364",
     "url": "https://list.szlcsc.com/catalog/364.html",
-    "count": 298
+    "count": 296
   },
   "机械键盘轴": {
     "id": "11148",
@@ -917,12 +932,12 @@
   "杜邦线/端子排线/电子线": {
     "id": "478",
     "url": "https://list.szlcsc.com/catalog/478.html",
-    "count": 1368
+    "count": 1367
   },
   "板对板与背板连接器": {
     "id": "960",
     "url": "https://list.szlcsc.com/catalog/960.html",
-    "count": 1004
+    "count": 1005
   },
   "栅极驱动光耦": {
     "id": "13394",
@@ -932,12 +947,12 @@
   "栅极驱动芯片": {
     "id": "11065",
     "url": "https://list.szlcsc.com/catalog/11065.html",
-    "count": 265
+    "count": 268
   },
   "栅栏式接线端子": {
     "id": "11073",
     "url": "https://list.szlcsc.com/catalog/11073.html",
-    "count": 336
+    "count": 343
   },
   "槽型光电开关(逻辑输出)": {
     "id": "11277",
@@ -952,7 +967,7 @@
   "模拟开关/多路复用器": {
     "id": "618",
     "url": "https://list.szlcsc.com/catalog/618.html",
-    "count": 161
+    "count": 162
   },
   "模数转换芯片ADC": {
     "id": "614",
@@ -977,7 +992,7 @@
   "气体放电管(GDT)": {
     "id": "11196",
     "url": "https://list.szlcsc.com/catalog/11196.html",
-    "count": 204
+    "count": 203
   },
   "氮化镓晶体管(GaN HEMT)": {
     "id": "13462",
@@ -1027,7 +1042,7 @@
   "滑动开关": {
     "id": "854",
     "url": "https://list.szlcsc.com/catalog/854.html",
-    "count": 815
+    "count": 814
   },
   "漏电保护芯片": {
     "id": "13503",
@@ -1112,17 +1127,22 @@
   "电流传感器": {
     "id": "11095",
     "url": "https://list.szlcsc.com/catalog/11095.html",
-    "count": 56
+    "count": 57
   },
   "电流感应放大器": {
     "id": "11261",
     "url": "https://list.szlcsc.com/catalog/11261.html",
-    "count": 3
+    "count": 5
   },
   "电源变压器": {
     "id": "636",
     "url": "https://list.szlcsc.com/catalog/636.html",
     "count": 16
+  },
+  "电源模块/电源供应器": {
+    "id": "12426",
+    "url": "https://list.szlcsc.com/catalog/12426.html",
+    "count": 24
   },
   "电源线/刹车线/延长线": {
     "id": "12488",
@@ -1147,17 +1167,17 @@
   "监控和复位芯片": {
     "id": "934",
     "url": "https://list.szlcsc.com/catalog/934.html",
-    "count": 221
+    "count": 223
   },
   "直插独石电容(MLCC)": {
     "id": "431",
     "url": "https://list.szlcsc.com/catalog/431.html",
-    "count": 87
+    "count": 89
   },
   "直插瓷片电容": {
     "id": "430",
     "url": "https://list.szlcsc.com/catalog/430.html",
-    "count": 373
+    "count": 375
   },
   "直插铝电解电容": {
     "id": "315",
@@ -1172,12 +1192,12 @@
   "短路帽/跳线帽": {
     "id": "646",
     "url": "https://list.szlcsc.com/catalog/646.html",
-    "count": 61
+    "count": 62
   },
   "硬盘连接器(SAS/SATA/M.2)": {
     "id": "13417",
     "url": "https://list.szlcsc.com/catalog/13417.html",
-    "count": 36
+    "count": 37
   },
   "碳化硅二极管": {
     "id": "13393",
@@ -1197,7 +1217,7 @@
   "磁珠": {
     "id": "527",
     "url": "https://list.szlcsc.com/catalog/527.html",
-    "count": 263
+    "count": 264
   },
   "移位寄存器": {
     "id": "11102",
@@ -1207,7 +1227,7 @@
   "稳压二极管": {
     "id": "321",
     "url": "https://list.szlcsc.com/catalog/321.html",
-    "count": 3476
+    "count": 3478
   },
   "簧片继电器": {
     "id": "11308",
@@ -1222,12 +1242,12 @@
   "紫外线LED(UVLED)": {
     "id": "11290",
     "url": "https://list.szlcsc.com/catalog/11290.html",
-    "count": 51
+    "count": 50
   },
   "红外发射管": {
     "id": "639",
     "url": "https://list.szlcsc.com/catalog/639.html",
-    "count": 357
+    "count": 355
   },
   "红外遥控接收头(IRM)": {
     "id": "11174",
@@ -1237,17 +1257,17 @@
   "纽扣与条形电池连接器": {
     "id": "462",
     "url": "https://list.szlcsc.com/catalog/462.html",
-    "count": 460
+    "count": 462
   },
   "线对板针座": {
     "id": "11068",
     "url": "https://list.szlcsc.com/catalog/11068.html",
-    "count": 17015
+    "count": 17071
   },
   "线性稳压器(LDO)": {
     "id": "387",
     "url": "https://list.szlcsc.com/catalog/387.html",
-    "count": 2142
+    "count": 2146
   },
   "线性霍尔传感器": {
     "id": "11086",
@@ -1262,7 +1282,7 @@
   "缓冲器/驱动器/收发器": {
     "id": "11105",
     "url": "https://list.szlcsc.com/catalog/11105.html",
-    "count": 190
+    "count": 194
   },
   "网口变压器": {
     "id": "543",
@@ -1272,22 +1292,22 @@
   "聚丙烯膜电容(CBB)": {
     "id": "554",
     "url": "https://list.szlcsc.com/catalog/554.html",
-    "count": 1372
+    "count": 1381
   },
   "肖特基二极管": {
     "id": "373",
     "url": "https://list.szlcsc.com/catalog/373.html",
-    "count": 3036
+    "count": 3054
   },
   "胶壳(线对板/线对线)": {
     "id": "11067",
     "url": "https://list.szlcsc.com/catalog/11067.html",
-    "count": 5740
+    "count": 5757
   },
   "胶壳端子": {
     "id": "11070",
     "url": "https://list.szlcsc.com/catalog/11070.html",
-    "count": 564
+    "count": 565
   },
   "脉冲变压器": {
     "id": "11240",
@@ -1297,12 +1317,12 @@
   "自恢复保险丝": {
     "id": "11042",
     "url": "https://list.szlcsc.com/catalog/11042.html",
-    "count": 1287
+    "count": 1300
   },
   "船型开关": {
     "id": "424",
     "url": "https://list.szlcsc.com/catalog/424.html",
-    "count": 195
+    "count": 194
   },
   "色环/插件电感": {
     "id": "11245",
@@ -1317,7 +1337,7 @@
   "薄膜电容": {
     "id": "982",
     "url": "https://list.szlcsc.com/catalog/982.html",
-    "count": 718
+    "count": 715
   },
   "螺柱&螺杆": {
     "id": "13553",
@@ -1332,12 +1352,12 @@
   "螺钉式接线端子": {
     "id": "11140",
     "url": "https://list.szlcsc.com/catalog/11140.html",
-    "count": 601
+    "count": 605
   },
   "行程开关": {
     "id": "426",
     "url": "https://list.szlcsc.com/catalog/426.html",
-    "count": 311
+    "count": 312
   },
   "视频放大器": {
     "id": "11260",
@@ -1347,7 +1367,7 @@
   "触发二极管": {
     "id": "379",
     "url": "https://list.szlcsc.com/catalog/379.html",
-    "count": 17
+    "count": 18
   },
   "触发器": {
     "id": "11099",
@@ -1367,7 +1387,7 @@
   "贴片型铝电解电容": {
     "id": "418",
     "url": "https://list.szlcsc.com/catalog/418.html",
-    "count": 1300
+    "count": 1304
   },
   "贴片电容(MLCC)": {
     "id": "313",
@@ -1377,12 +1397,12 @@
   "贴片电感": {
     "id": "337",
     "url": "https://list.szlcsc.com/catalog/337.html",
-    "count": 1837
+    "count": 1839
   },
   "贴片电阻": {
     "id": "439",
     "url": "https://list.szlcsc.com/catalog/439.html",
-    "count": 2802
+    "count": 2801
   },
   "超势垒整流器(SBR)": {
     "id": "11195",
@@ -1402,7 +1422,7 @@
   "跳线/漆包线/预压接线": {
     "id": "12486",
     "url": "https://list.szlcsc.com/catalog/12486.html",
-    "count": 13
+    "count": 15
   },
   "转换器/电平移位器": {
     "id": "11098",
@@ -1412,12 +1432,12 @@
   "轻触开关": {
     "id": "427",
     "url": "https://list.szlcsc.com/catalog/427.html",
-    "count": 5739
+    "count": 5805
   },
   "达林顿晶体管阵列": {
     "id": "11252",
     "url": "https://list.szlcsc.com/catalog/11252.html",
-    "count": 71
+    "count": 73
   },
   "达林顿管": {
     "id": "464",
@@ -1427,7 +1447,7 @@
   "运算放大器": {
     "id": "516",
     "url": "https://list.szlcsc.com/catalog/516.html",
-    "count": 817
+    "count": 816
   },
   "连接器外壳": {
     "id": "11079",
@@ -1437,12 +1457,12 @@
   "连接器附件": {
     "id": "11034",
     "url": "https://list.szlcsc.com/catalog/11034.html",
-    "count": 200
+    "count": 202
   },
   "通用二极管": {
     "id": "370",
     "url": "https://list.szlcsc.com/catalog/370.html",
-    "count": 678
+    "count": 683
   },
   "逻辑输出光耦": {
     "id": "11288",
@@ -1457,7 +1477,7 @@
   "金手指连接器": {
     "id": "11083",
     "url": "https://list.szlcsc.com/catalog/11083.html",
-    "count": 87
+    "count": 93
   },
   "钮子开关": {
     "id": "11276",
@@ -1489,6 +1509,26 @@
     "url": "https://list.szlcsc.com/catalog/530.html",
     "count": 26
   },
+  "隔离式CAN收发器": {
+    "id": "13439",
+    "url": "https://list.szlcsc.com/catalog/13439.html",
+    "count": 2
+  },
+  "隔离式CAN收发器(带电源)": {
+    "id": "13457",
+    "url": "https://list.szlcsc.com/catalog/13457.html",
+    "count": 2
+  },
+  "隔离式RS-232收发器(带电源)": {
+    "id": "13452",
+    "url": "https://list.szlcsc.com/catalog/13452.html",
+    "count": 1
+  },
+  "隔离式RS485/422收发器": {
+    "id": "13438",
+    "url": "https://list.szlcsc.com/catalog/13438.html",
+    "count": 5
+  },
   "隔离式放大器": {
     "id": "11259",
     "url": "https://list.szlcsc.com/catalog/11259.html",
@@ -1497,7 +1537,7 @@
   "隔离电源模块": {
     "id": "13487",
     "url": "https://list.szlcsc.com/catalog/13487.html",
-    "count": 1153
+    "count": 2019
   },
   "雪崩二极管": {
     "id": "895",
@@ -1512,7 +1552,7 @@
   "静电和浪涌保护(TVS/ESD)": {
     "id": "526",
     "url": "https://list.szlcsc.com/catalog/526.html",
-    "count": 10669
+    "count": 10684
   },
   "音频功率放大器": {
     "id": "518",
@@ -1527,12 +1567,12 @@
   "音频连接器(耳机)": {
     "id": "590",
     "url": "https://list.szlcsc.com/catalog/590.html",
-    "count": 243
+    "count": 242
   },
   "预编程振荡器": {
     "id": "11183",
     "url": "https://list.szlcsc.com/catalog/11183.html",
-    "count": 129
+    "count": 127
   },
   "馈电/射频绝缘子": {
     "id": "13424",
