@@ -65,6 +65,7 @@ def fetch_brand_info(brand_id: str) -> list[str]:
 
 def get_coupon_details(coupon: dict) -> dict:
     catalog_groups = fetch_brand_info(coupon['brandIds'])
+    catalog_groups = sorted(catalog_groups)
     result = {
         "coupon_name": coupon['couponName'],
         "brand_name": coupon['brandNames'],
@@ -164,6 +165,13 @@ def parse_more_info():
         }
         brand_more_info [brand_name] = brandResult
 
+    print(f"已取得 {len(brand_more_info)} 个品牌的更多资料")
+    brand_more_info = {k: brand_more_info[k] for k in sorted(brand_more_info)}
+
+    print(f"已取得 {len(catagories_numbers)} 个分类的更多资料")
+    catagories_numbers = {k: catagories_numbers[k] for k in sorted(catagories_numbers)}
+
+
     with open("html/brand_more_info.json", 'w') as f:
         f.write(json.dumps(brand_more_info, ensure_ascii=False, indent=2))
         f.flush()
@@ -177,6 +185,7 @@ if __name__ == '__main__':
     coupons = get_coupons(url)
     if coupons:
         classified_coupons = filter_and_classify_coupons(coupons)
+        classified_coupons = {k: classified_coupons[k] for k in sorted(classified_coupons)}
         with open("html/coupon_details.json", "w", encoding="utf-8") as f:
             json.dump(classified_coupons, f, ensure_ascii=False, indent=4)
         print("优惠券信息已保存到 html/coupon_details.json 文件中")
