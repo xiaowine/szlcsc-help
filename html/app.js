@@ -47,7 +47,7 @@ class CouponApp {
         this.categories = Object.keys(this.data);
         this.brandCount = Object.values(this.data).flat().length;
         document.getElementById('loading').style.display = 'none';
-        document.getElementById('count').textContent = 
+        document.getElementById('count').textContent =
             `品牌数：${this.brandCount}，分类数：${this.categories.length}`;
     }
 
@@ -91,7 +91,40 @@ class CouponApp {
         });
 
         backToTopButton?.addEventListener('click', () => {
-            container.scrollTo({ top: 0, behavior: 'smooth' });
+            container.scrollTo({top: 0, behavior: 'smooth'});
+        });
+    }
+
+    /**
+     * 根据搜索词过滤分类导航
+     * 只过滤导航链接，不影响分类卡片显示
+     * 搜索时自动展开导航容器
+     * @param {string} searchTerm 搜索关键词
+     */
+    filterCategories(searchTerm) {
+        // 获取所有导航链接
+        const categoryLinks = document.querySelectorAll('.category-nav a');
+
+        if (!searchTerm) {
+            // 如果搜索词为空，显示所有导航链接
+            categoryLinks.forEach(link => link.style.display = 'block');
+            // 保持导航容器当前状态，不自动关闭
+            return;
+        }
+
+        // 有搜索词时自动展开分类导航容器
+        if (!this.categoryContainer.classList.contains('category_active')) {
+            this.categoryContainer.classList.add('category_active');
+        }
+
+        // 只过滤导航链接
+        categoryLinks.forEach(link => {
+            const linkText = link.textContent.toLowerCase();
+            if (linkText.includes(searchTerm)) {
+                link.style.display = 'block';
+            } else {
+                link.style.display = 'none';
+            }
         });
     }
 
@@ -103,7 +136,7 @@ class CouponApp {
         const searchToggle = document.getElementById('searchToggle');
         const searchClose = document.getElementById('searchClose');
         const searchContainer = document.querySelector('.search-container');
-        const searchBox = document.querySelector('.search-box');
+        const searchBox = document.getElementById('categorySearch');
 
         const openSearch = () => {
             searchContainer.style.display = 'flex';
@@ -115,6 +148,8 @@ class CouponApp {
         const closeSearch = () => {
             searchContainer.classList.remove('active_search');
             setTimeout(() => searchContainer.style.display = 'none', 300);
+            searchBox.value = ''; // Clear search input
+            this.filterCategories(''); // Reset filters
             searchBox.blur();
         };
 
@@ -126,6 +161,11 @@ class CouponApp {
         searchClose?.addEventListener('click', (e) => {
             e.preventDefault();
             closeSearch();
+        });
+
+        // Add search input functionality
+        searchBox?.addEventListener('input', (e) => {
+            this.filterCategories(e.target.value.trim().toLowerCase());
         });
 
         document.addEventListener('keydown', (e) => {
@@ -175,7 +215,7 @@ class CouponApp {
 
         const content = document.createElement('div');
         content.className = 'category-content';
-        
+
         const categoryNav = this.createCategoryNav();
         content.appendChild(categoryNav);
         container.appendChild(header);
@@ -200,7 +240,7 @@ class CouponApp {
             const link = document.createElement('a');
             link.href = `#${category}`;
             link.innerHTML = `${category} <small>(${this.data[category].length})</small>`;
-            
+
             link.addEventListener('click', (e) => this.handleCategoryClick(e, category));
             nav.appendChild(link);
         });

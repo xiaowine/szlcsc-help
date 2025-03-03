@@ -830,14 +830,23 @@ body {
   scroll-behavior: smooth;
 }
 
-/* 修改搜索图标样式 */
-.search-icon {
+.search-icon:hover {
+  color: var(--primary-color);
+}
+.search-close,
+.search-toggle {
+  background: transparent;
+  border: none;
   color: var(--text-color);
   font-size: 1.5em;
-  transition: color 0.3s ease;
   cursor: pointer;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease;
 }
 
-.search-icon:hover {
+.search-toggle:hover {
   color: var(--primary-color);
 }
