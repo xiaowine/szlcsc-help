@@ -279,6 +279,14 @@
     "brand_website": "http://www.evisun.cn/",
     "brand_desc": "兴宁市易成电子科技有限公司的前身是兴宁市易成电子厂（成立于2014年），是一家专业提供DC/DC隔离电源模块OEM、ODM服务，集研发、生产、销售为一体的企业。目前产品广泛应用于电力、车载设备、远程抄表、智能交通、智能楼宇等领域。产品在运行中稳定可靠的卓越表现，赢得了广大客户的好评与信赖。\n\n易成电子在隔离电源领域有多年的研发和制造经验，开发出的产品具有体积小、转换效率高、高可靠、封装和引脚定义均与国际标准兼容等特点。另外还可以根据客户的特殊要求定制产品，满足客户的个性化要求。"
   },
+  "EVVO(翊欧)": {
+    "brand_name": "EVVO(翊欧)",
+    "brand_id": "16250",
+    "brand_name_disp": "翊欧",
+    "brand_url": "https://list.szlcsc.com/brand/16250.html",
+    "brand_website": "http://www.evvosemi.com",
+    "brand_desc": "翊欧半导体（EVVOSEMI）简称EVVO，是香港歷芯半導體（EVER SEMICONDUCTOR）旗下的自主品牌。自2014年起，我司团队始终专注于半导体研发、制造和销售业务。历经十年海外市场的耕耘，EVVO已成长为为行业领先的功率器件解决方案提供商，提供全面且高质量的功率器件，产品类型主要包括TVS管、晶体管、低功耗LDO、ESD管、MOSFET、IGBT和电源芯片等。EVVO系列产品以其可靠的品质和稳定的性能而闻名，并广泛应用于通信、计算机、消费电子、汽车电子和医疗设备等各个行业。EVVO全体团队源自国内知名原厂，拥有丰富的行业经验和深厚的技术积累，在激烈的业内竞争中暂露头角。此外，我们与包括Digi-Key 得捷电子在内的全球行业领导者们建立了良好的战略合作关系。"
+  },
   "ElecSuper(静芯微)": {
     "brand_name": "ElecSuper(静芯微)",
     "brand_id": "14038",
@@ -382,6 +390,14 @@
     "brand_url": "https://list.szlcsc.com/brand/12732.html",
     "brand_website": "http://www.hctLdz.com",
     "brand_desc": "华灿天禄电子（HCTL）总部位于广东省深圳市，公司致力于提供高质量、高可靠性的连接解决方案。主要生产排针排母、线对板连接器、轻触开关、TYPE-C接口以及网络接口等产品。"
+  },
+  "HD(浩都频率)": {
+    "brand_name": "HD(浩都频率)",
+    "brand_id": "12303",
+    "brand_name_disp": "浩都频率",
+    "brand_url": "https://list.szlcsc.com/brand/12303.html",
+    "brand_website": "http://www.hd-crystal.com/",
+    "brand_desc": "江苏浩都频率科技有限公司成立于2013年12月，是一家专注于压电石英晶体谐振器和石英晶体振荡器的研发、生产和销售的高科技企业。主要生产压电石英晶体谐振器和石英晶体振荡器。"
   },
   "HGC(深圳汉芯)": {
     "brand_name": "HGC(深圳汉芯)",
@@ -494,6 +510,14 @@
     "brand_url": "https://list.szlcsc.com/brand/15271.html",
     "brand_website": "http://www.hltchips.com",
     "brand_desc": "成都恒利泰科技有限公司是一家专注于射频器件相关产品研发、生产和销售的企业，与国内多所高校的研发团队合作，并拥有一支具有丰富通信产品研发经验的团队。主要生产射频通讯器件和无源器件。"
+  },
+  "Hongda(泓达)": {
+    "brand_name": "Hongda(泓达)",
+    "brand_id": "12257",
+    "brand_name_disp": "泓达",
+    "brand_url": "https://list.szlcsc.com/brand/12257.html",
+    "brand_website": "http://www.hongdafuse.com/",
+    "brand_desc": "东莞市泓达电子科技有限公司拥有近二十年的专业经验，专注于电流保险丝、温度保险丝、熔断电阻器（包括绕线电阻和保险电阻）、温控器以及汽车、光伏和充电桩用保险丝的制造。公司坚持品质为先的理念，通过新颖的设计和严谨的工作作风赢得了国内外客户的广泛认可。主要生产保险丝及相关的零配件。"
   },
   "Huiyuan crystal(惠源晶工)": {
     "brand_name": "Huiyuan crystal(惠源晶工)",
@@ -815,6 +839,14 @@
     "brand_website": "http://www.aboosty.cn/",
     "brand_desc": "深圳市摩天射频技术有限公司（MyAntenna）是一家专注于天线研发和激光测距的国家级高新技术企业、ISO9001认证企业。在天线和标签设计领域有超过15年的实践经验。公司拥有一支高素质资研发设计团队，已获得10多项专利和知识产权。\n摩天射频提供从概念、原型、生产到测试的完整设计能力。产品及方案广泛用于其独特的天线应用中，用于增强 5G、4G、Wi-Fi、GNSS、LoRa、Helium、AOA、mmWave、RFID和其他应用的无线通信。\n摩天射频拥有现代化的生产、检测设备和工艺技术，并通过了ISO9001及 IATF16949质量体系认证。\n摩天射频的创新文化和解决问题的思路为全球客户提供细致服务。摩天射频为物联网应用提供有竞争力、高效的天线解决方案。"
   },
+  "Mysentech(敏源传感)": {
+    "brand_name": "Mysentech(敏源传感)",
+    "brand_id": "12731",
+    "brand_name_disp": "敏源传感",
+    "brand_url": "https://list.szlcsc.com/brand/12731.html",
+    "brand_website": "http://www.mysentech.com/",
+    "brand_desc": "敏源传感由具有海外背景的创始团队创立，专注于工业、安全监测和环境传感领域，提供从芯片到模组及传感器的垂直解决方案。主要生产高精度电容传感芯片、电化学调理芯片、数字温度传感芯片三大系列核心芯片产品以及多种类型的传感器模组。"
+  },
   "NEWOPTO(鑫永诚光电)": {
     "brand_name": "NEWOPTO(鑫永诚光电)",
     "brand_id": "12506",
@@ -870,6 +902,14 @@
     "brand_url": "https://list.szlcsc.com/brand/851.html",
     "brand_website": "http://www.roqang.com",
     "brand_desc": "ROQANG (容强) 是一家专注于被动元件特别是铝电解电容器研发、制造与销售的企业，凭借技术创新和服务优化成长为行业内的知名供应商。主要产品线包括固态铝电解电容器、贴片式铝电解电容器、以及超级电容器/拉法电容器。"
+  },
+  "RS(容硕)": {
+    "brand_name": "RS(容硕)",
+    "brand_id": "14032",
+    "brand_name_disp": "容硕",
+    "brand_url": "https://list.szlcsc.com/brand/14032.html",
+    "brand_website": "https://www.gdrsdr.com/",
+    "brand_desc": "广东容硕是一家专注于生产贴片铝电解电容器的厂家，工厂总投资3800万，厂房面积5800平方米，月产能达到120KK。公司团队骨干拥有15年以上的行业经验，对标日本技术研发与生产，采用新益昌、诚捷智能、兴创嘉等全自动生产设备。主要产品为贴片铝电解电容器。"
   },
   "RUILON(瑞隆源)": {
     "brand_name": "RUILON(瑞隆源)",
@@ -974,6 +1014,14 @@
     "brand_url": "https://list.szlcsc.com/brand/13181.html",
     "brand_website": "http://www.scsstdz.com",
     "brand_desc": "该品牌位于四川省泸州市泸县工业园B区，是一家国家高新技术企业。主要生产石英晶体、空气质量及流量传感器、光电产品以及提供玻璃金属封装产品的加工服务。"
+  },
+  "STE(松田)": {
+    "brand_name": "STE(松田)",
+    "brand_id": "11597",
+    "brand_name_disp": "松田",
+    "brand_url": "https://list.szlcsc.com/brand/11597.html",
+    "brand_website": "http://www.songtian.cn/",
+    "brand_desc": "汕头保税区松田电子科技有限公司（STE）成立于1995年，主要生产陶瓷电容器、薄膜电容器、压敏电阻器和热敏电阻器。"
   },
   "SUNMATE(森美特)": {
     "brand_name": "SUNMATE(森美特)",
@@ -1446,14 +1494,6 @@
     "brand_url": "https://list.szlcsc.com/brand/16003.html",
     "brand_website": "https://www.techphant.cn/",
     "brand_desc": "广州技象科技有限公司成立于2018年，是中国电子科技集团有限公司科技成果转化和混合所有制改革的科技企业。 技象科技聚焦物联网底层关键技术，打造100%自主知识产权的TPUNB物联专网，形成完备的物联感知系统，并联合生态产业集群参与各垂直行业的整体解决方案及项目建设，共同推进窄带无线通信技术的行业标准和国家标准体系建设。\nTPUNB（Techphant Ultra-Narrow Band)是技象科技聚焦物联网底层硬核关键技术，100％自主研发的LPWAN无线窄带通信系统，是目前国内真正从物理层、链路层到平台层统一设计，由“底层”+“系统”两大能力共同驱动的全栈式物联网窄带通信系统。通过TPUNB基站、网关、模组等网元设备，采用多种组网方式，灵活搭建多种场景的安全物联专网，实现网络覆盖范围内大量感知终端的超低功耗连接，具备高安全性、抗强干扰、多并发、低成本、易部署等特点，可广泛应用于智慧城市、智慧园区、智能电力、工业物联网等众多领域。"
-  },
-  "worldsemi": {
-    "brand_name": "worldsemi",
-    "brand_id": "1250",
-    "brand_name_disp": "worldsemi",
-    "brand_url": "https://list.szlcsc.com/brand/1250.html",
-    "brand_website": "http://www.world-semi.com/",
-    "brand_desc": "Worldsemi成立于2007年，公司致力于为客户提供高性能、高可靠性的半导体解决方案。主要生产LED驱动IC产品。"
   },
   "创慧电子": {
     "brand_name": "创慧电子",
