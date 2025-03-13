@@ -33,7 +33,8 @@ def get_brand_categories(brand_id: str) -> list[str]:
     try:
         brand_data = fetch_api_data(brand_api_url)
         if brand_data:
-            return [category["label"] for category in brand_data.get("result", {}).get("searchResult", {}).get("catalogGroup", [])]
+            return [category["label"] for category in
+                    brand_data.get("result", {}).get("searchResult", {}).get("catalogGroup", [])]
     except Exception as error:
         print(f"获取品牌类别失败: {error}")
     return []
@@ -70,7 +71,7 @@ def parse_simple_coupon_details(coupon_data: dict) -> dict:
 def filter_and_classify_coupons(coupons: dict) -> [dict, dict]:
     coupon_map = coupons.get("result", {}).get("CouponModelVOListMap", {})
     classified_coupons = defaultdict(list)
-    simple_classified_coupons = defaultdict(list)
+    simple_classified_coupons = {}
 
     valid_coupons = []
     for category, coupons_list in coupon_map.items():
@@ -111,7 +112,7 @@ def filter_and_classify_coupons(coupons: dict) -> [dict, dict]:
             try:
                 details = future.result()
                 brand_id = details["brand_id"]
-                simple_classified_coupons[brand_id].append(details)
+                simple_classified_coupons[brand_id] = details
                 completed += 1
                 print(f"已完成 {completed}/{valid_coupons_count} 个简单优惠券处理任务")
             except TimeoutError:
