@@ -2,6 +2,7 @@
 
 # 🛍️ 立创商城优惠券助手
 
+[![Deploy to GitHub Pages](https://github.com/xiaowine/szlcsc-help/actions/workflows/run.yml/badge.svg)](https://github.com/xiaowine/szlcsc-help/actions/workflows/run.yml)  
 一个帮助选择立创商城优惠券的网站工具。
 
 ## 📝 项目简介
