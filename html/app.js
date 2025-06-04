@@ -43,9 +43,10 @@ class CouponApp {
      */
     async loadCouponData() {
         const response = await fetch('coupon_details.json');
+        const simple_response = await fetch('coupon_details.json');
         this.data = await response.json();
         this.categories = Object.keys(this.data);
-        this.brandCount = Object.values(this.data).flat().length;
+        this.brandCount = Object.keys(simple_response.json()).flat().length;
         document.getElementById('loading').style.display = 'none';
         document.getElementById('count').textContent =
             `品牌数：${this.brandCount}，分类数：${this.categories.length}`;
