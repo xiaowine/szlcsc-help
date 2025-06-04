@@ -43,10 +43,16 @@ class CouponApp {
      */
     async loadCouponData() {
         const response = await fetch('coupon_details.json');
-        const simple_response = await fetch('coupon_details.json');
         this.data = await response.json();
         this.categories = Object.keys(this.data);
-        this.brandCount = Object.keys(simple_response.json()).flat().length;
+        // 使用 Set 去重统计品牌数
+        const brandNameSet = new Set();
+        for (const category of this.categories) {
+            for (const coupon of this.data[category]) {
+                brandNameSet.add(coupon['brand_name']);
+            }
+        }
+        this.brandCount = brandNameSet.size;
         document.getElementById('loading').style.display = 'none';
         document.getElementById('count').textContent =
             `品牌数：${this.brandCount}，分类数：${this.categories.length}`;
