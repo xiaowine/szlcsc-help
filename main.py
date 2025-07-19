@@ -29,7 +29,7 @@ def fetch_api_data(url: str) -> dict | None:
 
 
 def get_brand_categories(brand_id: str) -> list[str]:
-    brand_api_url = f"https://list.szlcsc.com/phone/p/brand/{brand_id}?showOutSockProduct=0&pageSize=1&pageNumber=1"
+    brand_api_url = f"https://fragrant-firefly-4720.xiaowine0.workers.dev/phone/p/brand/{brand_id}?showOutSockProduct=0&pageSize=1&pageNumber=1"
     try:
         brand_data = fetch_api_data(brand_api_url)
         if brand_data:
