@@ -77,7 +77,7 @@ def filter_and_classify_coupons(coupons: dict) -> [dict, dict]:
     for category, coupons_list in coupon_map.items():
         if category != "plus":
             for coupon in coupons_list:
-                if "<新人专享>" not in coupon["couponName"] and "品牌" in coupon["couponName"]:
+                if "新人" not in coupon["couponName"] and "品牌" in coupon["couponName"]:
                     discount_diff = coupon['minOrderMoney'] - coupon['couponAmount']
                     if discount_diff <= 15:
                         valid_coupons.append(coupon)
