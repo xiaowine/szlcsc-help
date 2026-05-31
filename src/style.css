@@ -253,77 +253,34 @@ a {
 
 .sidebar-sort {
   display: flex;
-  align-items: center;
-  gap: 6px;
-  padding: 7px 10px;
+  gap: 4px;
+  padding: 6px 12px;
   border-bottom: 1px solid var(--border);
-}
-
-.sort-modes {
-  display: flex;
-  flex: 1;
-  background: rgba(0, 0, 0, 0.18);
-  border-radius: 6px;
-  padding: 2px;
-  gap: 2px;
 }
 
 .sort-btn {
   flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 3px;
-  padding: 4px 2px;
-  font-size: 11.5px;
+  padding: 4px 0;
+  font-size: 12px;
   background: transparent;
-  border: none;
+  border: 1px solid var(--border);
   border-radius: 4px;
   color: var(--text-muted);
   cursor: pointer;
   transition:
     background 0.15s,
-    color 0.15s;
-  white-space: nowrap;
+    color 0.15s,
+    border-color 0.15s;
 }
 
 .sort-btn:hover {
+  background: var(--bg-hover, rgba(0, 0, 0, 0.04));
   color: var(--text);
-  background: rgba(255, 255, 255, 0.07);
 }
 
 .sort-btn.active {
   background: var(--primary);
-  color: #fff;
-  font-weight: 500;
-}
-
-.sort-btn .fa-arrow-up,
-.sort-btn .fa-arrow-down {
-  font-size: 9px;
-  opacity: 0.85;
-}
-
-.sort-dir-btn {
-  flex-shrink: 0;
-  width: 28px;
-  height: 28px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(0, 0, 0, 0.18);
-  border: none;
-  border-radius: 6px;
-  color: var(--text-muted);
-  cursor: pointer;
-  font-size: 12px;
-  transition:
-    background 0.15s,
-    color 0.15s;
-}
-
-.sort-dir-btn:hover {
-  background: var(--primary);
+  border-color: var(--primary);
   color: #fff;
 }
 
@@ -519,6 +476,91 @@ a {
   }
 }
 
+/* Ad Section */
+.ad-section {
+  margin-top: 8px;
+  width: 100%;
+  max-width: 360px;
+}
+
+.ad-label {
+  font-size: 0.72em;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.ad-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ad-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  color: var(--text);
+  transition:
+    border-color var(--ease),
+    box-shadow var(--ease),
+    background var(--ease);
+}
+.ad-item:hover {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(var(--primary-rgb), 0.1);
+  background: var(--primary-light);
+}
+
+.ad-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: var(--radius-sm);
+  background: var(--primary-light);
+  color: var(--primary);
+  font-size: 0.9em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.ad-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.ad-title {
+  font-size: 0.88em;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.ad-desc {
+  font-size: 0.76em;
+  color: var(--text-muted);
+}
+
+.ad-arrow {
+  font-size: 0.72em;
+  color: var(--text-muted);
+  flex-shrink: 0;
+  transition: color var(--ease);
+}
+.ad-item:hover .ad-arrow {
+  color: var(--primary);
+}
+
 .panel-spinner {
   width: 32px;
   height: 32px;
@@ -595,7 +637,7 @@ a {
 /* Coupon List */
 .coupon-list {
   list-style: none;
-  padding: 12px 16px 88px;
+  padding: 12px 16px;
   display: flex;
   flex-direction: column;
   gap: 8px;

@@ -1,6 +1,24 @@
 <script setup lang="ts">
-import { computed, ref } from "vue";
+import { computed, ref, onMounted } from "vue";
 import type { Coupon } from "../types";
+
+interface AdLink {
+  icon: string;
+  title: string;
+  desc: string;
+  href: string;
+}
+
+const adLinks = ref<AdLink[]>([]);
+
+onMounted(async () => {
+  try {
+    const res = await fetch("ads.json");
+    adLinks.value = await res.json();
+  } catch {
+    // 加载失败静默处理，不展示广告
+  }
+});
 
 const props = defineProps<{
   category: string | null;
@@ -38,6 +56,27 @@ function scrollToTop() {
       </div>
       <h2>选择左侧分类</h2>
       <p>点击任意分类查看该分类下所有优惠券，按领取数量排序</p>
+
+      <div v-if="adLinks.length" class="ad-section">
+        <p class="ad-label">推荐链接</p>
+        <div class="ad-list">
+          <a
+            v-for="ad in adLinks"
+            :key="ad.href"
+            :href="ad.href"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="ad-item"
+          >
+            <span class="ad-icon"><i :class="ad.icon"></i></span>
+            <span class="ad-text">
+              <span class="ad-title">{{ ad.title }}</span>
+              <span class="ad-desc">{{ ad.desc }}</span>
+            </span>
+            <i class="fas fa-external-link-alt ad-arrow"></i>
+          </a>
+        </div>
+      </div>
     </div>
 
     <!-- Error state -->
