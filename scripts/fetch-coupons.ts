@@ -1,7 +1,9 @@
 import { writeFileSync, mkdirSync } from "node:fs";
 import { createContext, runInContext } from "node:vm";
 
-const COUPON_API = "https://activity.szlcsc.com/phone/activity/coupon";
+// 通过 Cloudflare Worker 代理 activity.szlcsc.com
+const COUPON_API =
+  "https://fragrant-firefly-4720.xiaowine0.workers.dev/phone/activity/coupon?target=activity";
 const BRAND_API = (brandId: string) =>
   `https://fragrant-firefly-4720.xiaowine0.workers.dev/phone/p/brand/${brandId}?showOutSockProduct=0&pageSize=1&pageNumber=1`;
 
@@ -63,7 +65,8 @@ function createLimiter(limit: number) {
 let cookieCache: { value: string; expiresAt: number } | null = null;
 
 function getCachedCookie(): string | null {
-  if (cookieCache && Date.now() < cookieCache.expiresAt) return cookieCache.value;
+  if (cookieCache && Date.now() < cookieCache.expiresAt)
+    return cookieCache.value;
   cookieCache = null;
   return null;
 }
