@@ -171,16 +171,26 @@ async function fetchJson(
 }
 
 async function getBrandCategories(brandId: string): Promise<string[]> {
-  try {
-    const data = (await fetchJson(BRAND_API(brandId))) as {
-      result?: { searchResult?: { catalogGroup?: { label: string }[] } };
-    };
-    const groups = data?.result?.searchResult?.catalogGroup ?? [];
-    return groups.map((g) => g.label).sort();
-  } catch (e) {
-    console.warn(`品牌 ${brandId} 分类获取失败，已跳过: ${e}`);
-    return [];
+  const maxRetries = 3;
+  const delay = (ms: number) => new Promise((res) => setTimeout(res, ms));
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    try {
+      const data = (await fetchJson(BRAND_API(brandId))) as {
+        result?: { searchResult?: { catalogGroup?: { label: string }[] } };
+      };
+      const groups = data?.result?.searchResult?.catalogGroup ?? [];
+      return groups.map((g) => g.label).sort();
+    } catch (e) {
+      if (attempt < maxRetries) {
+        console.warn(`品牌 ${brandId} 分类获取失败，${attempt}次重试: ${e}`);
+        await delay(10000);
+      } else {
+        console.warn(`品牌 ${brandId} 分类获取失败，已跳过: ${e}`);
+        return [];
+      }
+    }
   }
+  return [];
 }
 
 function getShanghaITime(): string {
