@@ -17,57 +17,32 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: 3.11.9
-
-      - name: Install dependencies
+      - name: Prepare public directory
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-          echo szlcsc-help.xiaowine.cc > html/CNAME
-
-      - name: Run script to generate coupon_details.json
-        run: python main.py
+          mkdir -p public
+          echo szlcsc-help.xiaowine.cc > public/CNAME
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '16'
+          node-version: '20'
 
-      - name: Install minification tools
-        run: |
-          npm install -g html-minifier-terser
-          npm install -g clean-css-cli
-          npm install -g terser
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: latest
 
-      - name: Minify HTML files
-        run: |
-          find html -name "*.html" -type f -exec html-minifier-terser \
-            --collapse-whitespace \
-            --remove-comments \
-            --remove-redundant-attributes \
-            --remove-script-type-attributes \
-            --remove-tag-whitespace \
-            --use-short-doctype \
-            --minify-css true \
-            --minify-js true \
-            -o {}.min {} \; \
-            -exec sh -c 'mv "$1.min" "$1"' _ {} \;
+      - name: Install Node.js dependencies
+        run: pnpm install
 
-      - name: Minify CSS files
-        run: |
-          find html -name "*.css" -type f -exec cleancss -o {}.min {} \; \
-          -exec sh -c 'mv "$1.min" "$1"' _ {} \;
+      - name: Fetch coupon data
+        run: pnpm fetch
 
-      - name: Minify JavaScript files
-        run: |
-          find html -name "*.js" -type f -exec terser {} -c -m -o {}.min \; \
-          -exec sh -c 'mv "$1.min" "$1"' _ {} \;
+      - name: Build Vue project
+        run: pnpm build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: html/ # Directory containing your index.html and coupon_details.json
+          publish_dir: html/
