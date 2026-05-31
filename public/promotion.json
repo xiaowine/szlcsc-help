@@ -1,0 +1,20 @@
+[
+  {
+    "icon": "fas fa-store",
+    "title": "立创商城",
+    "desc": "正品保证 · 海量元器件",
+    "href": "https://www.szlcsc.com/"
+  },
+  {
+    "icon": "fas fa-drafting-compass",
+    "title": "立创EDA",
+    "desc": "免费在线电路设计工具",
+    "href": "https://lceda.cn/"
+  },
+  {
+    "icon": "fas fa-microchip",
+    "title": "嘉立创 PCB 打样",
+    "desc": "最快 8 小时发货",
+    "href": "https://www.jlc.com/"
+  }
+]

@@ -2,21 +2,21 @@
 import { computed, ref, onMounted } from "vue";
 import type { Coupon } from "../types";
 
-interface AdLink {
+interface PromotionLink {
   icon: string;
   title: string;
   desc: string;
   href: string;
 }
 
-const adLinks = ref<AdLink[]>([]);
+const promotionLinks = ref<PromotionLink[]>([]);
 
 onMounted(async () => {
   try {
-    const res = await fetch("ads.json");
-    adLinks.value = await res.json();
+    const res = await fetch("promotion.json"); // 文件名已更改
+    promotionLinks.value = await res.json();
   } catch {
-    // 加载失败静默处理，不展示广告
+    // 加载失败静默处理，不展示推广
   }
 });
 
@@ -57,23 +57,23 @@ function scrollToTop() {
       <h2>选择左侧分类</h2>
       <p>点击任意分类查看该分类下所有优惠券，按领取数量排序</p>
 
-      <div v-if="adLinks.length" class="ad-section">
-        <p class="ad-label">推荐链接</p>
-        <div class="ad-list">
+      <div v-if="promotionLinks.length" class="promotion-section">
+        <p class="promotion-label">推荐链接</p>
+        <div class="promotion-list">
           <a
-            v-for="ad in adLinks"
-            :key="ad.href"
-            :href="ad.href"
+            v-for="item in promotionLinks"
+            :key="item.href"
+            :href="item.href"
             target="_blank"
             rel="noopener noreferrer"
-            class="ad-item"
+            class="promotion-item"
           >
-            <span class="ad-icon"><i :class="ad.icon"></i></span>
-            <span class="ad-text">
-              <span class="ad-title">{{ ad.title }}</span>
-              <span class="ad-desc">{{ ad.desc }}</span>
+            <span class="promotion-icon"><i :class="item.icon"></i></span>
+            <span class="promotion-text">
+              <span class="promotion-title">{{ item.title }}</span>
+              <span class="promotion-desc">{{ item.desc }}</span>
             </span>
-            <i class="fas fa-external-link-alt ad-arrow"></i>
+            <i class="fas fa-external-link-alt promotion-arrow"></i>
           </a>
         </div>
       </div>

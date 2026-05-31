@@ -476,14 +476,14 @@ a {
   }
 }
 
-/* Ad Section */
-.ad-section {
+/* Promotion Section */
+.promotion-section {
   margin-top: 8px;
   width: 100%;
   max-width: 360px;
 }
 
-.ad-label {
+.promotion-label {
   font-size: 0.72em;
   color: var(--text-muted);
   text-transform: uppercase;
@@ -492,13 +492,13 @@ a {
   text-align: left;
 }
 
-.ad-list {
+.promotion-list {
   display: flex;
   flex-direction: column;
   gap: 6px;
 }
 
-.ad-item {
+.promotion-item {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -513,13 +513,13 @@ a {
     box-shadow var(--ease),
     background var(--ease);
 }
-.ad-item:hover {
+.promotion-item:hover {
   border-color: var(--primary);
   box-shadow: 0 0 0 3px rgba(var(--primary-rgb), 0.1);
   background: var(--primary-light);
 }
 
-.ad-icon {
+.promotion-icon {
   width: 34px;
   height: 34px;
   border-radius: var(--radius-sm);
@@ -532,7 +532,7 @@ a {
   flex-shrink: 0;
 }
 
-.ad-text {
+.promotion-text {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -540,24 +540,24 @@ a {
   min-width: 0;
 }
 
-.ad-title {
+.promotion-title {
   font-size: 0.88em;
   font-weight: 600;
   color: var(--text);
 }
 
-.ad-desc {
+.promotion-desc {
   font-size: 0.76em;
   color: var(--text-muted);
 }
 
-.ad-arrow {
+.promotion-arrow {
   font-size: 0.72em;
   color: var(--text-muted);
   flex-shrink: 0;
   transition: color var(--ease);
 }
-.ad-item:hover .ad-arrow {
+.promotion-item:hover .promotion-arrow {
   color: var(--primary);
 }
 
