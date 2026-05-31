@@ -39,7 +39,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Fetch coupon data
-        run: pnpm fetch
+        run: pnpm run fetch
 
       - name: Build Vue project
         run: pnpm build
