@@ -39,6 +39,41 @@ const selectedCoupons = computed(() =>
   selectedCategory.value ? couponData.value[selectedCategory.value] : []
 )
 
+function updateSeo(category: string | null) {
+  const title = category
+    ? `${category}优惠券 - 立创商城优惠券助手`
+    : '立创商城优惠券助手'
+  const description = category
+    ? `查看${category}分类下的立创商城优惠券信息`
+    : '立创商城优惠券助手 - 帮助选择立创商城优惠券的工具网站'
+  const url = new URL(window.location.href)
+  url.search = category ? `?category=${encodeURIComponent(category)}` : ''
+
+  document.title = title
+  document.querySelector('meta[name="description"]')?.setAttribute('content', description)
+  document.querySelector('link[rel="canonical"]')?.setAttribute('href', url.toString())
+}
+
+function syncCategoryFromUrl() {
+  const category = new URLSearchParams(window.location.search).get('category')
+  selectedCategory.value =
+    category && categories.value.includes(category) ? category : null
+  updateSeo(selectedCategory.value)
+}
+
+function selectCategory(category: string | null, replace = false) {
+  selectedCategory.value = category
+  const url = category
+    ? `/?category=${encodeURIComponent(category)}`
+    : '/'
+  window.history[replace ? 'replaceState' : 'pushState']({}, '', url)
+  updateSeo(category)
+}
+
+function onPopstate() {
+  syncCategoryFromUrl()
+}
+
 async function loadData() {
   try {
     const [timeRes, dataRes] = await Promise.all([
@@ -47,6 +82,7 @@ async function loadData() {
     ])
     runTime.value = await timeRes.text()
     couponData.value = await dataRes.json()
+    syncCategoryFromUrl()
   } catch {
     errorMsg.value = '数据加载失败，请稍后重试'
   } finally {
@@ -57,16 +93,21 @@ async function loadData() {
 function onKeydown(e: KeyboardEvent) {
   if (e.key === 'Escape') {
     if (infoVisible.value) infoVisible.value = false
-    else if (selectedCategory.value) selectedCategory.value = null
+    else if (selectedCategory.value) selectCategory(null)
   }
 }
 
 onMounted(async () => {
   await loadData()
+  window.addEventListener('popstate', onPopstate)
   document.addEventListener('keydown', onKeydown)
 })
 
-onUnmounted(() => document.removeEventListener('keydown', onKeydown))
+onUnmounted(() => {
+  window.removeEventListener('popstate', onPopstate)
+  document.removeEventListener('keydown', onKeydown)
+})
+
 </script>
 
 <template>
@@ -83,7 +124,7 @@ onUnmounted(() => document.removeEventListener('keydown', onKeydown))
         :search="searchTerm"
         :selected="selectedCategory"
         @update:search="searchTerm = $event"
-        @update:selected="selectedCategory = $event"
+        @update:selected="selectCategory"
       />
 
       <CouponPanel
@@ -91,7 +132,7 @@ onUnmounted(() => document.removeEventListener('keydown', onKeydown))
         :coupons="selectedCoupons"
         :loading="loading"
         :error="errorMsg"
-        @back="selectedCategory = null"
+        @back="selectCategory(null)"
       />
     </div>
 

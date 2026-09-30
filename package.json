@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview",
-    "fetch": "tsx scripts/fetch-coupons.ts"
+    "fetch": "tsx scripts/fetch-coupons.ts",
+    "sitemap": "tsx scripts/generate-sitemap.ts"
   },
   "dependencies": {
     "vue": "^3.5.34"

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://szlcsc-help.xiaowine.cc/sitemap.xml

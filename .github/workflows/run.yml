@@ -13,12 +13,18 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    env:
+      SITE_HOST: szlcsc-help.xiaowine.cc
     permissions:
-      contents: write
-
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v6
@@ -26,14 +32,15 @@ jobs:
           version: 9
 
       - name: Setup Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
-          node-version: "22"
+          node-version: "24"
 
       - name: Prepare public directory
         run: |
           mkdir -p public
-          echo szlcsc-help.xiaowine.cc > public/CNAME
+          echo "$SITE_HOST" > public/CNAME
+          echo "SITE_URL=https://${SITE_HOST}" >> "$GITHUB_ENV"
 
       - name: Install Node.js dependencies
         run: pnpm install --frozen-lockfile
@@ -41,11 +48,20 @@ jobs:
       - name: Fetch coupon data
         run: pnpm run fetch
 
+      - name: Generate sitemap
+        run: pnpm run sitemap
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
       - name: Build Vue project
         run: pnpm build
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: html/
+          path: html/
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

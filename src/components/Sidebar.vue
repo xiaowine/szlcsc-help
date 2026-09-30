@@ -18,6 +18,7 @@ const emit = defineEmits<{
 }>();
 
 type SortMode = "name" | "brand" | "receive";
+
 const sortMode = ref<SortMode>("name");
 
 function getTotal(coupons: CouponData[string]): number {

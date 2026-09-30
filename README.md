@@ -22,7 +22,7 @@
 
 ## 自动更新
 
-通过 GitHub Actions 驱动：
+通过 GitHub Actions 驱动，构建产物直接部署到 GitHub Pages，不依赖 `gh-pages` 发布分支：
 
 - 每月 1–7 号每天 10 点运行一次
 - 每周二、周五各运行一次
@@ -30,6 +30,16 @@
 ## 在线访问
 
 [szlcsc-help.xiaowine.cc](https://szlcsc-help.xiaowine.cc/)
+
+## 搜索引擎收录
+
+生产构建会将 `public/sitemap.xml` 和 `public/robots.txt` 原样发布到站点根目录，供搜索引擎发现首页和分类页。sitemap 会根据本次抓取生成的 `public/run_time.txt` 自动写入 `lastmod`。
+
+- 网站地图：<https://szlcsc-help.xiaowine.cc/sitemap.xml>
+- 抓取规则：<https://szlcsc-help.xiaowine.cc/robots.txt>
+- 分类页面格式：`/?category=分类名称`
+
+站点域名只在部署工作流的 `SITE_HOST` 环境变量中配置；工作流会拼接出 `SITE_URL`，再自动生成 sitemap 和 robots，不需要逐条修改 URL。
 
 ## 本地运行
 
@@ -58,7 +68,7 @@ pnpm dev
 pnpm build
 ```
 
-产物输出到 `dist/`。
+产物输出到 `html/`。
 
 ## 技术栈
 
