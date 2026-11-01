@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref } from "vue";
+import { computed, ref, onMounted } from "vue";
 import type { CouponData } from "../types";
 
 const props = defineProps<{
@@ -45,6 +45,54 @@ const filtered = computed(() => {
       (a, b) => getTotal(props.data[b] ?? []) - getTotal(props.data[a] ?? []),
     );
   }
+});
+
+function formatNumber(num: number): string {
+  if (num < 1000) return String(num);
+  if (num < 10000) {
+    const val = Number((num / 1000).toFixed(1));
+    return val >= 10 ? "1w" : `${val}k`;
+  }
+  if (num < 100000000) {
+    const val = Number((num / 10000).toFixed(1));
+    return val >= 10000 ? "1亿" : `${val}w`;
+  }
+  const val = Number((num / 100000000).toFixed(1));
+  return `${val}亿`;
+}
+
+function defineFormattedProperty(id: string) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  let original = el.textContent || "";
+
+  Object.defineProperty(el, "textContent", {
+    get() {
+      return original;
+    },
+    set(val: string) {
+      original = val;
+      const raw = String(val).trim();
+      if (/^\d+$/.test(raw)) {
+        const num = Number(raw);
+        el.title = `${num.toLocaleString("zh-CN")} 次`;
+        el.innerText = formatNumber(num);
+      } else {
+        el.innerText = val;
+      }
+    },
+    configurable: true,
+  });
+}
+
+onMounted(() => {
+  defineFormattedProperty("vercount_value_site_pv");
+  defineFormattedProperty("vercount_value_site_uv");
+
+  const script = document.createElement("script");
+  script.defer = true;
+  script.src = "https://events.vercount.one/js";
+  document.head.appendChild(script);
 });
 </script>
 
@@ -147,12 +195,12 @@ const filtered = computed(() => {
         <i class="fas fa-eye"></i>
         <span>
           浏览
-          <span id="busuanzi_container_site_pv"
-            ><span id="busuanzi_value_site_pv">-</span> 次</span
+          <span id="vercount_container_site_pv"
+            ><span id="vercount_value_site_pv">-</span> 次</span
           >
           &nbsp;·&nbsp;
-          <span id="busuanzi_container_site_uv"
-            ><span id="busuanzi_value_site_uv">-</span> 人访问</span
+          <span id="vercount_container_site_uv"
+            ><span id="vercount_value_site_uv">-</span> 人访问</span
           >
         </span>
       </div>
