@@ -2,8 +2,8 @@ import { existsSync, readFileSync, writeFileSync } from "node:fs";
 
 const siteUrl = (process.env.SITE_URL ?? "").replace(/\/+$/, "");
 if (!siteUrl) throw new Error("SITE_URL is required");
-const dataPath = "public/coupon_details.json";
-const runTimePath = "public/run_time.txt";
+const dataPath = "data/coupon_details.json";
+const runTimePath = "data/run_time.txt";
 const categories = existsSync(dataPath)
   ? Object.keys(
       JSON.parse(readFileSync(dataPath, "utf8")) as Record<string, unknown>,

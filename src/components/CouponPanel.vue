@@ -13,7 +13,7 @@ const promotionLinks = ref<PromotionLink[]>([]);
 
 onMounted(async () => {
   try {
-    const res = await fetch("promotion.json"); // 文件名已更改
+    const res = await fetch("data/promotion.json");
     promotionLinks.value = await res.json();
   } catch {
     // 加载失败静默处理，不展示推广

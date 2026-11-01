@@ -13,10 +13,10 @@ dist-ssr
 html
 *.local
 
-# Generated data files (created by Python script at CI time)
-public/coupon_details.json
-public/simple_coupon_details.json
-public/run_time.txt
+# Generated data files
+data/coupon_details.json
+data/simple_coupon_details.json
+data/run_time.txt
 public/CNAME
 
 .vscode/*

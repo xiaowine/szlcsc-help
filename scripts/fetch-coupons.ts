@@ -290,26 +290,26 @@ async function main() {
     Object.entries(classified).sort(([a], [b]) => (a < b ? -1 : a > b ? 1 : 0)),
   );
 
-  mkdirSync("public", { recursive: true });
+  mkdirSync("data", { recursive: true });
 
   writeFileSync(
-    "public/coupon_details.json",
+    "data/coupon_details.json",
     JSON.stringify(sortedClassified),
     "utf-8",
   );
-  console.log("优惠券信息已保存到 public/coupon_details.json 文件中");
+  console.log("优惠券信息已保存到 data/coupon_details.json 文件中");
 
   writeFileSync(
-    "public/simple_coupon_details.json",
+    "data/simple_coupon_details.json",
     JSON.stringify(simple),
     "utf-8",
   );
   console.log(
-    "简洁优惠券信息已保存到 public/simple_coupon_details.json 文件中",
+    "简洁优惠券信息已保存到 data/simple_coupon_details.json 文件中",
   );
 
   const formattedTime = getShanghaITime();
-  writeFileSync("public/run_time.txt", formattedTime, "utf-8");
+  writeFileSync("data/run_time.txt", formattedTime, "utf-8");
   console.log(`运行时间已保存: ${formattedTime}`);
 }
 

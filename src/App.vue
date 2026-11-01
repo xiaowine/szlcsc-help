@@ -77,8 +77,8 @@ function onPopstate() {
 async function loadData() {
   try {
     const [timeRes, dataRes] = await Promise.all([
-      fetch('run_time.txt'),
-      fetch('coupon_details.json'),
+      fetch('data/run_time.txt'),
+      fetch('data/coupon_details.json'),
     ])
     runTime.value = await timeRes.text()
     couponData.value = await dataRes.json()
