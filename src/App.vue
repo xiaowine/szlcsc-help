@@ -77,8 +77,9 @@ function onPopstate() {
 async function loadData() {
   try {
     const [timeRes, dataRes] = await Promise.all([
-      fetch('data/run_time.txt'),
-      fetch('data/coupon_details.json'),
+      // 数据每月更新，强制回源校验（命中 ETag/Last-Modified 时仅 304，不重下内容）
+      fetch('data/run_time.txt', { cache: 'no-cache' }),
+      fetch('data/coupon_details.json', { cache: 'no-cache' }),
     ])
     runTime.value = await timeRes.text()
     couponData.value = await dataRes.json()

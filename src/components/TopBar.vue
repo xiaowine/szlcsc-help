@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import Icon from "./Icon.vue";
+
 defineEmits<{ 'toggle-info': [] }>()
 </script>
 
@@ -6,7 +8,7 @@ defineEmits<{ 'toggle-info': [] }>()
   <header class="topbar">
     <div class="topbar-brand">
       <div class="topbar-logo">
-        <i class="fas fa-ticket-alt"></i>
+        <Icon name="ticket" />
       </div>
       <h1 class="topbar-title">立创商城优惠券助手</h1>
     </div>
@@ -19,10 +21,10 @@ defineEmits<{ 'toggle-info': [] }>()
         class="topbar-btn"
         aria-label="GitHub 源码"
       >
-        <i class="fab fa-github"></i>
+        <Icon name="github" />
       </a>
       <button class="topbar-btn topbar-btn--primary" @click="$emit('toggle-info')">
-        <i class="fas fa-info-circle"></i>
+        <Icon name="circle-info" />
         <span>使用说明</span>
       </button>
     </nav>

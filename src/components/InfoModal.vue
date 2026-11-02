@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import Icon from "./Icon.vue";
+
 defineProps<{ visible: boolean }>()
 const emit = defineEmits<{ 'update:visible': [boolean] }>()
 </script>
@@ -22,29 +24,42 @@ const emit = defineEmits<{ 'update:visible': [boolean] }>()
               @click="emit('update:visible', false)"
               aria-label="关闭"
             >
-              <i class="fas fa-times"></i>
+              <Icon name="xmark" />
             </button>
           </div>
 
           <div class="drawer-body">
             <div class="drawer-card">
-              <div class="drawer-card-icon"><i class="fas fa-info-circle"></i></div>
+              <div class="drawer-card-icon"><Icon name="circle-info" /></div>
               <p>帮助选择立创商城领券中心优惠券的工具网站，按品牌分类展示。</p>
             </div>
             <div class="drawer-card">
-              <div class="drawer-card-icon"><i class="fas fa-filter"></i></div>
+              <div class="drawer-card-icon"><Icon name="filter" /></div>
               <p>只展示<strong>非新人专享</strong>、且优惠后最低消费 <strong>≤ 15 元</strong>的品牌优惠券。</p>
             </div>
             <div class="drawer-card">
-              <div class="drawer-card-icon"><i class="fas fa-sort-amount-down"></i></div>
+              <div class="drawer-card-icon"><Icon name="arrow-down-wide-short" /></div>
               <p>分类按平均领取量从高到低排列，券列表按领取数量排序，越靠前越热门。</p>
             </div>
             <div class="drawer-card">
-              <div class="drawer-card-icon"><i class="fas fa-sync-alt"></i></div>
+              <div class="drawer-card-icon"><Icon name="rotate" /></div>
               <p>数据来源：立创商城优惠券中心，每月自动更新。</p>
             </div>
             <div class="drawer-card">
-              <div class="drawer-card-icon"><i class="fas fa-code"></i></div>
+              <div class="drawer-card-icon"><Icon name="chart-line" /></div>
+              <p>
+                本站使用
+                <a
+                  href="https://clarity.microsoft.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Microsoft Clarity</a
+                >
+                统计访问情况（页面浏览、点击热图、会话回放），仅用于改进使用体验，不收集账号、姓名等个人信息。
+              </p>
+            </div>
+            <div class="drawer-card">
+              <div class="drawer-card-icon"><Icon name="code" /></div>
               <p>本项目仅用于辅助，不涉及任何商业行为。如有侵权，请联系删除。</p>
             </div>
           </div>

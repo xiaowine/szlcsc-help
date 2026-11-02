@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, ref, onMounted } from "vue";
 import type { CouponData } from "../types";
+import Icon from "./Icon.vue";
 
 const props = defineProps<{
   categories: string[];
@@ -100,7 +101,7 @@ onMounted(() => {
   <aside class="sidebar">
     <!-- Search -->
     <div class="sidebar-search">
-      <i class="fas fa-search sidebar-search-icon"></i>
+      <Icon name="magnifying-glass" class="sidebar-search-icon" />
       <input
         class="sidebar-search-input"
         type="text"
@@ -119,7 +120,7 @@ onMounted(() => {
         @click="emit('update:search', '')"
         aria-label="清除搜索"
       >
-        <i class="fas fa-times"></i>
+        <Icon name="xmark" />
       </button>
     </div>
 
@@ -180,11 +181,11 @@ onMounted(() => {
     <!-- Footer Stats -->
     <div class="sidebar-footer">
       <div class="sidebar-stat">
-        <i class="fas fa-clock"></i>
+        <Icon name="clock" />
         <span>{{ runTime || "更新时间加载中…" }}</span>
       </div>
       <div class="sidebar-stat">
-        <i class="fas fa-building"></i>
+        <Icon name="building" />
         <span>{{
           brandCount > 0
             ? `${brandCount} 个品牌 · ${categories.length} 个分类`
@@ -192,7 +193,7 @@ onMounted(() => {
         }}</span>
       </div>
       <div class="sidebar-stat">
-        <i class="fas fa-eye"></i>
+        <Icon name="eye" />
         <span>
           浏览
           <span id="vercount_container_site_pv"

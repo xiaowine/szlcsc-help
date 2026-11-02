@@ -64,6 +64,16 @@ a {
   color: inherit;
 }
 
+/* ===== Icons ===== */
+.icon {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  vertical-align: -0.125em;
+  flex-shrink: 0;
+  fill: currentColor;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -127,7 +137,7 @@ a {
 
 .topbar-title {
   font-size: 0.95em;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--text);
   white-space: nowrap;
   overflow: hidden;
@@ -346,7 +356,7 @@ a {
 }
 .sidebar-item.active .sidebar-item-name {
   color: var(--primary);
-  font-weight: 600;
+  font-weight: 700;
 }
 .sidebar-item.active .sidebar-item-meta {
   color: var(--primary);
@@ -402,7 +412,7 @@ a {
   color: var(--text-muted);
   line-height: 1.4;
 }
-.sidebar-stat i {
+.sidebar-stat .icon {
   font-size: 0.82em;
   flex-shrink: 0;
   color: var(--primary);
@@ -445,7 +455,7 @@ a {
 }
 .panel-empty h2 {
   font-size: 1.05em;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--text);
   margin: 0;
 }
@@ -542,7 +552,7 @@ a {
 
 .promotion-title {
   font-size: 0.88em;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--text);
 }
 
@@ -715,7 +725,7 @@ a {
 
 .coupon-name {
   font-size: 0.9em;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--text);
   white-space: nowrap;
   overflow: hidden;
@@ -922,6 +932,14 @@ a {
   font-size: 0.875em;
   color: var(--text-muted);
   line-height: 1.7;
+}
+.drawer-card p a {
+  color: var(--primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.drawer-card p a:hover {
+  color: var(--primary-hover);
 }
 .drawer-card p strong {
   color: var(--text);
